@@ -1,4 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <Defs>
+  
+  <!--> Parent <-->
 <ThingDef Name="MechanicalMed" ParentName="BodyPartBase" Abstract="True">
 <tradeTags>
 <li>Mechanical</li>
