@@ -32,6 +32,8 @@
 		<researchPrerequisite>MechanicalLimbs</researchPrerequisite>
 		<recipeUsers>
 			<li>FueledSmithy</li>
+			<li>DankPyon_Workbench</li>	
+			<li>CraftingSpot</li>
 		</recipeUsers>
 	</recipeMaker>
 </ThingDef>
