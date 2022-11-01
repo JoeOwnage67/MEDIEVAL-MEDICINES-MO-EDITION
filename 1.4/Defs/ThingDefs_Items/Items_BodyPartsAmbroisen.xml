@@ -22,7 +22,7 @@
 	</graphicData>
 	<statBases>
 		<DeteriorationRate>2</DeteriorationRate>
-		<WorkToMake>300000</WorkToMake>
+		<WorkToMake>16000</WorkToMake>
 	</statBases>
 	<recipeMaker>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
