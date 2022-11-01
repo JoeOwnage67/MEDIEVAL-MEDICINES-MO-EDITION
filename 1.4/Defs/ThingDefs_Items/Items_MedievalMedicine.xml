@@ -20,11 +20,7 @@
       <MedicalQualityMax>0.90</MedicalQualityMax>
       <DeteriorationRate>6</DeteriorationRate>
 	  <WorkToMake>700</WorkToMake>
-    </statBases>
-    <costList>
-      <MedicineHerbal>2</MedicineHerbal>
-      <Cloth>10</Cloth>
-    </costList>    
+    </statBases>    
   </ThingDef>
 
   <ThingDef ParentName="MedicineBase">
@@ -45,12 +41,7 @@
       <MedicalQualityMax>0.9</MedicalQualityMax>
       <DeteriorationRate>2</DeteriorationRate>
       <WorkToMake>1000</WorkToMake>
-    </statBases>
-    <costList>
-      <MedicineEarlyMedievalMM>1</MedicineEarlyMedievalMM>
-      <Beer>1</Beer>
-      <Cloth>5</Cloth>
-    </costList>   
+    </statBases>    
   </ThingDef>
   
     <ThingDef ParentName="MedicineBase">
@@ -71,13 +62,7 @@
       <MedicalQualityMax>1.20</MedicalQualityMax>
       <DeteriorationRate>2</DeteriorationRate>
       <WorkToMake>3500</WorkToMake>
-    </statBases>
-    <costList>
-      <MedicineLateMedievalMM>1</MedicineLateMedievalMM>
-      <Neutroamine>5</Neutroamine>
-      <Cloth>8</Cloth>
-	  <Steel>5</Steel>
-    </costList>   
+    </statBases> 
   </ThingDef>
 
 </Defs>
