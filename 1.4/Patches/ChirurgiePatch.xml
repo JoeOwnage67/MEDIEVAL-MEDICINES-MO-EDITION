@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  	<!--Entosomnia-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="Entosomnia"]/tab</xpath>
+    <value>
+      <tab>Chirurgie</tab>
+    </value>
+  </Operation>
+    <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="Entosomnia"]/baseCost</xpath>
+    <value>
+      <baseCost>1250</baseCost>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="Entosomnia"]/researchViewX</xpath>
+    <value>
+      <researchViewX>5</researchViewX>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="Entosomnia"]/researchViewY</xpath>
+    <value>
+      <researchViewY>2</researchViewY>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="Entosomnia"]</xpath>
+    <value>
+		<prerequisites>
+			<li>ParesianMedicine</li>
+			<li>AmbroisenLimbs</li>
+		</prerequisites>			
+    </value>
+  </Operation>
+  
+  	<!--Crude Limbs-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="CrudeLimbs"]/tab</xpath>
+    <value>
+      <tab>Chirurgie</tab>
+    </value>
+  </Operation>
+    <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="CrudeLimbs"]/baseCost</xpath>
+    <value>
+      <baseCost>500</baseCost>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="CrudeLimbs"]/researchViewX</xpath>
+    <value>
+      <researchViewX>1</researchViewX>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="CrudeLimbs"]/researchViewY</xpath>
+    <value>
+      <researchViewY>3</researchViewY>
+    </value>
+	  </Operation>
+	  
+  	<!--Artificial Limbs-->
+	  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="ArtificialLimbs"]/tab</xpath>
+    <value>
+      <tab>Chirurgie</tab>
+    </value>
+  </Operation>
+    <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="ArtificialLimbs"]/baseCost</xpath>
+    <value>
+      <baseCost>750</baseCost>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="ArtificialLimbs"]/researchViewX</xpath>
+    <value>
+      <researchViewX>2</researchViewX>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="ArtificialLimbs"]/researchViewY</xpath>
+    <value>
+      <researchViewY>3</researchViewY>
+    </value>
+  </Operation>
+  
+  	<!--Mechanical Limbs-->
+		  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="MechanicalLimbs"]/tab</xpath>
+    <value>
+      <tab>Chirurgie</tab>
+    </value>
+  </Operation>
+    <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="MechanicalLimbs"]/baseCost</xpath>
+    <value>
+      <baseCost>800</baseCost>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="MechanicalLimbs"]/researchViewX</xpath>
+    <value>
+      <researchViewX>3</researchViewX>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="MechanicalLimbs"]/researchViewY</xpath>
+    <value>
+      <researchViewY>3</researchViewY>
+    </value>
+  </Operation>
+  
+  	<!--Ambroisen Limbs-->
+		  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="AmbroisenLimbs"]/tab</xpath>
+    <value>
+      <tab>Chirurgie</tab>
+    </value>
+  </Operation>
+    <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="AmbroisenLimbs"]/baseCost</xpath>
+    <value>
+      <baseCost>1000</baseCost>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="AmbroisenLimbs"]/researchViewX</xpath>
+    <value>
+      <researchViewX>4</researchViewX>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="AmbroisenLimbs"]/researchViewY</xpath>
+    <value>
+      <researchViewY>3</researchViewY>
+    </value>
+  </Operation>
+        <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="AmbroisenLimbs"]/prerequisites</xpath>
+    <value>
+			<li>ParesianMedicine</li>
+    </value>
+  </Operation>
+  
+    	<!--Early Medieval Medicine-->
+		  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="EarlyMedievalMedicine"]/tab</xpath>
+    <value>
+      <tab>Chirurgie</tab>
+    </value>
+  </Operation>
+    <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="EarlyMedievalMedicine"]/baseCost</xpath>
+    <value>
+      <baseCost>500</baseCost>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="EarlyMedievalMedicine"]/researchViewX</xpath>
+    <value>
+      <researchViewX>1</researchViewX>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="EarlyMedievalMedicine"]/researchViewY</xpath>
+    <value>
+      <researchViewY>1</researchViewY>
+    </value>
+  </Operation>
+  
+      	<!--Late Medieval Medicine-->
+		  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="LateMedievalMedicine"]/tab</xpath>
+    <value>
+      <tab>Chirurgie</tab>
+    </value>
+  </Operation>
+    <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="LateMedievalMedicine"]/baseCost</xpath>
+    <value>
+      <baseCost>750</baseCost>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="LateMedievalMedicine"]/researchViewX</xpath>
+    <value>
+      <researchViewX>2</researchViewX>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="LateMedievalMedicine"]/researchViewY</xpath>
+    <value>
+      <researchViewY>1</researchViewY>
+    </value>
+  </Operation>
+  
+        	<!--Paresian Medicine-->
+		  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="ParesianMedicine"]/tab</xpath>
+    <value>
+      <tab>Chirurgie</tab>
+    </value>
+  </Operation>
+    <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="ParesianMedicine"]/baseCost</xpath>
+    <value>
+      <baseCost>1000</baseCost>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="ParesianMedicine"]/researchViewX</xpath>
+    <value>
+      <researchViewX>3</researchViewX>
+    </value>
+  </Operation>
+      <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="ParesianMedicine"]/researchViewY</xpath>
+    <value>
+      <researchViewY>1</researchViewY>
+    </value>
+  </Operation>
+
+
+  	<!--Tab Removal-->
+        <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchTabDef[defName="Entosomnia"]</xpath>
+  </Operation>
+          <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchTabDef[defName="MedPros"]</xpath>
+  </Operation>
+          <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchTabDef[defName="MedMed"]</xpath>
+  </Operation>
+  
+</Patch>
