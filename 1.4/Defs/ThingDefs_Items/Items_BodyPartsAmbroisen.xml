@@ -31,7 +31,8 @@
 		<effectWorking>Smith</effectWorking>
 		<researchPrerequisite>AmbroisenLimbs</researchPrerequisite>
 		<recipeUsers>
-			<li>FueledSmithy</li>
+			<li>DankPyon_Workbench</li>	
+			li>CraftingSpot</li>
 		</recipeUsers>
 	</recipeMaker>
 </ThingDef>
