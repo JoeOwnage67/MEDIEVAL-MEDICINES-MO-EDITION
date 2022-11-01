@@ -4,10 +4,14 @@
 		<defName>Entosomnia</defName>
 		<label>Entosomnia</label>
 		<description>Through the mixture of insect jelly and Ambrosia, and the flow of arcane power through several metallic conduits, we have discovered a way to indefinitely suspend a person in time, preserving them as they are now.</description>
-		<baseCost>5000</baseCost>
+		<baseCost>1250</baseCost>
 		<techLevel>Medieval</techLevel>
-		<tab>Entosomnia</tab>
-		<researchViewX>1</researchViewX>
-		<researchViewY>0</researchViewY>
+		<tab>Chirurgie</tab>
+		<researchViewX>5</researchViewX>
+		<researchViewY>2</researchViewY>
+		<prerequisites>
+			<li>ParesianMedicine</li>
+			<li>AmbroisenLimbs</li>
+		</prerequisites>
 	</ResearchProjectDef>
 </Defs>
