@@ -40,142 +40,149 @@
 <!--  Added body parts  -->
 <!-- ambroisen hand -->
 <ThingDef ParentName="AmbroisenMed">
-<defName>AmbroisenMedHand</defName>
-<label>Ambroisen hand</label>
-<description>An Ambroisen hand.</description>
-<costList>
-<Steel>70</Steel>
-<ComponentIndustrial>10</ComponentIndustrial>
-<Gold>2</Gold>
-<Silver>15</Silver>
-</costList>
-<statBases>
-<Mass>2</Mass>
-</statBases>
+	<defName>AmbroisenMedHand</defName>
+	<label>Ambroisen hand</label>
+	<description>An Ambroisen hand.</description>
+	<costList>
+		<Steel>70</Steel>
+		<ComponentIndustrial>10</ComponentIndustrial>
+		<Gold>2</Gold>
+		<Silver>15</Silver>
+	</costList>
+	<statBases>
+		<WorkToMake>14000</WorkToMake>
+		<Mass>2</Mass>
+	</statBases>
 </ThingDef>
 	
 <!-- ambroisen arm -->
 <ThingDef ParentName="AmbroisenMed">
-<defName>AmbroisenMedArm</defName>
-<label>Ambroisen arm</label>
-<description>An Ambroisen arm.</description>
-<costList>
-<Steel>115</Steel>
-<ComponentIndustrial>15</ComponentIndustrial>
-<Gold>3</Gold>
-<Silver>20</Silver>
-</costList>
-<statBases>
-<Mass>6</Mass>
-</statBases>
+	<defName>AmbroisenMedArm</defName>
+	<label>Ambroisen arm</label>
+	<description>An Ambroisen arm.</description>
+	<costList>
+		<Steel>115</Steel>
+		<ComponentIndustrial>15</ComponentIndustrial>
+		<Gold>3</Gold>
+		<Silver>20</Silver>
+	</costList>
+	<statBases>
+		<Mass>6</Mass>
+	</statBases>
 </ThingDef>
 	
 <!-- ambroisen leg -->
 <ThingDef ParentName="AmbroisenMed">
-<defName>AmbroisenMedLeg</defName>
-<label>Ambroisen leg</label>
-<description>An Ambroisen leg.</description>
-<costList>
-<Steel>115</Steel>
-<ComponentIndustrial>15</ComponentIndustrial>
-<Gold>3</Gold>
-<Silver>20</Silver>
-</costList>
-<statBases>
-<Mass>8</Mass>
-</statBases>
+	<defName>AmbroisenMedLeg</defName>
+	<label>Ambroisen leg</label>
+	<description>An Ambroisen leg.</description>
+	<costList>
+		<Steel>115</Steel>
+		<ComponentIndustrial>15</ComponentIndustrial>
+		<Gold>3</Gold>
+		<Silver>20</Silver>
+	</costList>
+	<statBases>
+		<Mass>8</Mass>
+	</statBases>
 </ThingDef>
 	
 <!-- ambroisen foot -->
 <ThingDef ParentName="AmbroisenMed">
-<defName>AmbroisenMedFoot</defName>
-<label>Ambroisen foot</label>
-<description>An Ambroisen foot.</description>
-<costList>
-<Steel>70</Steel>
-<ComponentIndustrial>10</ComponentIndustrial>
-<Gold>2</Gold>
-<Silver>15</Silver>
-</costList>
-<statBases>
-<Mass>2</Mass>
-</statBases>
+	<defName>AmbroisenMedFoot</defName>
+	<label>Ambroisen foot</label>
+	<description>An Ambroisen foot.</description>
+	<costList>
+		<Steel>70</Steel>
+		<ComponentIndustrial>10</ComponentIndustrial>
+		<Gold>2</Gold>
+		<Silver>15</Silver>
+	</costList>
+	<statBases>
+		<WorkToMake>14000</WorkToMake>
+		<Mass>2</Mass>
+	</statBases>
 </ThingDef>
 	
 <!-- ambroisen toe -->
 <ThingDef ParentName="AmbroisenMed">
-<defName>AmbroisenMedToe</defName>
-<label>Ambroisen toe</label>
-<description>An Ambroisen toe.</description>
-<costList>
-<Steel>25</Steel>
-<ComponentIndustrial>5</ComponentIndustrial>
-<Gold>1</Gold>
-<Silver>5</Silver>
-</costList>
-<statBases>
-<Mass>0.2</Mass>
-</statBases>
+	<defName>AmbroisenMedToe</defName>
+	<label>Ambroisen toe</label>
+	<description>An Ambroisen toe.</description>
+	<costList>
+		<Steel>25</Steel>
+		<ComponentIndustrial>5</ComponentIndustrial>
+		<Gold>1</Gold>
+		<Silver>5</Silver>
+	</costList>
+	<statBases>
+		<WorkToMake>7000</WorkToMake>
+		<Mass>0.2</Mass>
+	</statBases>
 </ThingDef>
 	
 <!-- ambroisen finger -->
 <ThingDef ParentName="AmbroisenMed">
-<defName>AmbroisenMedFinger</defName>
-<label>Ambroisen finger</label>
-<description>An Ambroisen finger.</description>
-<costList>
-<Steel>25</Steel>
-<ComponentIndustrial>5</ComponentIndustrial>
-<Gold>1</Gold>
-<Silver>5</Silver>
-</costList>
-<statBases>
-<Mass>0.2</Mass>
-</statBases>
+	<defName>AmbroisenMedFinger</defName>
+	<label>Ambroisen finger</label>
+	<description>An Ambroisen finger.</description>
+	<costList>
+		<Steel>25</Steel>
+		<ComponentIndustrial>5</ComponentIndustrial>
+		<Gold>1</Gold>
+		<Silver>5</Silver>
+	</costList>
+	<statBases>
+		<WorkToMake>7000</WorkToMake>
+		<Mass>0.2</Mass>
+	</statBases>
 </ThingDef>
 	
 <!-- ambroisen nose -->
 <ThingDef ParentName="AmbroisenMed">
-<defName>AmbroisenMedNose</defName>
-<label>Ambroisen nose</label>
-<description>An Ambroisen nose.</description>
-<costList>
-<Steel>20</Steel>
-<Gold>1</Gold>
-<Silver>5</Silver>
-</costList>
-<statBases>
-<Mass>0.6</Mass>
-</statBases>
+	<defName>AmbroisenMedNose</defName>
+	<label>Ambroisen nose</label>
+	<description>An Ambroisen nose.</description>
+	<costList>
+		<Steel>20</Steel>
+		<Gold>1</Gold>
+		<Silver>5</Silver>
+	</costList>
+	<statBases>
+		<WorkToMake>14000</WorkToMake>
+		<Mass>0.6</Mass>
+	</statBases>
 </ThingDef>
 	
 <!-- ambroisen eye -->
 <ThingDef ParentName="AmbroisenMed">
-<defName>AmbroisenMedEye</defName>
-<label>Ambroisen eye</label>
-<description>An Ambroisen eye.</description>
-<costList>
-<Steel>20</Steel>
-<Gold>1</Gold>
-<Silver>5</Silver>
-</costList>
-<statBases>
-<Mass>0.6</Mass>
-</statBases>
+	<defName>AmbroisenMedEye</defName>
+	<label>Ambroisen eye</label>
+	<description>An Ambroisen eye.</description>
+	<costList>
+		<Steel>20</Steel>
+		<Gold>1</Gold>
+		<Silver>5</Silver>
+	</costList>
+	<statBases>
+		<WorkToMake>14000</WorkToMake>
+		<Mass>0.6</Mass>
+	</statBases>
 </ThingDef>
 	
 <!-- ambroisen ear -->
 <ThingDef ParentName="AmbroisenMed">
-<defName>AmbroisenMedEar</defName>
-<label>Ambroisen ear</label>
-<description>An Ambroisen ear.</description>
-<costList>
-<Steel>20</Steel>
-<Gold>1</Gold>
-<Silver>5</Silver>
-</costList>
-<statBases>
-<Mass>0.6</Mass>
-</statBases>
+	<defName>AmbroisenMedEar</defName>
+	<label>Ambroisen ear</label>
+	<description>An Ambroisen ear.</description>
+	<costList>
+		<Steel>20</Steel>
+		<Gold>1</Gold>
+		<Silver>5</Silver>
+	</costList>
+	<statBases>
+		<WorkToMake>14000</WorkToMake>
+		<Mass>0.6</Mass>
+	</statBases>
 </ThingDef>
 </Defs>
