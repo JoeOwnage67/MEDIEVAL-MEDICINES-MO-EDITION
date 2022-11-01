@@ -106,7 +106,7 @@
 		<WoodLog>5</WoodLog>
 	</costList>
 	<statBases>
-		<WorkToMake>6000</WorkToMake>
+		<WorkToMake>4000</WorkToMake>
 		<Mass>0.2</Mass>
 	</statBases>
 </ThingDef>
@@ -121,7 +121,7 @@
 		<WoodLog>5</WoodLog>
 	</costList>
 	<statBases>
-		<WorkToMake>6000</WorkToMake>
+		<WorkToMake>4000</WorkToMake>
 		<Mass>0.2</Mass>
 	</statBases>
 </ThingDef>
