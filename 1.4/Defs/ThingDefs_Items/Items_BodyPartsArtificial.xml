@@ -43,8 +43,10 @@
 	<defName>ArtificialMedHand</defName>
 	<label>artificial hand</label>
 	<description>An artificial hand.</description>
-	<costList>
-		<Steel>55</Steel>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>55</costStuffCount>
 		<WoodLog>10</WoodLog>
 	</costList>
 	<statBases>
@@ -59,9 +61,12 @@
 	<label>artificial arm</label>
 	<description>An artificial arm.</description>
 	<costList>
-		<Steel>100</Steel>
 		<WoodLog>25</WoodLog>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>100</costStuffCount>
 	<statBases>
 		<Mass>6</Mass>
 	</statBases>
@@ -73,9 +78,12 @@
 	<label>artificial leg</label>
 	<description>An artificial leg.</description>
 	<costList>
-		<Steel>100</Steel>
 		<WoodLog>25</WoodLog>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>100</costStuffCount>
 	<statBases>
 		<Mass>8</Mass>
 	</statBases>
@@ -102,9 +110,12 @@
 	<label>artificial toe</label>
 	<description>An artificial toe.</description>
 	<costList>
-		<Steel>15</Steel>
 		<WoodLog>5</WoodLog>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>15</costStuffCount>
 	<statBases>
 		<WorkToMake>4000</WorkToMake>
 		<Mass>0.2</Mass>
@@ -117,9 +128,12 @@
 	<label>artificial finger</label>
 	<description>An artificial finger.</description>
 	<costList>
-		<Steel>15</Steel>
 		<WoodLog>5</WoodLog>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>15</costStuffCount>
 	<statBases>
 		<WorkToMake>4000</WorkToMake>
 		<Mass>0.2</Mass>
@@ -131,9 +145,10 @@
 	<defName>ArtificialMedNose</defName>
 	<label>artificial nose</label>
 	<description>An artificial nose.</description>
-	<costList>
-		<WoodLog>15</WoodLog>
-	</costList>
+	<stuffCategories>
+		<li>Woody</li>
+	</stuffCategories>
+	<costStuffCount>15</costStuffCount>
 	<statBases>
 		<WorkToMake>7000</WorkToMake>
 		<Mass>0.2</Mass>
@@ -145,9 +160,10 @@
 	<defName>ArtificialMedEye</defName>
 	<label>artificial eye</label>
 	<description>An artificial eye.</description>
-	<costList>
-		<WoodLog>15</WoodLog>
-	</costList>
+	<stuffCategories>
+		<li>Woody</li>
+	</stuffCategories>
+	<costStuffCount>15</costStuffCount>
 	<statBases>
 		<WorkToMake>7000</WorkToMake>
 		<Mass>0.2</Mass>
@@ -159,9 +175,10 @@
 	<defName>ArtificialMedEar</defName>
 	<label>artificial ear</label>
 	<description>An artificial ear.</description>
-	<costList>
-		<WoodLog>15</WoodLog>
-	</costList>
+	<stuffCategories>
+		<li>Woody</li>
+	</stuffCategories>
+	<costStuffCount>15</costStuffCount>
 	<statBases>
 		<WorkToMake>7000</WorkToMake>
 		<Mass>0.2</Mass>
