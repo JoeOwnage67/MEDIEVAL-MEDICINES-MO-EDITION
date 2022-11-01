@@ -9,7 +9,7 @@
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
-		<tab>MedMed</tab>
+		<tab>Chirurgie</tab>
 		<researchViewX>1</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
@@ -26,7 +26,7 @@
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
-		<tab>MedMed</tab>
+    <tab>Chirurgie</tab>
 		<researchViewX>2</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
@@ -40,7 +40,7 @@
 		<prerequisites>
 			<li>LateMedievalMedicine</li>
 		</prerequisites>
-		<tab>MedMed</tab>
+    <tab>Chirurgie</tab>
 		<researchViewX>3</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
