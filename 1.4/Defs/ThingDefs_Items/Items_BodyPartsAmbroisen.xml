@@ -4,6 +4,10 @@
 	
 <!--  Parent -->
 	<ThingDef Name="AmbroisenMed" ParentName="BodyPartBase" Abstract="True">
+	<techLevel>Medieval</techLevel>
+	<techHediffsTags>
+		<li>Simple</li>
+	</techHediffsTags>
 	<tradeTags>
 		<li>Ambroisen</li>
 	</tradeTags>
