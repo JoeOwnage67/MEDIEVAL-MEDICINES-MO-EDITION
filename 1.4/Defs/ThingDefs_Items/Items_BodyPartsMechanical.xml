@@ -149,8 +149,8 @@
 <!--  mechanical nose-->
 <ThingDef ParentName="MechanicalMed">
 	<defName>MechanicalMedNose</defName>
-	<label>intricate nose</label>
-	<description>An intricate nose.</description>
+	<label>Mechanical Nose</label>
+	<description>A fairly convincing non-functional facsimile of a nose.</description>
 	<stuffCategories>
 		<li>Metallic</li>
 	</stuffCategories>
@@ -164,8 +164,8 @@
 <!--  mechanical eye -->
 <ThingDef ParentName="MechanicalMed">
 	<defName>MechanicalMedEye</defName>
-	<label>intricate eye</label>
-	<description>An intricate eye.</description>
+	<label>Mechanical Eye</label>
+	<description>A fairly convincing non-functional facsimile of an eye.</description>
 	<stuffCategories>
 		<li>Metallic</li>
 	</stuffCategories>
@@ -179,8 +179,8 @@
 <!--  mechanical ear -->
 <ThingDef ParentName="MechanicalMed">
 	<defName>MechanicalMedEar</defName>
-	<label>intricate ear</label>
-	<description>An intricate ear.</description>
+	<label>Mechanical Ear</label>
+	<description>A fairly convincing non-functional facsimile of an ear.</description>
 	<stuffCategories>
 		<li>Metallic</li>
 	</stuffCategories>
