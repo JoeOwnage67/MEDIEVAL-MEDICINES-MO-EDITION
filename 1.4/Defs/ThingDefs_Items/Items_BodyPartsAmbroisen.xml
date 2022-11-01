@@ -44,11 +44,15 @@
 	<label>Ambroisen hand</label>
 	<description>An Ambroisen hand.</description>
 	<costList>
-		<Steel>70</Steel>
-		<ComponentIndustrial>10</ComponentIndustrial>
+		<DankPyon_ComponentBasic>10</DankPyon_ComponentBasic>	
+		<DankPyon_Emerald>5</DankPyon_Emerald>
 		<Gold>2</Gold>
 		<Silver>15</Silver>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>70</costStuffCount>
 	<statBases>
 		<WorkToMake>14000</WorkToMake>
 		<Mass>2</Mass>
@@ -61,11 +65,15 @@
 	<label>Ambroisen arm</label>
 	<description>An Ambroisen arm.</description>
 	<costList>
-		<Steel>115</Steel>
-		<ComponentIndustrial>15</ComponentIndustrial>
+		<DankPyon_ComponentBasic>15</DankPyon_ComponentBasic>
+		<DankPyon_Emerald>15</DankPyon_Emerald>
 		<Gold>3</Gold>
 		<Silver>20</Silver>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>115</costStuffCount>
 	<statBases>
 		<Mass>6</Mass>
 	</statBases>
@@ -77,11 +85,15 @@
 	<label>Ambroisen leg</label>
 	<description>An Ambroisen leg.</description>
 	<costList>
-		<Steel>115</Steel>
-		<ComponentIndustrial>15</ComponentIndustrial>
+		<DankPyon_ComponentBasic>15</DankPyon_ComponentBasic>
+		<DankPyon_Emerald>15</DankPyon_Emerald>
 		<Gold>3</Gold>
 		<Silver>20</Silver>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>115</costStuffCount>
 	<statBases>
 		<Mass>8</Mass>
 	</statBases>
@@ -93,11 +105,15 @@
 	<label>Ambroisen foot</label>
 	<description>An Ambroisen foot.</description>
 	<costList>
-		<Steel>70</Steel>
-		<ComponentIndustrial>10</ComponentIndustrial>
+		<DankPyon_ComponentBasic>10</DankPyon_ComponentBasic>	
+		<DankPyon_Emerald>5</DankPyon_Emerald>
 		<Gold>2</Gold>
 		<Silver>15</Silver>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>70</costStuffCount>
 	<statBases>
 		<WorkToMake>14000</WorkToMake>
 		<Mass>2</Mass>
@@ -110,11 +126,15 @@
 	<label>Ambroisen toe</label>
 	<description>An Ambroisen toe.</description>
 	<costList>
-		<Steel>25</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
+		<DankPyon_Emerald>2</DankPyon_Emerald>
 		<Gold>1</Gold>
 		<Silver>5</Silver>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>25</costStuffCount>
 	<statBases>
 		<WorkToMake>7000</WorkToMake>
 		<Mass>0.2</Mass>
@@ -127,11 +147,15 @@
 	<label>Ambroisen finger</label>
 	<description>An Ambroisen finger.</description>
 	<costList>
-		<Steel>25</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
+		<DankPyon_Emerald>2</DankPyon_Emerald>
 		<Gold>1</Gold>
 		<Silver>5</Silver>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>25</costStuffCount>
 	<statBases>
 		<WorkToMake>7000</WorkToMake>
 		<Mass>0.2</Mass>
@@ -144,10 +168,15 @@
 	<label>Ambroisen nose</label>
 	<description>An Ambroisen nose.</description>
 	<costList>
-		<Steel>20</Steel>
+		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
+		<DankPyon_Emerald>2</DankPyon_Emerald>
 		<Gold>1</Gold>
 		<Silver>5</Silver>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>20</costStuffCount>
 	<statBases>
 		<WorkToMake>14000</WorkToMake>
 		<Mass>0.6</Mass>
@@ -160,10 +189,15 @@
 	<label>Ambroisen eye</label>
 	<description>An Ambroisen eye.</description>
 	<costList>
-		<Steel>20</Steel>
+		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
+		<DankPyon_Emerald>2</DankPyon_Emerald>
 		<Gold>1</Gold>
 		<Silver>5</Silver>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>20</costStuffCount>
 	<statBases>
 		<WorkToMake>14000</WorkToMake>
 		<Mass>0.6</Mass>
@@ -176,10 +210,15 @@
 	<label>Ambroisen ear</label>
 	<description>An Ambroisen ear.</description>
 	<costList>
-		<Steel>20</Steel>
+		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
+		<DankPyon_Emerald>2</DankPyon_Emerald>
 		<Gold>1</Gold>
 		<Silver>5</Silver>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>20</costStuffCount>
 	<statBases>
 		<WorkToMake>14000</WorkToMake>
 		<Mass>0.6</Mass>
