@@ -1,33 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <Defs>
-<ThingDef Name="ArtificialMed" ParentName="BodyPartBase" Abstract="True">
-<tradeTags>
-<li>Prostheses</li>
-</tradeTags>
-<thingCategories>
-<li>BodyPartsSimple</li>
-</thingCategories>
-<graphicData>
-<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-<drawSize>0.80</drawSize>
-<shaderType>CutoutComplex</shaderType>
-</graphicData>
-<statBases>
-<DeteriorationRate>2</DeteriorationRate>
-<WorkToMake>60000</WorkToMake>
-</statBases>
-<recipeMaker>
-<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
-<workSkill>Crafting</workSkill>
-<effectWorking>Smith</effectWorking>
-<researchPrerequisite>ArtificialLimbs</researchPrerequisite>
-<recipeUsers>
-<li>CraftingSpot</li>
-</recipeUsers>
-</recipeMaker>
+  
+  <!--> Parent <-->
+  <ThingDef Name="ArtificialMed" ParentName="BodyPartBase" Abstract="True">
+    <techLevel>Neolithic</techLevel>
+		<techHediffsTags>
+		  <li>Simple</li>
+		</techHediffsTags>
+    <tradeTags>
+      <li>Prostheses</li>
+    </tradeTags>
+    <thingCategories>
+      <li>BodyPartsSimple</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>2</DeteriorationRate>
+      <WorkToMake>60000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <researchPrerequisite>ArtificialLimbs</researchPrerequisite>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+     </recipeMaker>
 </ThingDef>
+  
 <!--  Added body parts  -->
+  
+ <!--  artificial hand  -->
 <ThingDef ParentName="ArtificialMed">
 <defName>ArtificialMedHand</defName>
 <label>artificial hand</label>
@@ -52,6 +63,8 @@
 <Mass>6</Mass>
 </statBases>
 </ThingDef>
+  
+  <!--  artificial leg  -->
 <ThingDef ParentName="ArtificialMed">
 <defName>ArtificialMedLeg</defName>
 <label>artificial leg</label>
@@ -64,6 +77,8 @@
 <Mass>8</Mass>
 </statBases>
 </ThingDef>
+  
+  <!--  artificial foot  -->
 <ThingDef ParentName="ArtificialMed">
 <defName>ArtificialMedFoot</defName>
 <label>artificial foot</label>
@@ -76,6 +91,8 @@
 <Mass>2</Mass>
 </statBases>
 </ThingDef>
+  
+  <!--  artificial toe  -->
 <ThingDef ParentName="ArtificialMed">
 <defName>ArtificialMedToe</defName>
 <label>artificial toe</label>
@@ -88,6 +105,8 @@
 <Mass>0.2</Mass>
 </statBases>
 </ThingDef>
+  
+  <!--  Artificial finger -->
 <ThingDef ParentName="ArtificialMed">
 <defName>ArtificialMedFinger</defName>
 <label>artificial finger</label>
@@ -100,6 +119,8 @@
 <Mass>0.2</Mass>
 </statBases>
 </ThingDef>
+  
+  <!--  artificial nose  -->
 <ThingDef ParentName="ArtificialMed">
 <defName>ArtificialMedNose</defName>
 <label>artificial nose</label>
@@ -122,6 +143,8 @@
 <Mass>0.2</Mass>
 </statBases>
 </ThingDef>
+  
+  <!--  Artificial ear  -->
 <ThingDef ParentName="ArtificialMed">
 <defName>ArtificialMedEar</defName>
 <label>artificial ear</label>
