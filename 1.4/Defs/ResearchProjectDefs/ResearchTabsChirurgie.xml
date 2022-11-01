@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ResearchTabDef>
 		<defName>Chirurgie</defName>
-		<label>Chirurgie</label>
+		<label>Medieval Medicines</label>
 	</ResearchTabDef>
 
 </Defs>
