@@ -1,34 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--> Parent <-->
 <Defs>
-<ThingDef Name="Basic" ParentName="BodyPartBase" Abstract="True">
-<tradeTags>
-<li>BasicProstheses</li>
-</tradeTags>
-<thingCategories>
-<li>BodyPartsSimple</li>
-</thingCategories>
-<graphicData>
-<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-<drawSize>0.80</drawSize>
-<shaderType>CutoutComplex</shaderType>
-</graphicData>
-<statBases>
-<DeteriorationRate>2</DeteriorationRate>
-<WorkToMake>6000</WorkToMake>
-</statBases>
-<recipeMaker>
-<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
-<workSkill>Crafting</workSkill>
-<effectWorking>Smith</effectWorking>
-<researchPrerequisite>CrudeLimbs</researchPrerequisite>
-<recipeUsers>
-<li>CraftingSpot</li>
-</recipeUsers>
-</recipeMaker>
+  <ThingDef Name="Basic" ParentName="BodyPartBase" Abstract="True">
+  <techLevel>Neolithic</techLevel>
+  <techHediffsTags>
+    <li>Simple</li>
+  </techHediffsTags>
+  <tradeTags>
+    <li>BasicProstheses</li>
+  </tradeTags>
+  <thingCategories>
+    <li>BodyPartsSimple</li>
+  </thingCategories>
+  <graphicData>
+    <texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>0.80</drawSize>
+    <shaderType>CutoutComplex</shaderType>
+  </graphicData>
+  <statBases>
+    <DeteriorationRate>2</DeteriorationRate>
+    <WorkToMake>6000</WorkToMake>
+  </statBases>
+  <recipeMaker>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <researchPrerequisite>CrudeLimbs</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+    </recipeUsers>
+  </recipeMaker>
 </ThingDef>
+  
 <!--  Added body parts  -->
-<ThingDef ParentName="Basic">
+
+<!--  Iron Arm  -->
+ <ThingDef ParentName="Basic">
 <defName>IronArm</defName>
 <label>iron arm</label>
 <description>A highly ineffective replacement for a missing arm.</description>
@@ -39,6 +49,8 @@
 <Mass>2</Mass>
 </statBases>
 </ThingDef>
+  
+  <!--  Prosthetic Hook  -->
 <ThingDef ParentName="Basic">
 <defName>ProstheticHook</defName>
 <label>prosthetic hook</label>
@@ -50,6 +62,8 @@
 <Mass>6</Mass>
 </statBases>
 </ThingDef>
+  
+  <!--  Wooden Foot  -->
 <ThingDef ParentName="Basic">
 <defName>WoodenFoot</defName>
 <label>wooden foot</label>
@@ -72,6 +86,8 @@
 <Mass>0.2</Mass>
 </statBases>
 </ThingDef>
+  
+  <!--  Wooden Finger  -->
 <ThingDef ParentName="Basic">
 <defName>WoodenFinger</defName>
 <label>wooden finger</label>
@@ -94,6 +110,8 @@
 <Mass>0.1</Mass>
 </statBases>
 </ThingDef>
+  
+  <!--  Eye patch  -->
 <ThingDef ParentName="Basic">
 <defName>EyePatch</defName>
 <label>eye patch</label>
