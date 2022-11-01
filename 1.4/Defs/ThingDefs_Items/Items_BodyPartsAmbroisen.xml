@@ -1,33 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <Defs>
-<ThingDef Name="AmbroisenMed" ParentName="BodyPartBase" Abstract="True">
-<tradeTags>
-<li>Ambroisen</li>
-</tradeTags>
-<thingCategories>
-<li>BodyPartsSimple</li>
-</thingCategories>
-<graphicData>
-<texPath>Things/Item/BodyPart/AmbroisenProsthesis</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-<drawSize>0.80</drawSize>
-<shaderType>CutoutComplex</shaderType>
-</graphicData>
-<statBases>
-<DeteriorationRate>2</DeteriorationRate>
-<WorkToMake>300000</WorkToMake>
-</statBases>
-<recipeMaker>
-<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
-<workSkill>Crafting</workSkill>
-<effectWorking>Smith</effectWorking>
-<researchPrerequisite>AmbroisenLimbs</researchPrerequisite>
-<recipeUsers>
-<li>FueledSmithy</li>
-</recipeUsers>
-</recipeMaker>
+	
+<!--  Parent -->
+	<ThingDef Name="AmbroisenMed" ParentName="BodyPartBase" Abstract="True">
+	<tradeTags>
+		<li>Ambroisen</li>
+	</tradeTags>
+	<thingCategories>
+		<li>BodyPartsSimple</li>
+	</thingCategories>
+	<graphicData>
+		<texPath>Things/Item/BodyPart/AmbroisenProsthesis</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>0.80</drawSize>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<statBases>
+		<DeteriorationRate>2</DeteriorationRate>
+		<WorkToMake>300000</WorkToMake>
+	</statBases>
+	<recipeMaker>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<researchPrerequisite>AmbroisenLimbs</researchPrerequisite>
+		<recipeUsers>
+			<li>FueledSmithy</li>
+		</recipeUsers>
+	</recipeMaker>
 </ThingDef>
+	
+	
 <!--  Added body parts  -->
+<!-- ambroisen hand -->
 <ThingDef ParentName="AmbroisenMed">
 <defName>AmbroisenMedHand</defName>
 <label>Ambroisen hand</label>
@@ -42,6 +49,8 @@
 <Mass>2</Mass>
 </statBases>
 </ThingDef>
+	
+<!-- ambroisen arm -->
 <ThingDef ParentName="AmbroisenMed">
 <defName>AmbroisenMedArm</defName>
 <label>Ambroisen arm</label>
@@ -56,6 +65,8 @@
 <Mass>6</Mass>
 </statBases>
 </ThingDef>
+	
+<!-- ambroisen leg -->
 <ThingDef ParentName="AmbroisenMed">
 <defName>AmbroisenMedLeg</defName>
 <label>Ambroisen leg</label>
@@ -70,6 +81,8 @@
 <Mass>8</Mass>
 </statBases>
 </ThingDef>
+	
+<!-- ambroisen foot -->
 <ThingDef ParentName="AmbroisenMed">
 <defName>AmbroisenMedFoot</defName>
 <label>Ambroisen foot</label>
@@ -84,6 +97,8 @@
 <Mass>2</Mass>
 </statBases>
 </ThingDef>
+	
+<!-- ambroisen toe -->
 <ThingDef ParentName="AmbroisenMed">
 <defName>AmbroisenMedToe</defName>
 <label>Ambroisen toe</label>
@@ -98,6 +113,8 @@
 <Mass>0.2</Mass>
 </statBases>
 </ThingDef>
+	
+<!-- ambroisen finger -->
 <ThingDef ParentName="AmbroisenMed">
 <defName>AmbroisenMedFinger</defName>
 <label>Ambroisen finger</label>
@@ -112,6 +129,8 @@
 <Mass>0.2</Mass>
 </statBases>
 </ThingDef>
+	
+<!-- ambroisen nose -->
 <ThingDef ParentName="AmbroisenMed">
 <defName>AmbroisenMedNose</defName>
 <label>Ambroisen nose</label>
@@ -125,6 +144,8 @@
 <Mass>0.6</Mass>
 </statBases>
 </ThingDef>
+	
+<!-- ambroisen eye -->
 <ThingDef ParentName="AmbroisenMed">
 <defName>AmbroisenMedEye</defName>
 <label>Ambroisen eye</label>
@@ -138,6 +159,8 @@
 <Mass>0.6</Mass>
 </statBases>
 </ThingDef>
+	
+<!-- ambroisen ear -->
 <ThingDef ParentName="AmbroisenMed">
 <defName>AmbroisenMedEar</defName>
 <label>Ambroisen ear</label>
