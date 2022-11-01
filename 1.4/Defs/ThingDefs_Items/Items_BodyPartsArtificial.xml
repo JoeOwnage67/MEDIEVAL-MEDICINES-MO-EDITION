@@ -5,35 +5,35 @@
   <!--> Parent <-->
   <ThingDef Name="ArtificialMed" ParentName="BodyPartBase" Abstract="True">
     <techLevel>Neolithic</techLevel>
-		<techHediffsTags>
-		  <li>Simple</li>
+	<techHediffsTags>
+		<li>Simple</li>
 		</techHediffsTags>
-    <tradeTags>
-      <li>Prostheses</li>
-    </tradeTags>
-    <thingCategories>
-      <li>BodyPartsSimple</li>
-    </thingCategories>
-    <graphicData>
-      <texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.80</drawSize>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
-    <statBases>
-      <DeteriorationRate>2</DeteriorationRate>
-      <WorkToMake>60000</WorkToMake>
-    </statBases>
-    <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <researchPrerequisite>ArtificialLimbs</researchPrerequisite>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-      </recipeUsers>
-     </recipeMaker>
+    	<tradeTags>
+      		<li>Prostheses</li>
+    	</tradeTags>
+    	<thingCategories>
+      		<li>BodyPartsSimple</li>
+    	</thingCategories>
+    	<graphicData>
+      		<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+      		<graphicClass>Graphic_Single</graphicClass>
+      		<drawSize>0.80</drawSize>
+      		<shaderType>CutoutComplex</shaderType>
+    	</graphicData>
+    	<statBases>
+      		<DeteriorationRate>2</DeteriorationRate>
+      		<WorkToMake>60000</WorkToMake>
+    	</statBases>
+    	<recipeMaker>
+      		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+      		<workSkill>Crafting</workSkill>
+      		<effectWorking>Smith</effectWorking>
+      		<researchPrerequisite>ArtificialLimbs</researchPrerequisite>
+      		<recipeUsers>
+        		<li>CraftingSpot</li>
+      		</recipeUsers>
+     	</recipeMaker>
 </ThingDef>
   
 <!--  Added body parts  -->
