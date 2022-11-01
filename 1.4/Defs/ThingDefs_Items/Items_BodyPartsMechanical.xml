@@ -4,12 +4,16 @@
   
   <!--> Parent <-->
 <ThingDef Name="MechanicalMed" ParentName="BodyPartBase" Abstract="True">
+	<techLevel>Medieval</techLevel>
+	<techHediffsTags>
+		<li>Simple</li>
+	</techHediffsTags>
 	<tradeTags>
     	<li>Mechanical</li>
  	</tradeTags>
   	<thingCategories>
-    	<li>BodyPartsSimple</li>
-    </thingCategories>
+    		<li>BodyPartsSimple</li>
+   	</thingCategories>
 	<graphicData>
 		<texPath>Things/Item/BodyPart/MechanicalProsthesis</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
