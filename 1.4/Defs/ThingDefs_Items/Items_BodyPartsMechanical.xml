@@ -44,9 +44,12 @@
 	<label>mechanical hand</label>
 	<description>A mechanical hand.</description>
 	<costList>
-		<Steel>70</Steel>
-		<ComponentIndustrial>3</ComponentIndustrial>
+		<DankPyon_ComponentBasic>3</DankPyon_ComponentBasic>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>70</costStuffCount>
 	<statBases>
 		<WorkToMake>11000</WorkToMake>
 		<Mass>4</Mass>
@@ -59,9 +62,12 @@
 	<label>mechanical arm</label>
 	<description>A mechanical arm.</description>
 	<costList>
-		<Steel>115</Steel>
-		<ComponentIndustrial>6</ComponentIndustrial>
+		<DankPyon_ComponentBasic>6</DankPyon_ComponentBasic>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>115</costStuffCount>
 	<statBases>
 		<Mass>8</Mass>
 	</statBases>
@@ -73,9 +79,12 @@
 	<label>mechanical leg</label>
 	<description>A mechanical leg.</description>
 	<costList>
-		<Steel>115</Steel>
-		<ComponentIndustrial>6</ComponentIndustrial>
+		<DankPyon_ComponentBasic>6</DankPyon_ComponentBasic>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>115</costStuffCount>
 	<statBases>
 		<Mass>10</Mass>
 	</statBases>
@@ -87,9 +96,12 @@
 	<label>mechanical foot</label>
 	<description>A mechanical foot.</description>
 	<costList>
-		<Steel>70</Steel>
-		<ComponentIndustrial>3</ComponentIndustrial>
+		<DankPyon_ComponentBasic>3</DankPyon_ComponentBasic>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>70</costStuffCount>
 	<statBases>
 		<WorkToMake>11000</WorkToMake>
 		<Mass>4</Mass>
@@ -102,9 +114,12 @@
 	<label>mechanical toe</label>
 	<description>A mechanical toe.</description>
 	<costList>
-		<Steel>25</Steel>
-		<ComponentIndustrial>1</ComponentIndustrial>
+		<DankPyon_ComponentBasic>1</DankPyon_ComponentBasic>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>25</costStuffCount>
 	<statBases>
 		<WorkToMake>6000</WorkToMake>
 		<Mass>0.2</Mass>
@@ -117,9 +132,12 @@
 	<label>mechanical finger</label>
 	<description>A mechanical finger.</description>
 	<costList>
-		<Steel>25</Steel>
-		<ComponentIndustrial>1</ComponentIndustrial>
+		<DankPyon_ComponentBasic>1</DankPyon_ComponentBasic>
 	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>25</costStuffCount>
 	<statBases>
 		<WorkToMake>6000</WorkToMake>
 		<Mass>0.2</Mass>
@@ -131,10 +149,10 @@
 	<defName>MechanicalMedNose</defName>
 	<label>intricate nose</label>
 	<description>An intricate nose.</description>
-	<costList>
-		<Steel>10</Steel>
-		<Silver>5</Silver>
-	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>10</costStuffCount>
 	<statBases>
 		<WorkToMake>11000</WorkToMake>
 		<Mass>0.4</Mass>
@@ -146,10 +164,10 @@
 	<defName>MechanicalMedEye</defName>
 	<label>intricate eye</label>
 	<description>An intricate eye.</description>
-	<costList>
-		<Steel>10</Steel>
-		<Silver>5</Silver>
-	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>10</costStuffCount>
 	<statBases>
 		<WorkToMake>11000</WorkToMake>
 		<Mass>0.4</Mass>
@@ -161,10 +179,10 @@
 	<defName>MechanicalMedEar</defName>
 	<label>intricate ear</label>
 	<description>An intricate ear.</description>
-	<costList>
-		<Steel>10</Steel>
-		<Silver>5</Silver>
-	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>10</costStuffCount>
 	<statBases>
 		<WorkToMake>11000</WorkToMake>
 		<Mass>0.4</Mass>
