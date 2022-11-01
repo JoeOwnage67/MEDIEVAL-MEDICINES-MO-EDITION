@@ -32,6 +32,7 @@
       		<researchPrerequisite>ArtificialLimbs</researchPrerequisite>
       		<recipeUsers>
         		<li>CraftingSpot</li>
+			<li>DankPyon_Workbench</li>
       		</recipeUsers>
      	</recipeMaker>
 </ThingDef>
