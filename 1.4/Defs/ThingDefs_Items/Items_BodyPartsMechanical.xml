@@ -4,34 +4,37 @@
   
   <!--> Parent <-->
 <ThingDef Name="MechanicalMed" ParentName="BodyPartBase" Abstract="True">
-<tradeTags>
-<li>Mechanical</li>
-</tradeTags>
-<thingCategories>
-<li>BodyPartsSimple</li>
-</thingCategories>
-<graphicData>
-<texPath>Things/Item/BodyPart/MechanicalProsthesis</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-<drawSize>0.80</drawSize>
-<shaderType>CutoutComplex</shaderType>
-</graphicData>
-<statBases>
-<DeteriorationRate>2</DeteriorationRate>
-<WorkToMake>180000</WorkToMake>
-</statBases>
-<recipeMaker>
-<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
-<workSkill>Crafting</workSkill>
-<effectWorking>Smith</effectWorking>
-<researchPrerequisite>MechanicalLimbs</researchPrerequisite>
-<recipeUsers>
-<li>FueledSmithy</li>
-</recipeUsers>
-</recipeMaker>
+	<tradeTags>
+    	<li>Mechanical</li>
+ 	</tradeTags>
+  	<thingCategories>
+    	<li>BodyPartsSimple</li>
+    </thingCategories>
+	<graphicData>
+		<texPath>Things/Item/BodyPart/MechanicalProsthesis</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>0.80</drawSize>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<statBases>
+		<DeteriorationRate>2</DeteriorationRate>
+		<WorkToMake>180000</WorkToMake>
+	</statBases>
+	<recipeMaker>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<researchPrerequisite>MechanicalLimbs</researchPrerequisite>
+		<recipeUsers>
+			<li>FueledSmithy</li>
+		</recipeUsers>
+	</recipeMaker>
 </ThingDef>
+	
+	
 <!--  Added body parts  -->
+<!--  mechanical hand  -->
 <ThingDef ParentName="MechanicalMed">
 <defName>MechanicalMedHand</defName>
 <label>mechanical hand</label>
@@ -44,6 +47,8 @@
 <Mass>4</Mass>
 </statBases>
 </ThingDef>
+	
+<!--  mechanical arm  -->
 <ThingDef ParentName="MechanicalMed">
 <defName>MechanicalMedArm</defName>
 <label>mechanical arm</label>
@@ -56,6 +61,8 @@
 <Mass>8</Mass>
 </statBases>
 </ThingDef>
+	
+<!--  mechanical leg  -->
 <ThingDef ParentName="MechanicalMed">
 <defName>MechanicalMedLeg</defName>
 <label>mechanical leg</label>
@@ -68,6 +75,8 @@
 <Mass>10</Mass>
 </statBases>
 </ThingDef>
+	
+<!--  mechanical foot  -->
 <ThingDef ParentName="MechanicalMed">
 <defName>MechanicalMedFoot</defName>
 <label>mechanical foot</label>
@@ -92,6 +101,8 @@
 <Mass>0.2</Mass>
 </statBases>
 </ThingDef>
+	
+<!--  mechanical  finger -->
 <ThingDef ParentName="MechanicalMed">
 <defName>MechanicalMedFinger</defName>
 <label>mechanical finger</label>
@@ -104,6 +115,8 @@
 <Mass>0.2</Mass>
 </statBases>
 </ThingDef>
+	
+<!--  mechanical nose-->
 <ThingDef ParentName="MechanicalMed">
 <defName>MechanicalMedNose</defName>
 <label>intricate nose</label>
@@ -116,6 +129,8 @@
 <Mass>0.4</Mass>
 </statBases>
 </ThingDef>
+	
+<!--  mechanical eye -->
 <ThingDef ParentName="MechanicalMed">
 <defName>MechanicalMedEye</defName>
 <label>intricate eye</label>
