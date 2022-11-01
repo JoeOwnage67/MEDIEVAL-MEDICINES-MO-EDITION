@@ -103,7 +103,7 @@
 	<label>wooden finger</label>
 	<description>Wooden replacement for a missing finger.</description>
 	<stuffCategories>
-		li>Woody</li>
+		<li>Woody</li>
 	</stuffCategories>
 	<costStuffCount>5</costStuffCount>
 	<statBases>
@@ -118,7 +118,7 @@
 	<label>wooden nose</label>
 	<description>Wooden replacement for a missing nose.</description>
 	<stuffCategories>
-		li>Woody</li>
+		<li>Woody</li>
 	</stuffCategories>
 	<costStuffCount>5</costStuffCount>
 	<statBases>
