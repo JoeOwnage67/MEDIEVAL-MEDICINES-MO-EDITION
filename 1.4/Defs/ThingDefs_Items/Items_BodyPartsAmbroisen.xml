@@ -168,7 +168,7 @@
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedNose</defName>
 	<label>Ambroisen nose</label>
-	<description>An Ambroisen nose.</description>
+	<description>An enchanted functional nose replacement. It's magic! You can smell again!</description>
 	<costList>
 		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
 		<DankPyon_Emerald>2</DankPyon_Emerald>
@@ -189,7 +189,7 @@
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedEye</defName>
 	<label>Ambroisen eye</label>
-	<description>An Ambroisen eye.</description>
+	<description>An enchanted functional eye replacement. It's magic! You can see again!</description>
 	<costList>
 		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
 		<DankPyon_Emerald>2</DankPyon_Emerald>
@@ -210,7 +210,7 @@
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedEar</defName>
 	<label>Ambroisen ear</label>
-	<description>An Ambroisen ear.</description>
+	<description>An enchanted functional ear replacement. It's magic! You can hear again!</description>
 	<costList>
 		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
 		<DankPyon_Emerald>2</DankPyon_Emerald>
