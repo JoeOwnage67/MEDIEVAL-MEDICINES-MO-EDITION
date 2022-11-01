@@ -24,20 +24,7 @@
     <costList>
       <MedicineHerbal>2</MedicineHerbal>
       <Cloth>10</Cloth>
-    </costList>
-    <recipeMaker>
-      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-		<li>DrugLab</li>
-      </recipeUsers>
-      <researchPrerequisite>EarlyMedievalMedicine</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-        <Intellectual>4</Intellectual>
-      </skillRequirements>
-    </recipeMaker>
+    </costList>    
   </ThingDef>
 
   <ThingDef ParentName="MedicineBase">
@@ -63,20 +50,7 @@
       <MedicineEarlyMedievalMM>1</MedicineEarlyMedievalMM>
       <Beer>1</Beer>
       <Cloth>5</Cloth>
-    </costList>
-    <recipeMaker>
-      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-		<li>DrugLab</li>
-      </recipeUsers>
-      <researchPrerequisite>LateMedievalMedicine</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-        <Intellectual>8</Intellectual>
-      </skillRequirements>
-    </recipeMaker>
+    </costList>   
   </ThingDef>
   
     <ThingDef ParentName="MedicineBase">
@@ -103,20 +77,7 @@
       <Neutroamine>5</Neutroamine>
       <Cloth>8</Cloth>
 	  <Steel>5</Steel>
-    </costList>
-    <recipeMaker>
-      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-		<li>DrugLab</li>
-      </recipeUsers>
-      <researchPrerequisite>ParesianMedicine</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>8</Crafting>
-        <Intellectual>10</Intellectual>
-      </skillRequirements>
-    </recipeMaker>
+    </costList>   
   </ThingDef>
 
 </Defs>
