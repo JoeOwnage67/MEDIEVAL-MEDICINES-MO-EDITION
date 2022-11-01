@@ -88,7 +88,7 @@
 	<label>wooden toe</label>
 	<description>Wooden replacement for a missing toe.</description>
 	<stuffCategories>
-		li>Woody</li>
+		<li>Woody</li>
 	</stuffCategories>
 	<costStuffCount>5</costStuffCount>
 	<statBases>
