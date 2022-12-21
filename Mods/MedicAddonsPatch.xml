@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[sd] medicaddons (unofficial)</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Normal</success>
+			<operations>	
+				
+			<!-- change research tab name to get rid of error -->	
+				<li Class="PatchOperationReplace">
+          			<xpath>Defs/ResearchTabDef[defName="sd_medicaddons_ResearchTab"]/label</xpath>
+						<value>
+							<label>medic addons</label>
+						</value>
+				</li>
+					
+			<!-- move medieval medical linkables to my research tab -->	
+				<li Class="PatchOperationReplace">
+          			<xpath>Defs/ResearchTabDef[defName="sd_medicaddons_research_medieval_med"]/tab</xpath>	
+						<value>
+							<tab>Chirurgie</tab>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+          			<xpath>Defs/ResearchTabDef[defName="sd_medicaddons_research_medieval_med"]/researchViewX</xpath>	
+						<value>
+							<researchViewX>2</researchViewX>
+						</value>
+				</li>
+				<li Class="PatchOperationAdd">
+          			<xpath>Defs/ResearchTabDef[defName="sd_medicaddons_research_medieval_med"]</xpath>	
+						<value>
+							<researchViewY>0</researchViewY>
+						</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
