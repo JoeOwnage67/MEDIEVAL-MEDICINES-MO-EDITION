@@ -9,6 +9,7 @@
   
 	<loadAfter>
 		<li>DankPyon.Medieval.Overhaul</li>
+		<li>[sd] medicaddons (unofficial)</li>
 	</loadAfter>
 
 	<modDependencies>
