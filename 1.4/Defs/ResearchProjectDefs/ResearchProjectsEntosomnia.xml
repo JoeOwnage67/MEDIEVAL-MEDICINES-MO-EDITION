@@ -8,7 +8,7 @@
 		<techLevel>Medieval</techLevel>
 		<tab>Chirurgie</tab>
 		<researchViewX>5</researchViewX>
-		<researchViewY>2</researchViewY>
+		<researchViewY>1</researchViewY>
 		<prerequisites>
 			<li>ParesianMedicine</li>
 			<li>AmbroisenLimbs</li>
