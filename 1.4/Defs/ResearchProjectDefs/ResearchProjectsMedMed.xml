@@ -34,7 +34,7 @@
 	<ResearchProjectDef>
 		<defName>ParesianMedicine</defName>
 		<label>Paresian Medicine</label>
-		<description>Our eyes have been opened to the concepts of chemsitry and sterilization. Through the use of advanced mixtures and the sterlization of wounds, bandages, and tools, we are now able to treat wounds incredibly effectively.</description>
+		<description>Our eyes have been opened to the concepts of chemistry and sterilization. Through the use of advanced mixtures and the sterlization of wounds, bandages, and tools, we are now able to treat wounds incredibly effectively.</description>
 		<baseCost>5500</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
