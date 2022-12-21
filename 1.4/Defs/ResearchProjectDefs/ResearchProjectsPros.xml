@@ -13,7 +13,7 @@
       <li>ClassicStart</li>
     </tags>
     <tab>Chirurgie</tab>
-    <researchViewX>1</researchViewX>
+    <researchViewX>0</researchViewX>
     <researchViewY>2</researchViewY>
   </ResearchProjectDef>
   
@@ -32,7 +32,7 @@
     <li>ClassicStart</li>
   </tags>
   <tab>Chirurgie</tab>
-  <researchViewX>2</researchViewX>
+  <researchViewX>1</researchViewX>
   <researchViewY>2</researchViewY>
 </ResearchProjectDef>
   
@@ -52,7 +52,7 @@
     <li>ClassicStart</li>
   </tags>
   <tab>Chirurgie</tab>
-  <researchViewX>3</researchViewX>
+  <researchViewX>2</researchViewX>
   <researchViewY>2</researchViewY>
 </ResearchProjectDef>
   
@@ -71,7 +71,7 @@
     <li>ClassicStart</li>
   </tags>
   <tab>Chirurgie</tab>
-  <researchViewX>4</researchViewX>
+  <researchViewX>3</researchViewX>
   <researchViewY>2</researchViewY>
 </ResearchProjectDef>
 </Defs>
