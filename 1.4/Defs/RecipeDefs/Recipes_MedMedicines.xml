@@ -191,7 +191,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
     	<researchPrerequisites>
-			<li>LateMedievalMedicine</li>
+			<li>ParesianMedicine</li>
 	</researchPrerequisites>
 </RecipeDef>
 </Defs>
