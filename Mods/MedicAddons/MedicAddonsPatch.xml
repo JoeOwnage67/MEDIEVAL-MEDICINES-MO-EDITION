@@ -33,7 +33,7 @@
 				<li Class="PatchOperationAdd">
           			<xpath>Defs/ResearchTabDef[defName="sd_medicaddons_research_medieval_med"]</xpath>	
 						<value>
-							<researchViewY>2</researchViewY>
+							<researchViewY>1</researchViewY>
 						</value>
 				</li>
 			</operations>
