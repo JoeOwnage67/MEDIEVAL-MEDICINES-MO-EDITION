@@ -2,7 +2,7 @@ https://github.com/JoeOwnage67/MedievalMedicine1.4-Medieval-Overhaul-Edition
 https://steamcommunity.com/sharedfiles/filedetails/?id=2883228057
 
 
-Combining the following to create an updated mod for Rimworld 1.4:
+Combining the following to create an updated mod for Rimworld 1.4 and 1.5:
 
 1) Nuno's "Medieval Replacements" (Medieval Medicines, Medieval Prosthetics, and Entosomnia) mods
    https://steamcommunity.com/profiles/76561198036639180/myworkshopfiles/?appid=294100
