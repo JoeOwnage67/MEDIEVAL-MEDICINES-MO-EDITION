@@ -66,7 +66,7 @@ Hello, I am currently working on testing UNSTABLE 1.5 branch. This is difficult 
 Please let me know of any feedback or issues so I can try to correct them.
 
 CHANGES FOR 1.5:
-- Added "<countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>" to parent of each type of prosthetic. Prosthetics should actually satisfy transhumanist/body modder now. Thank you to Damon and mountainofcheezo for figuring it out for me.
+- Added countsAsAddedPartOrImplant=true to parent of each type of prosthetic. Prosthetics should actually satisfy transhumanist/body modder now. Thank you to Damon and mountainofcheezo for figuring it out for me.
 
 - Added URL to About.xml to get rid of log spam. Thanks thailyn.
 
