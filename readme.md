@@ -1,49 +1,77 @@
-https://github.com/JoeOwnage67/MedievalMedicine1.4-Medieval-Overhaul-Edition
-https://steamcommunity.com/sharedfiles/filedetails/?id=2883228057
+**Description**
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631
-Combining the following to create an updated mod for Rimworld 1.4 and 1.5:
+Medieval Medicines - Medieval Overhaul Edition
+
+This is a STANDALONE mod combining/adding to/rebalancing several other mods:
 
 1) Nuno's "Medieval Replacements" (Medieval Medicines, Medieval Prosthetics, and Entosomnia) mods
-   https://steamcommunity.com/profiles/76561198036639180/myworkshopfiles/?appid=294100
-
+   
 2) Awan's "Chirurgie Patch (Discontinued)" for Nuno's mods 
-   https://steamcommunity.com/sharedfiles/filedetails/?id=2637345203
-
-3) My own patch "Medieval Medicines Recipes Patch for Medieval Overhaul"
-   https://steamcommunity.com/sharedfiles/filedetails/?id=2819436137
+  
+3) My own patch "Medieval Medicines Recipes Patch for Medieval Overhaul" from 1.3
    
 All credit for the original mods and art assets goes to Nuno. 
 
-- Medieval Prosthetics is a collection of prosthetic limbs that are a fusion of reality and fantasy to give more prosthetic options to medieval runs.
+All credit for rebalancing/reworking research projects and work ticks in Chirurgie Patch goes to Awan.
 
-- Medieval Medicines is new medicines intended to create tiered alternatives to herbal medicine. Effectiveness ranges from slightly better than herbal medicine to slightly better than industrial medicine. Intended for medieval playthroughs.
+- Medieval Prosthetics is a collection of prosthetic limbs that are a fusion of reality and fantasy to give more prosthetic options to medieval runs. I've made prosthetics recipes stuffable where possible so you can choose which materials to use (Metallic, Woody, etc). I've also updated components in Medieval Prosthetics recipes to use Basic Components from MO instead of industrial components.
 
-- Now includes Entosomnia: Medieval Cryptosleep also from Nuno. "Craft a sarcophagus filled with insect jelly and lined with intricate arcane conduits allows for indefinite suspension of living beings. Medieval cryptosleep replacement."
+- Medieval Medicines is new medicines intended to create tiered alternatives to herbal medicine. Effectiveness ranges from slightly better than herbal medicine to slightly better than industrial medicine. 
 
+- Entosomnia: Medieval Cryptosleep also from Nuno. "Craft a sarcophagus filled with insect jelly and lined with intricate arcane conduits allows for indefinite suspension of living beings."
 
+**Ambroisen Prosthetics**
 
-From RimFantasy: "For the longest time, civilizations dismissed magic as wild fantasies and superstitious tribal beliefs. That is until one day, an incident occurred in a gemstone mine, which led to the discovery that gemstones have a natural affinity with magic, and could be imbued with magical energies to produce spectacular effects."
+- Named for Ambroise Paré (born 1510, Bourg-Hersent, France—died Dec. 20, 1590, Paris) French physician, one of the most notable surgeons of the European Renaissance, regarded by some medical historians as the father of modern surgery.
 
+- Emerald is now an ingredient in Ambroisen Prosthetic Limbs. These limbs are imbued with magical energy. The magical properties of the emerald are the ingredient that allows a man-made prosthetic to function equivalent to a natural limb.
 
+- Sensory Ambroisen Prosthetics can actually restore sight, hearing and smell, also thanks to the magical properties of the emerald. They may not be on par with a natural eye, ear or nose, but they will allow your pawn to function mostly normally again. Increased recipe costs to balance this.
 
-What this mod does:
+Lore explanation From RimFantasy:
+ "For the longest time, civilizations dismissed magic as wild fantasies and superstitious tribal beliefs. That is until one day, an incident occurred in a gemstone mine, which led to the discovery that gemstones have a natural affinity with magic, and could be imbued with magical energies to produce spectacular effects."
 
-- Adds emerald as an ingredient in Ambroisen Prosthetic Limbs. These limbs are imbued with magical energy. The magical properties of the emerald are the ingredient that allows a man-made prosthetic to function equivalent to a natural limb.
+**Late Medieval Medicine**
 
-- Sensory Ambroisen Prosthetics can actually restore sight, hearing and smell, also thanks to the magical properties of the emerald. They may not be on par with a natural eye, ear or nose, but they will allow your pawn to function mostly normally again. Increased component cost in recipe to account for this.
+- Added support for base game Beer and all of Medieval Overhaul's alcoholic items to work as ingredients when creating medicines that require alcohol. Various alcohols from Morrowrim - Alcohol Remade are also supported but mod is not required. There is also support for VFE Medieval's Wine, VFE Settlers' Chemshine and VFE Vikings' Mead, but none of these mods are a requirement.
 
-- Made prosthetics recipes stuffable where possible so you can choose which materials to use. (Metallic, Woody, etc.)
+**Paresian Medicine**
 
-- Updates components in Medieval Prosthetics recipes to use Basic Components from MO instead of industrial components.
+- Requires Neutroamine. If you are using Rimedieval, you may not have access to Neutroamine at traders. I recommend using a mod that allows you to grow it or harvest it from animals if you encounter an issue with this.
 
-- Research projects and tabs were reworked by Awan in the Chirurgie Patch, which is now incorporated into the mod. Work ticks needed to craft prosthetics and medicine has also been adjusted by this patch.
+**Mod Medicines Patch**
 
-- Added support for all of Medieval Overhaul's alcoholic items to work as ingredients when creating medicines that require alcohol. Various alcohols from Morrowrim - Alcohol Remade are also supported but mod is not required. There is also support for VFE Medieval's Wine, VFE Settlers' Chemshine and VFE Vikings' Mead, but none of them are required either.
+If you are finding that the pawns are not making use of the medicines, try adding the Mod Medicines Patch by Aeon: https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631
 
-- All Medieval Medicines are craftable at the Drug Lab, Medieval Overhaul Workbench, and Crafting Spot.
+**Links**
 
-- All Medieval Prosthetics are craftable at the Medieval Overhaul Workbench and Crafting Spot.
+Medieval Medicines - Medieval Overhaul Edition (this mod):
+https://github.com/JoeOwnage67/MedievalMedicine-Medieval-Overhaul-Edition
+https://steamcommunity.com/sharedfiles/filedetails/?id=2883228057
 
-- Prosthetics should now satisfy Transhumanist trait. 
+Nuno's "Medieval Replacements" mods (non-Medieval Overhaul versions)
+https://steamcommunity.com/profiles/76561198036639180/myworkshopfiles/?appid=294100
 
+Awan's "Chirurgie Patch" (non-Medieval Overhaul version) 
+https://steamcommunity.com/sharedfiles/filedetails/?id=2637345203
+
+**Updates**
+
+March 2024:
+
+Hello, I am currently working on testing UNSTABLE 1.5 branch. This is difficult until official 1.5 of Medieval Overhaul is released, but I am making it available in case anyone wants to help test it.
+
+1.4 branch of this mod will not be touched so as not to mess up people's saves.
+
+Please let me know of any feedback or issues so I can try to correct them.
+
+CHANGES FOR 1.5:
+- Added "<countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>" to parent of each type of prosthetic. Prosthetics should actually satisfy transhumanist/body modder now. Thank you to Damon and mountainofcheezo for figuring it out for me.
+
+- Added URL to About.xml to get rid of log spam. Thanks thailyn.
+
+- Corrected recipe for Artifical Foot to be Metallic Stuff instead of specifically Steel. Thanks PaprikaRobin for bringing that error to my attention. Double checked other recipes use the correct stuffed material.
+
+- Moved all medicine production to Medieval Overhaul's Alchemy Bench. You can still craft Early Medieval Medicine at the Crafting Spot. Thank you to Harseki for the suggestion.
+
+- Moved all prosthetics production to Medieval Overhaul's Workbench. You can still craft Basic Prosthetics at the Crafting Spot.
