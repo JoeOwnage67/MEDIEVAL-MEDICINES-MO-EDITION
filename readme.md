@@ -41,18 +41,24 @@ Lore explanation From RimFantasy:
 
 **Mod Medicines Patch**
 
-If you are finding that the pawns are not making use of the medicines, try adding the Mod Medicines Patch by Aeon: https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631
+If you are finding that the pawns are not making use of the medicines, try adding the Mod Medicines Patch by Aeon: 
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631
 
 **Links**
 
 Medieval Medicines - Medieval Overhaul Edition (this mod):
+
 https://github.com/JoeOwnage67/MedievalMedicine-Medieval-Overhaul-Edition
+
 https://steamcommunity.com/sharedfiles/filedetails/?id=2883228057
 
 Nuno's "Medieval Replacements" mods (non-Medieval Overhaul versions)
+
 https://steamcommunity.com/profiles/76561198036639180/myworkshopfiles/?appid=294100
 
 Awan's "Chirurgie Patch" (non-Medieval Overhaul version) 
+
 https://steamcommunity.com/sharedfiles/filedetails/?id=2637345203
 
 **Updates**
