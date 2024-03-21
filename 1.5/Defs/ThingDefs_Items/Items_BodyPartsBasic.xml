@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+<!-- Parent -->
+	<ThingDef Name="Basic" ParentName="BodyPartBase" Abstract="True">
+  	<techLevel>Neolithic</techLevel>
+ 	<techHediffsTags>
+    		<li>Simple</li>
+  	</techHediffsTags>
+  	<tradeTags>
+    		<li>BasicProstheses</li>
+  	</tradeTags>
+	<thingCategories>
+    		<li>BodyPartsSimple</li>
+  	</thingCategories>
+  	<graphicData>
+    		<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+    		<graphicClass>Graphic_Single</graphicClass>
+    		<drawSize>0.80</drawSize>
+    		<shaderType>CutoutComplex</shaderType>
+  	</graphicData>
+ 	<statBases>
+    		<DeteriorationRate>2</DeteriorationRate>
+    		<WorkToMake>4000</WorkToMake>
+ 	</statBases>
+  	<recipeMaker>
+    		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+    		<workSkill>Crafting</workSkill>
+    		<effectWorking>Smith</effectWorking>
+    		<researchPrerequisite>CrudeLimbs</researchPrerequisite>
+    		<recipeUsers>
+     			<li>CraftingSpot</li>
+			<li>DankPyon_Workbench</li>
+   		</recipeUsers>
+  	</recipeMaker>
+</ThingDef>
+  
+<!--  Added body parts  -->
+
+<!--  Iron Arm  -->
+<ThingDef ParentName="Basic">
+	<defName>IronArm</defName>
+	<label>iron arm</label>
+	<description>A highly ineffective replacement for a missing arm.</description>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>50</costStuffCount>
+	<statBases>
+		<Mass>2</Mass>
+	</statBases>
+</ThingDef>
+  
+<!--  Prosthetic Hook  -->
+<ThingDef ParentName="Basic">
+	<defName>ProstheticHook</defName>
+	<label>prosthetic hook</label>
+	<description>A simple hook to replace a missing hand. Very limited functionality.</description>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>25</costStuffCount>
+	<statBases>
+		<WorkToMake>3000</WorkToMake>
+		<Mass>6</Mass>
+	</statBases>
+</ThingDef>
+  
+<!--  Wooden Foot  -->
+<ThingDef ParentName="Basic">
+	<defName>WoodenFoot</defName>
+	<label>wooden foot</label>
+	<description>A crude replica of a human foot made out of wood. Uncomfortable and ineffective, but better than nothing.</description>
+	<stuffCategories>
+			<li>Woody</li>
+	</stuffCategories>
+	<costStuffCount>25</costStuffCount>
+	<statBases>
+		<WorkToMake>3000</WorkToMake>
+		<Mass>2</Mass>
+	</statBases>
+</ThingDef>
+	
+<!--  Wooden toe  -->
+<ThingDef ParentName="Basic">
+	<defName>WoodenToe</defName>
+	<label>wooden toe</label>
+	<description>Wooden replacement for a missing toe.</description>
+	<stuffCategories>
+		<li>Woody</li>
+	</stuffCategories>
+	<costStuffCount>5</costStuffCount>
+	<statBases>
+		<WorkToMake>2000</WorkToMake>
+		<Mass>0.2</Mass>
+	</statBases>
+</ThingDef>
+  
+<!--  Wooden Finger  -->
+<ThingDef ParentName="Basic">
+	<defName>WoodenFinger</defName>
+	<label>wooden finger</label>
+	<description>Wooden replacement for a missing finger.</description>
+	<stuffCategories>
+		<li>Woody</li>
+	</stuffCategories>
+	<costStuffCount>5</costStuffCount>
+	<statBases>
+		<WorkToMake>2000</WorkToMake>
+		<Mass>0.2</Mass>
+	</statBases>
+</ThingDef>
+	
+<!--  Wooden nose  -->
+<ThingDef ParentName="Basic">
+	<defName>WoodenNose</defName>
+	<label>wooden nose</label>
+	<description>Wooden replacement for a missing nose.</description>
+	<stuffCategories>
+		<li>Woody</li>
+	</stuffCategories>
+	<costStuffCount>5</costStuffCount>
+	<statBases>
+		<WorkToMake>3000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+</ThingDef>
+  
+<!--  Eye patch  -->
+<ThingDef ParentName="Basic">
+	<defName>EyePatch</defName>
+	<label>eye patch</label>
+	<description>Piece of cloth to cover the hole where one's eye once was.</description>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<costStuffCount>15</costStuffCount>
+	<statBases>
+		<WorkToMake>2000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+</ThingDef>
+	
+<!--  Ear patch  -->
+<ThingDef ParentName="Basic">
+	<defName>EarPatch</defName>
+	<label>ear patch</label>
+	<description>Piece of cloth to cover the hole where one's ear once was.</description>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<costStuffCount>15</costStuffCount>
+	<statBases>
+		<WorkToMake>2000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+</ThingDef>
+</Defs>
