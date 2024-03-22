@@ -65,6 +65,10 @@ Awan's "Chirurgie Patch" (non-Medieval Overhaul version)
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2637345203
 
+FARMABLE NEUTROAMINE - MEDIEVAL:
+
+https://github.com/JoeOwnage67/Farmable-Neutroamine-Medieval
+
 **Updates**
 
 March 2024:
