@@ -51,13 +51,31 @@ If you are finding that the pawns are not making use of the medicines, try addin
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631
 
-**LINKS**
-
-Medieval Medicines - Medieval Overhaul Edition (this mod):
-
+**LINKS**		
+				
+MEDIEVAL MEDICINES - MEDIEVAL OVERHAUL EDITION (THIS MOD):				
+				
 https://github.com/JoeOwnage67/MedievalMedicines-Medieval-Overhaul-Edition/
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2883228057
+https://steamcommunity.com/sharedfiles/filedetails/?id=2883228057			
+
+FARMABLE NEUTROAMINE - MEDIEVAL:				
+				
+https://github.com/JoeOwnage67/Farmable-Neutroamine-Medieval	
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2826944163		
+				
+HOODED HELMS ADDON FOR MEDIEVAL OVERHAUL:				
+				
+https://github.com/JoeOwnage67/Hooded-Helms-addon-for-Medieval-Overhaul		
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2872166785				
+				
+DUSK ARMORY MEDIEVAL PATCH:				
+				
+https://github.com/JoeOwnage67/DuskArmoryMedievalPatch		
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2869291037				
 
 Nuno's "Medieval Replacements" mods (non-Medieval Overhaul versions)
 
@@ -66,10 +84,6 @@ https://steamcommunity.com/profiles/76561198036639180/myworkshopfiles/?appid=294
 Awan's "Chirurgie Patch" (non-Medieval Overhaul version) 
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2637345203
-
-FARMABLE NEUTROAMINE - MEDIEVAL:
-
-https://github.com/JoeOwnage67/Farmable-Neutroamine-Medieval
 
 **UPDATES**
 
