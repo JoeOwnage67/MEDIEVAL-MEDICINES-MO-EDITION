@@ -49,7 +49,7 @@ Lore explanation From RimFantasy:
 
 - If you are finding that the pawns are not making use of the medicines, try adding the Mod Medicines Patch by Aeon: 
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631
 
 **LINKS**		
 				
