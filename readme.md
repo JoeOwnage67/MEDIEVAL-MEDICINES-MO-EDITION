@@ -49,7 +49,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631
 
 Medieval Medicines - Medieval Overhaul Edition (this mod):
 
-https://github.com/JoeOwnage67/MedievalMedicine-Medieval-Overhaul-Edition
+https://github.com/JoeOwnage67/MedievalMedicines-Medieval-Overhaul-Edition/
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2883228057
 
