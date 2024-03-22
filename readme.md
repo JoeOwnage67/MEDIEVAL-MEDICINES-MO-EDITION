@@ -2,7 +2,7 @@
 
 If you like this content, feel free buy me a coffee at ko-fi.com/joeownage 
 
-**Description**
+**DESCRIPTION**
 
 Medieval Medicines - Medieval Overhaul Edition
 
@@ -24,7 +24,7 @@ All credit for rebalancing/reworking research projects and work ticks in Chirurg
 
 - Entosomnia: Medieval Cryptosleep also from Nuno. "Craft a sarcophagus filled with insect jelly and lined with intricate arcane conduits allows for indefinite suspension of living beings."
 
-**Ambroisen Prosthetics**
+**AMBROISEN PROSTHETICS**
 
 - Named for Ambroise Paré (born 1510, Bourg-Hersent, France—died Dec. 20, 1590, Paris) French physician, one of the most notable surgeons of the European Renaissance, regarded by some medical historians as the father of modern surgery.
 
@@ -35,21 +35,21 @@ All credit for rebalancing/reworking research projects and work ticks in Chirurg
 Lore explanation From RimFantasy:
  "For the longest time, civilizations dismissed magic as wild fantasies and superstitious tribal beliefs. That is until one day, an incident occurred in a gemstone mine, which led to the discovery that gemstones have a natural affinity with magic, and could be imbued with magical energies to produce spectacular effects."
 
-**Late Medieval Medicine**
+**LATE MEDIEVAL MEDICINE**
 
 - Added support for base game Beer and all of Medieval Overhaul's alcoholic items to work as ingredients when creating medicines that require alcohol. Various alcohols from Morrowrim - Alcohol Remade are also supported but mod is not required. There is also support for VFE Medieval's Wine, VFE Settlers' Chemshine and VFE Vikings' Mead, but none of these mods are a requirement.
 
-**Paresian Medicine**
+**PARESIAN MEDICINE**
 
-- Requires Neutroamine. If you are using Rimedieval, you may not have access to Neutroamine at traders. I recommend using a mod that allows you to grow it or harvest it from animals if you encounter an issue with this.
+- Requires Neutroamine. If you are using Rimedieval, you may not have access to Neutroamine at traders. I recommend using a mod that allows you to grow it if you encounter an issue with this. Link to FARMABLE NEUTROAMINE - MEDIEVAL is below.
 
-**Mod Medicines Patch**
+**MOD MEDICINES PATCH**
 
 If you are finding that the pawns are not making use of the medicines, try adding the Mod Medicines Patch by Aeon: 
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631
 
-**Links**
+**LINKS**
 
 Medieval Medicines - Medieval Overhaul Edition (this mod):
 
@@ -69,7 +69,7 @@ FARMABLE NEUTROAMINE - MEDIEVAL:
 
 https://github.com/JoeOwnage67/Farmable-Neutroamine-Medieval
 
-**Updates**
+**UPDATES**
 
 March 2024:
 
