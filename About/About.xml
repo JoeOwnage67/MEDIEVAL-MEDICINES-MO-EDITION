@@ -8,9 +8,12 @@
 			<li>1.5</li>
     </supportedVersions>
 	<packageId>JoeDaly.MedMeds.MO</packageId>
-  
+  	<loadBefore>
+		<li>VR.MOPatches</li>
+	</loadBefore>
 	<loadAfter>
 		<li>DankPyon.Medieval.Overhaul</li>
+		<li>zymex.medicaddons</li>
 		<li>[sd] medicaddons (unofficial)</li>
 	</loadAfter>
 
