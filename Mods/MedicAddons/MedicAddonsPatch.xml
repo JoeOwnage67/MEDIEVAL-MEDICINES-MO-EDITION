@@ -15,27 +15,7 @@
 						<value>
 							<label>medic addons</label>
 						</value>
-				</li>
-					
-			<!-- move medieval medical linkables to my research tab -->	
-				<li Class="PatchOperationReplace">
-          			<xpath>Defs/ResearchTabDef[defName="sd_medicaddons_research_medieval_med"]/tab</xpath>	
-						<value>
-							<tab>Chirurgie</tab>
-						</value>
-				</li>
-				<li Class="PatchOperationReplace">
-          			<xpath>Defs/ResearchTabDef[defName="sd_medicaddons_research_medieval_med"]/researchViewX</xpath>	
-						<value>
-							<researchViewX>1</researchViewX>
-						</value>
-				</li>
-				<li Class="PatchOperationAdd">
-          			<xpath>Defs/ResearchTabDef[defName="sd_medicaddons_research_medieval_med"]</xpath>	
-						<value>
-							<researchViewY>1</researchViewY>
-						</value>
-				</li>
+				</li>	
 			</operations>
 		</match>
 	</Operation>
