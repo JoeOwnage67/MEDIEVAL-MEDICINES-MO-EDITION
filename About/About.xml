@@ -14,7 +14,6 @@
 	<loadAfter>
 		<li>DankPyon.Medieval.Overhaul</li>
 		<li>zymex.medicaddons</li>
-		<li>[sd] medicaddons (unofficial)</li>
 	</loadAfter>
 
 	<modDependencies>
