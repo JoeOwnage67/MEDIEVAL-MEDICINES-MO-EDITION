@@ -93,16 +93,18 @@
 						<li>DankPyon_Mead</li>
 						<li>DankPyon_Wine</li>
 						<li>Beer</li>
-						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholDagothBrandy</li>
-				                <li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholFlin</li>
-				                <li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholGreef</li>
-				                <li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholJazbayWine</li>
-				                <li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholMazte</li>
-				                <li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholShein</li>
-				                <li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholSujamma</li>
-						<!-- <li MayRequire="OksarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Wine</li>
+						<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholDagothBrandy</li>
+				        <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholFlin</li>
+				        <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholGreef</li>
+				        <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholJazbayWine</li>
+				        <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholMazte</li>
+				        <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholShein</li>
+				        <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholSujamma</li>
+						<!-- I will bring this back whenever VFE: Medieval 2 shows up
+						<li MayRequire="OksarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Wine</li>
 						<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Chemshine</li>
-						<li MayRequire="OskarPotocki.VFE.Vikings">VFEV_Mead</li>-->
+						<li MayRequire="OskarPotocki.VFE.Vikings">VFEV_Mead</li>
+						-->
 					</thingDefs>
 			 	</filter>
 			 	<count>1</count>
@@ -120,16 +122,18 @@
 				<li>DankPyon_Mead</li>
 				<li>DankPyon_Wine</li>
 				<li>Beer</li>     
-				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholDagothBrandy</li>
-				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholFlin</li>
-				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholGreef</li>
-				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholJazbayWine</li>
-				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholMazte</li>
-				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholShein</li>
-				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">Mashed_Ashlands_AlcoholSujamma</li>
-				<!-- <li MayRequire="OksarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Wine</li>
+				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholDagothBrandy</li>
+				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholFlin</li>
+				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholGreef</li>
+				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholJazbayWine</li>
+				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholMazte</li>
+				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholShein</li>
+				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholSujamma</li>
+				<!-- I will bring this back whenever VFE: Medieval 2 shows up
+				<li MayRequire="OksarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Wine</li>
 				<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Chemshine</li>
-				<li MayRequire="OskarPotocki.VFE.Vikings">VFEV_Mead</li> -->
+				<li MayRequire="OskarPotocki.VFE.Vikings">VFEV_Mead</li>
+				-->
 			</thingDefs>
 		</fixedIngredientFilter>
     	<researchPrerequisites>
