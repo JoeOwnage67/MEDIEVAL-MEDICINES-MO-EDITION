@@ -92,6 +92,10 @@
 						<li>DankPyon_Cider</li>
 						<li>DankPyon_Mead</li>
 						<li>DankPyon_Wine</li>
+						<li>DankPyon_Wine_Mulberry</li>
+						<li>DankPyon_Wine_Griffon</li>
+						<li>DankPyon_Wine_Griffon</li>
+						<li>DankPyon_Wine_Ice</li>
 						<li>Beer</li>
 						<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholDagothBrandy</li>
 				        <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholFlin</li>
@@ -121,7 +125,11 @@
 				<li>DankPyon_Cider</li>
 				<li>DankPyon_Mead</li>
 				<li>DankPyon_Wine</li>
-				<li>Beer</li>     
+				<li>DankPyon_Wine_Mulberry</li>
+				<li>DankPyon_Wine_Griffon</li>
+				<li>DankPyon_Wine_Griffon</li>
+				<li>DankPyon_Wine_Ice</li>
+				<li>Beer</li>
 				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholDagothBrandy</li>
 				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholFlin</li>
 				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholGreef</li>
