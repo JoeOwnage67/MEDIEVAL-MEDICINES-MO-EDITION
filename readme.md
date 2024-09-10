@@ -96,7 +96,17 @@ LATE MEDIEVAL MEDICINE:
 - Requires some type of Alcohol, Early Medieval Medicine, and Cloth (or linen). Many different alcohols are supported in the recipe in case you have their corresponding mods loaded, including Medieval Overhaul, Mashed's Ashlands, and Stoneborn Delights. Can be crafted at Alchemy Bench.  
   
 PARESIAN MEDICINE:  
-- Requires Neutroamine, Late Medieval Medicine, Mithril, and Cloth (or linen). I have included Stoneborn Delights Glimmerquartz as an alternative ingredient to Neutroamine. Can be crafted at Alchemy Bench.  
+- Requires Neutroamine, Late Medieval Medicine, Mithril, and Cloth (or linen). I have included Stoneborn Delights Glimmerquartz as an alternative ingredient to Neutroamine. Can be crafted at Alchemy Bench.
+
+**DRUGS**
+
+- Adds two tiers of healing potions that can be ingested to speed healing and immunity gain, but they do have some drawbacks.
+
+LESSER HEALING POTION:
+- Requires herbal extract, raw berries, and raw herbs. Can be crafted at Crafting Spot, Drug Lab, or Alchemy Bench.
+
+MINOR HEALING POTION:
+- Requires lesser healing potion, and amber, which can be found in dark forest biome. Can be crafted at Drug Lab or Alchemy Bench.
   
 **MOD MEDICINES PATCH**  
   
@@ -120,6 +130,8 @@ Added compatibility for Stoneborn Delights liquors, Mashed's Ashlands liquors, a
 Renamed Ambroisen Prosthetics to Paresian Prosthetics. Paresian Prosthetics are constructed at the Alchemy Bench.  
   
 Added ability to mine Stoneborn Delights Glimmerquartz at Medieval Overhaul mineshaft if mod is loaded.  
+  
+Added two types of healing potions using **Medicines Expanded: Medieval Potions** as a template. **Thank you to Capataina and Frettzo for their mod and textures!**    
   
 Updated Mod Description.  
 
