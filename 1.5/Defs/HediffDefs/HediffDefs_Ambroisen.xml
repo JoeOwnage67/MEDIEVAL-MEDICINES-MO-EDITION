@@ -14,9 +14,9 @@
 <!-- Ambroisen Hand -->   
    <HediffDef ParentName="addedPartMedAmbroisen">
 	<defName>AmbroisenMedHand</defName>
-	<label>Ambroisen hand</label>
-	<labelNoun>an Ambroisen hand</labelNoun>
-	<description>An installed Ambroisen hand.</description>
+	<label>Paresian hand</label>
+	<labelNoun>a Paresian hand</labelNoun>
+	<description>An installed Paresian hand.</description>
 	<descriptionHyperlinks><ThingDef>AmbroisenMedHand</ThingDef></descriptionHyperlinks>
 	<spawnThingOnRemoved>AmbroisenMedHand</spawnThingOnRemoved>
 	<addedPartProps>
@@ -27,7 +27,7 @@
 		<li Class="HediffCompProperties_VerbGiver">
 		<tools>
 			<li>
-				<label>Ambroisen hand</label>
+				<label>Paresian hand</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -43,9 +43,9 @@
 <!-- Ambroisen Arm -->   
     <HediffDef ParentName="addedPartMedAmbroisen">
     	<defName>AmbroisenMedArm</defName>
-	<label>Ambroisen arm</label>
-	<labelNoun>an Ambroisen arm</labelNoun>
-	<description>An installed Ambroisen arm.</description>
+	<label>Paresian arm</label>
+	<labelNoun>a Paresian arm</labelNoun>
+	<description>An installed Paresian arm.</description>
 	<descriptionHyperlinks><ThingDef>AmbroisenMedArm</ThingDef></descriptionHyperlinks>
 	<spawnThingOnRemoved>AmbroisenMedArm</spawnThingOnRemoved>
 	<addedPartProps>
@@ -56,7 +56,7 @@
 		<li Class="HediffCompProperties_VerbGiver">
 			<tools>
 				<li>
-					<label>Ambroisen arm</label>
+					<label>Paresian arm</label>
 					<capacities>
 						<li>Blunt</li>
 					</capacities>
@@ -70,9 +70,9 @@
 <!-- Ambroisen Leg -->   
 	<HediffDef ParentName="addedPartMedAmbroisen">
 		<defName>AmbroisenMedLeg</defName>
-		<label>Ambroisen leg</label>
-		<labelNoun>an Ambroisen leg</labelNoun>
-		<description>An installed Ambroisen leg.</description>
+		<label>Paresian leg</label>
+		<labelNoun>a Paresian leg</labelNoun>
+		<description>An installed Paresian leg.</description>
 		<descriptionHyperlinks><ThingDef>AmbroisenMedLeg</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>AmbroisenMedLeg</spawnThingOnRemoved>
 		<addedPartProps>
@@ -84,9 +84,9 @@
 <!-- Ambroisen Foot -->	
 	<HediffDef ParentName="addedPartMedAmbroisen">
 		<defName>AmbroisenMedFoot</defName>
-		<label>Ambroisen foot</label>
-		<labelNoun>an Ambroisen foot</labelNoun>
-		<description>An installed Ambroisen foot.</description>
+		<label>Paresian foot</label>
+		<labelNoun>a Paresian foot</labelNoun>
+		<description>An installed Paresian foot.</description>
 		<descriptionHyperlinks><ThingDef>AmbroisenMedFoot</ThingDef></descriptionHyperlinks>
 		<addedPartProps>
 			<solid>true</solid>
@@ -97,9 +97,9 @@
 <!-- Ambroisen Toe -->   
 	<HediffDef ParentName="addedPartMedAmbroisen">
 		<defName>AmbroisenMedToe</defName>
-		<label>Ambroisen toe</label>
-		<labelNoun>an Ambroisen toe</labelNoun>
-		<description>An installed Ambroisen toe.</description>
+		<label>Paresian toe</label>
+		<labelNoun>a Paresian toe</labelNoun>
+		<description>An installed Paresian toe.</description>
 		<descriptionHyperlinks><ThingDef>AmbroisenMedToe</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>AmbroisenMedToe</spawnThingOnRemoved>
 		<addedPartProps>
@@ -111,9 +111,9 @@
 <!-- Ambroisen Finger -->   
 	<HediffDef ParentName="addedPartMedAmbroisen">
 		<defName>AmbroisenMedFinger</defName>
-		<label>Ambroisen finger</label>
-		<labelNoun>an Ambroisen finger</labelNoun>
-		<description>An installed Ambroisen finger.</description>
+		<label>Paresian finger</label>
+		<labelNoun>a Paresian finger</labelNoun>
+		<description>An installed Paresian finger.</description>
 		<descriptionHyperlinks><ThingDef>AmbroisenMedFinger</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>AmbroisenMedFinger</spawnThingOnRemoved>
 		<addedPartProps>
@@ -125,9 +125,9 @@
 <!-- Ambroisen Nose -->   
 	<HediffDef ParentName="addedPartMedAmbroisen">
 		<defName>AmbroisenMedNose</defName>
-		<label>Ambroisen nose</label>
-		<labelNoun>an Ambroisen nose</labelNoun>
-		<description>An installed Ambroisen nose.</description>
+		<label>Paresian nose</label>
+		<labelNoun>a Paresian nose</labelNoun>
+		<description>An installed Paresian nose.</description>
 		<descriptionHyperlinks><ThingDef>AmbroisenMedNose</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>AmbroisenMedNose</spawnThingOnRemoved>
 		<addedPartProps>				
@@ -147,9 +147,9 @@
 <!-- Ambroisen Eye -->
 	<HediffDef ParentName="addedPartMedAmbroisen">
 		<defName>AmbroisenMedEye</defName>
-		<label>Ambroisen eye</label>
-		<labelNoun>an Ambroisen eye</labelNoun>
-		<description>An installed Ambroisen eye.</description>
+		<label>Paresian eye</label>
+		<labelNoun>a Paresian eye</labelNoun>
+		<description>An installed Paresian eye.</description>
 		<descriptionHyperlinks><ThingDef>AmbroisenMedEye</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>AmbroisenMedEye</spawnThingOnRemoved>
 		<addedPartProps>				
@@ -169,9 +169,9 @@
 <!-- Ambroisen Ear -->
 	<HediffDef ParentName="addedPartMedAmbroisen">
 		<defName>AmbroisenMedEar</defName>
-		<label>Ambroisen ear</label>
-		<labelNoun>an Ambroisen ear</labelNoun>
-		<description>An installed Ambroisen ear.</description>
+		<label>Paresian ear</label>
+		<labelNoun>a Paresian ear</labelNoun>
+		<description>An installed Paresian ear.</description>
 		<descriptionHyperlinks><ThingDef>AmbroisenMedEar</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>AmbroisenMedEar</spawnThingOnRemoved>
 		<addedPartProps>				
