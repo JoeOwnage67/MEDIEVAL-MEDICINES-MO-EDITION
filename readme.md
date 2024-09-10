@@ -32,64 +32,63 @@ For the first three levels, the highest efficiency possible is 80% for a prosthe
 
 
 CRUDE LIMBS: Basic, uncomfortable, and ineffective, but better than nothing. Can now craft shoddy limb replacements at a Crafting Spot or Workbench.
-
-iron arm
-prosthetic hook
-wooden foot
-wooden toe
-wooden finger
-wooden nose
-eye patch
-ear patch
-
-ARTIFICIAL LIMBS: Still quite unrefined, but better than the shoddy limbs that came before. Artificial limbs can now be crafted at a Workbench.
-
-artificial hand
-artificial arm
-artificial leg
-artificial foot
-artificial toe
-artificial finger
-artificial nose
-artificial eye
-artificial ear
-
-MECHANICAL LIMBS: Intricately crafted limbs with many pulleys and gears. While these are a great improvement, the mechanics of the human body are tough to reproduce. Mechanical limbs can be crafted at a Workbench.
-
-mechanical hand
-mechanical arm
-mechanical leg
-mechanical foot
-mechanical toe
-mechanical finger
-mechanical nose
-mechanical eye
-mechanical ear
-
-PARESIAN LIMBS: Incredible engineering and craftmanship utilized in tangent with mystical enchantments have allowed for elegant limbs that are on par with natural limbs. Quite time and resource expensive. Paresian limbs can be crafted at an Alchemy Bench.
-
-paresian hand
-paresian arm
-paresian leg
-paresian foot
-paresian toe
-paresian finger
-paresian nose
-paresian eye
-paresian ear
-
-- Named for Ambroise Paré (born 1510, Bourg-Hersent, France—died Dec. 20, 1590, Paris) French physician, one of the most notable surgeons of the European Renaissance, regarded by some medical historians as the father of modern surgery. 
-- Emerald is an ingredient in Paresian Prosthetic Limbs. These limbs are imbued with magical energy. The magical properties of the emerald are the ingredient that allows a man-made prosthetic to function equivalent to a natural limb.
-- Sensory Paresian Prosthetics can actually restore sight, hearing and smell, also thanks to the magical properties of the emerald. They may not be on par with a natural eye, ear or nose, but they will allow your pawn to function mostly normally again. Increased recipe costs to balance this.
   
-Lore explanation From RimFantasy:
- _"For the longest time, civilizations dismissed magic as wild fantasies and superstitious tribal beliefs. That is until one day, an incident occurred in a gemstone mine, which led to the discovery that gemstones have a natural affinity with magic, and could be imbued with magical energies to produce spectacular effects."_
+iron arm  
+prosthetic hook  
+wooden foot  
+wooden toe  
+wooden finger  
+wooden nose  
+eye patch  
+ear patch  
+  
+ARTIFICIAL LIMBS: Still quite unrefined, but better than the shoddy limbs that came before. Artificial limbs can now be crafted at a Workbench.  
+  
+artificial hand  
+artificial arm  
+artificial leg  
+artificial foot  
+artificial toe  
+artificial finger  
+artificial nose  
+artificial eye  
+artificial ear  
+  
+MECHANICAL LIMBS: Intricately crafted limbs with many pulleys and gears. While these are a great improvement, the mechanics of the human body are tough to reproduce. Mechanical limbs can be crafted at a Workbench.  
+  
+mechanical hand  
+mechanical arm  
+mechanical leg  
+mechanical foot  
+mechanical toe  
+mechanical finger  
+mechanical nose  
+mechanical eye  
+mechanical ear  
+  
+PARESIAN LIMBS: Incredible engineering and craftmanship utilized in tangent with mystical enchantments have allowed for elegant limbs that are on par with natural limbs. Quite time and resource expensive. Paresian limbs can be crafted at an Alchemy Bench.  
 
-
+- Named for Ambroise Paré (born 1510, Bourg-Hersent, France—died Dec. 20, 1590, Paris) French physician, one of the most notable surgeons of the European Renaissance, regarded by some medical historians as the father of modern surgery.  
+- Emerald is an ingredient in Paresian Prosthetic Limbs. These limbs are imbued with magical energy. The magical properties of the emerald are the ingredient that allows a man-made prosthetic to function equivalent to a natural limb.  
+- Sensory Paresian Prosthetics can actually restore sight, hearing and smell, also thanks to the magical properties of the emerald. They may not be on par with a natural eye, ear or nose, but they will allow your pawn to function mostly normally again. Increased recipe costs to balance this.  
+  
+Lore explanation From RimFantasy:  
+ _"For the longest time, civilizations dismissed magic as wild fantasies and superstitious tribal beliefs. That is until one day, an incident occurred in a gemstone mine, which led to the discovery that gemstones have a natural affinity with magic, and could be imbued with magical energies to produce spectacular effects."_  
+  
+paresian hand  
+paresian arm  
+paresian leg  
+paresian foot  
+paresian toe  
+paresian finger  
+paresian nose  
+paresian eye  
+paresian ear  
+  
 **MEDIEVAL MEDICINES**  
   
 - Adds three tiers of medicines intended to create tiered alternatives to herbal medicine. Effectiveness ranges from slightly better than herbal medicine to slightly better than industrial medicine.  
-
+  
 EARLY MEDIEVAL MEDICINE:  
 - Requires Herbal Medicine and Cloth. Also supports Medieval Overhaul's linen and various wild medicinal herbs. Can be crafted at Crafting Spot or Workbench.  
   
@@ -98,16 +97,16 @@ LATE MEDIEVAL MEDICINE:
   
 PARESIAN MEDICINE:  
 - Requires Neutroamine, Late Medieval Medicine, and Cloth (or linen). I have included Stoneborn Delights Glimmerquartz as an alternative ingredient to Neutroamine. Can be crafted at Alchemy Bench.  
-
+  
 **MOD MEDICINES PATCH**  
-
+  
 - If you are finding that the pawns are not making use of the medicines, try adding the Mod Medicines Patch by Aeon:  
 https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631  
-
+  
 **UPDATES**  
-
-------------
-
+  
+------------  
+  
 SEPT 2024:  
 
 Added the optional ingedient Medieval Overhaul linen in place of cloth in all Medicine Recipes.  
