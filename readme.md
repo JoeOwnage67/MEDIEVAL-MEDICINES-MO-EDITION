@@ -30,9 +30,9 @@ All credit for rebalancing/reworking research projects and work ticks in Chirurg
 
 - Named for Ambroise Paré (born 1510, Bourg-Hersent, France—died Dec. 20, 1590, Paris) French physician, one of the most notable surgeons of the European Renaissance, regarded by some medical historians as the father of modern surgery.
 
-- Emerald is now an ingredient in Ambroisen Prosthetic Limbs. These limbs are imbued with magical energy. The magical properties of the emerald are the ingredient that allows a man-made prosthetic to function equivalent to a natural limb.
+- Emerald is now an ingredient in Paresian Prosthetic Limbs. These limbs are imbued with magical energy. The magical properties of the emerald are the ingredient that allows a man-made prosthetic to function equivalent to a natural limb.
 
-- Sensory Ambroisen Prosthetics can actually restore sight, hearing and smell, also thanks to the magical properties of the emerald. They may not be on par with a natural eye, ear or nose, but they will allow your pawn to function mostly normally again. Increased recipe costs to balance this.
+- Sensory Paresian Prosthetics can actually restore sight, hearing and smell, also thanks to the magical properties of the emerald. They may not be on par with a natural eye, ear or nose, but they will allow your pawn to function mostly normally again. Increased recipe costs to balance this.
 
 Lore explanation From RimFantasy:
  "For the longest time, civilizations dismissed magic as wild fantasies and superstitious tribal beliefs. That is until one day, an incident occurred in a gemstone mine, which led to the discovery that gemstones have a natural affinity with magic, and could be imbued with magical energies to produce spectacular effects."
@@ -50,40 +50,6 @@ Lore explanation From RimFantasy:
 - If you are finding that the pawns are not making use of the medicines, try adding the Mod Medicines Patch by Aeon: 
 
 - https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631
-
-**LINKS**		
-				
-MEDIEVAL MEDICINES - MEDIEVAL OVERHAUL EDITION (THIS MOD):				
-				
-https://github.com/JoeOwnage67/MedievalMedicines-Medieval-Overhaul-Edition/
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2883228057			
-
-FARMABLE NEUTROAMINE - MEDIEVAL:				
-				
-https://github.com/JoeOwnage67/Farmable-Neutroamine-Medieval	
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2826944163		
-				
-HOODED HELMS ADDON FOR MEDIEVAL OVERHAUL:				
-				
-https://github.com/JoeOwnage67/Hooded-Helms-addon-for-Medieval-Overhaul		
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2872166785				
-				
-DUSK ARMORY MEDIEVAL PATCH:				
-				
-https://github.com/JoeOwnage67/DuskArmoryMedievalPatch		
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2869291037				
-
-Nuno's "Medieval Replacements" mods (non-Medieval Overhaul versions)
-
-https://steamcommunity.com/profiles/76561198036639180/myworkshopfiles/?appid=294100
-
-Awan's "Chirurgie Patch" (non-Medieval Overhaul version) 
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2637345203
 
 **UPDATES**
 
@@ -118,3 +84,38 @@ Please let me know of any feedback or issues so I can try to correct them.
 - Moved all medicine production to Medieval Overhaul's Alchemy Bench. You can still craft Early Medieval Medicine at the Crafting Spot. Thank you to Harseki for the suggestion.
 
 - Moved all prosthetics production to Medieval Overhaul's Workbench. You can still craft Basic Prosthetics at the Crafting Spot.
+
+  
+**LINKS**		
+				
+MEDIEVAL MEDICINES - MEDIEVAL OVERHAUL EDITION (THIS MOD):				
+				
+https://github.com/JoeOwnage67/MedievalMedicines-Medieval-Overhaul-Edition/
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2883228057			
+
+FARMABLE NEUTROAMINE - MEDIEVAL:				
+				
+https://github.com/JoeOwnage67/Farmable-Neutroamine-Medieval	
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2826944163		
+				
+HOODED HELMS ADDON FOR MEDIEVAL OVERHAUL:				
+				
+https://github.com/JoeOwnage67/Hooded-Helms-addon-for-Medieval-Overhaul		
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2872166785				
+				
+DUSK ARMORY MEDIEVAL PATCH:				
+				
+https://github.com/JoeOwnage67/DuskArmoryMedievalPatch		
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2869291037				
+
+Nuno's "Medieval Replacements" mods (non-Medieval Overhaul versions)
+
+https://steamcommunity.com/profiles/76561198036639180/myworkshopfiles/?appid=294100
+
+Awan's "Chirurgie Patch" (non-Medieval Overhaul version) 
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2637345203
