@@ -26,7 +26,7 @@ All credit for rebalancing/reworking research projects and work ticks in Chirurg
 
 - Entosomnia: Medieval Cryptosleep also from Nuno. "Craft a sarcophagus filled with insect jelly and lined with intricate arcane conduits allows for indefinite suspension of living beings."
 
-**AMBROISEN PROSTHETICS**
+**PARESIAN PROSTHETICS**
 
 - Named for Ambroise Paré (born 1510, Bourg-Hersent, France—died Dec. 20, 1590, Paris) French physician, one of the most notable surgeons of the European Renaissance, regarded by some medical historians as the father of modern surgery.
 
@@ -41,7 +41,7 @@ Lore explanation From RimFantasy:
 
 - Added support for base game Beer and all of Medieval Overhaul's alcoholic items to work as ingredients when creating medicines that require alcohol. Various alcohols from Morrowrim - Alcohol Remade are also supported but mod is not required. There is also support for VFE Medieval's Wine, VFE Settlers' Chemshine and VFE Vikings' Mead, but none of these mods are a requirement.
 
-**PARESIAN MEDICINE**
+**PARESIAN MEDICINE** 
 
 - Requires Neutroamine. If you are using Rimedieval, you may not have access to Neutroamine at traders. I recommend using a mod that allows you to grow it if you encounter an issue with this. Link to FARMABLE NEUTROAMINE - MEDIEVAL is below.
 
@@ -89,23 +89,26 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2637345203
 
 SEPT 2024:
 
+Renamed Ambroisen Prosthetics to Paresian Prosthetics.
+
 Added compatibility for Stoneborn Delights liquors, Mashed's Ashlands liquors, and all of the new Medieval Overhaul liquors to satisfy ingredients for Late Medieval Medicine.
 
-Added the optional ingredient Stoneborn Delights Glimmerquartz in place of Neutroamine for Pareisan Medicine.
+Added the optional ingredient Stoneborn Delights Glimmerquartz in place of Neutroamine for Paresian Medicine.
 
-Changed Pareisan Medicine recipe to use one Medieval Overhaul mithril in place of five steel.
+Changed Paresian Medicine recipe to use one Medieval Overhaul mithril in place of five steel.
 
 Added the optional ingedient Medieval Overhaul linen in place of cloth in all Medicine Recipes.
 
 March 2024:
 
-Hello, I am currently working on testing UNSTABLE 1.5 branch. This is difficult until official 1.5 of Medieval Overhaul is released, but I am making it available in case anyone wants to help test it.
+Updated to 1.5.
 
 1.4 branch of this mod will not be touched so as not to mess up people's saves.
 
 Please let me know of any feedback or issues so I can try to correct them.
 
-**CHANGES FOR 1.5:**
+**CHANGES MADE IN 1.5 VERSION:**
+
 - Added countsAsAddedPartOrImplant=true to parent of each type of prosthetic. Prosthetics should actually satisfy transhumanist/body modder now. Thank you to Damon and mountainofcheezo for figuring it out for me.
 
 - Added URL to About.xml to get rid of log spam. Thanks thailyn.
