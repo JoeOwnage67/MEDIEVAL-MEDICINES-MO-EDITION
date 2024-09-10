@@ -22,7 +22,7 @@ All credit for the original mods and art assets goes to Nuno, credit for rebalan
 
 **MEDIEVAL PROSTHETICS:**
 
-This mod adds four levels of prosthetics of increasing complexity and effectiveness - crude, artificial, mechanical, and Paresian. 
+This mod adds four levels of prosthetics of increasing complexity and effectiveness - Crude, Artificial, Mechanical, and Paresian. 
 
 Prosthetics recipes are stuffable where possible so you can choose which materials to use (Metallic, Woody, etc).
 
