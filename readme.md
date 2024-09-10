@@ -129,7 +129,7 @@ March 2024:
 
 Updated to 1.5.
 
-1.4 branch of this mod will not be touched so as not to mess up people's saves.
+1.4 branch of this mod will not changed in any way.
 
 Please let me know of any feedback or issues so I can try to correct them.
 
