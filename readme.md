@@ -103,10 +103,10 @@ PARESIAN MEDICINE:
 - Adds two tiers of healing potions that can be ingested to speed healing and immunity gain, but they do have some drawbacks.
 
 LESSER HEALING POTION:
-- Requires herbal extract, raw berries, and raw herbs. Can be crafted at Crafting Spot, Drug Lab, or Alchemy Bench.
+- Requires herbal medicine, raw berries, and raw herbs. Can be crafted at Crafting Spot, Drug Lab, or Alchemy Bench.
 
 MINOR HEALING POTION:
-- Requires lesser healing potion, and amber, which can be found in dark forest biome. Can be crafted at Drug Lab or Alchemy Bench.
+- Requires lesser healing potion, herbal extract, and amber, which can be found in dark forest biome from felled trees. Can be crafted at Drug Lab or Alchemy Bench.
   
 **MOD MEDICINES PATCH**  
   
