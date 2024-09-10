@@ -4,11 +4,11 @@
 
 If you like this content, feel free buy me a coffee at ko-fi.com/joeownage 
 
-**DESCRIPTION**
+**BACKGROUND**
 
 Medieval Medicines - Medieval Overhaul Edition
 
-This is a STANDALONE mod. The only requirement is Medieval Overhaul.
+This is a **STANDALONE** mod. The only requirement is Medieval Overhaul.
 
 This was created by combining/adding to/rebalancing several other mods:
 
@@ -16,20 +16,17 @@ This was created by combining/adding to/rebalancing several other mods:
 2) Awan's "Chirurgie Patch (Discontinued)" for Nuno's mods   
 3) My own patch "Medieval Medicines Recipes Patch for Medieval Overhaul" from 1.3
    
-All credit for the original mods and art assets goes to Nuno, credit for rebalancing/reworking research projects and work ticks in Chirurgie Patch goes to Awan.
+All credit for the original mods and art assets goes to Nuno, credit for rebalancing/reworking research projects and work ticks in Chirurgie Patch goes to Awan. Thanks guys.
 
 **Medieval Prosthetics** 
-A collection of prosthetic limbs that are a fusion of reality and fantasy to give more prosthetic options to medieval runs. I've made prosthetics recipes stuffable where possible so you can choose which materials to use (Metallic, Woody, etc). Recipes use Basic Components from Medieval Overhaul.
-
-1. Basic Prosthetics
-
-This mod adds three levels of prosthetics of increasing complexity and effectiveness - crude, artificial, and mechanical. The highest efficiency possible is 80% for a prosthetic. Noses, eyes and ears are non-functioning cosmetic replacements but the higher tiers add some social impact.
+This mod adds four levels of prosthetics of increasing complexity and effectiveness - crude, artificial, mechanical, and Paresian. 
 
 Prosthetics recipes are stuffable where possible so you can choose which materials to use (Metallic, Woody, etc).
 
 Prosthetics will satisfy transhumanist/body modder traits.
 
-Adds research tab and research projects for the three levels of prosthetics. All are possible to research and build at a medieval tech level.
+For the first three levels, the highest efficiency possible is 80% for a prosthetic. Noses, eyes and ears are non-functioning cosmetic replacements but the higher tiers add some social impact.
+
 
 CRUDE LIMBS: Basic, uncomfortable, and ineffective, but better than nothing. Can now craft shoddy limb replacements at a Crafting Spot or Smithy.
 
@@ -65,6 +62,8 @@ mechanical finger
 mechanical nose
 mechanical eye
 mechanical ear
+
+PARESIAN LIMBS:
    
 
 **PARESIAN PROSTHETICS**
