@@ -4,6 +4,8 @@
 
 If you like my stuff, feel free buy me a coffee at ko-fi.com/joeownage 
 
+---------
+
 **BACKGROUND**
 
 Medieval Medicines - Medieval Overhaul Edition
@@ -19,6 +21,7 @@ This was created by combining/adding to/rebalancing several other mods:
 All credit for the original mods and art assets goes to Nuno, credit for rebalancing/reworking research projects and work ticks in Chirurgie Patch goes to Awan. Thanks guys.
 
 **DESCRIPTION**
+--------------
 
 **MEDIEVAL PROSTHETICS:**
 
@@ -108,11 +111,15 @@ LESSER HEALING POTION:
 MINOR HEALING POTION:
 - Requires lesser healing potion, herbal extract, and amber, which can be found in dark forest biome from felled trees. Can be crafted at Drug Lab or Alchemy Bench.
 
+-----------
+
 **NOTES**
   
 MOD MEDICINES PATCH  
 - If you are finding that the pawns are not making use of the medicines, try adding the Mod Medicines Patch by Aeon:  
-https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631  
+https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631
+
+------------
   
 **UPDATES**  
   
