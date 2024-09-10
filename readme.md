@@ -55,6 +55,8 @@ Lore explanation From RimFantasy:
 
 SEPT 2024:
 
+Added ability to mine Stoneborn Delights Glimmerquartz at Medieval Overhaul mineshaft if mod is loaded.
+
 Renamed Ambroisen Prosthetics to Paresian Prosthetics. Paresian Prosthetics are constructed at the Alchemy Bench.
 
 Added compatibility for Stoneborn Delights liquors, Mashed's Ashlands liquors, and all of the new Medieval Overhaul liquors to satisfy ingredients for Late Medieval Medicine.
