@@ -87,6 +87,16 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2637345203
 
 **UPDATES**
 
+SEPT 2024:
+
+Added compatibility for Stoneborn Delights liquors, Mashed's Ashlands liquors, and all of the new Medieval Overhaul liquors to satisfy ingredients for Late Medieval Medicine.
+
+Added the optional ingredient Stoneborn Delights Glimmerquartz in place of Neutroamine for Pareisan Medicine.
+
+Changed Pareisan Medicine recipe to use one Medieval Overhaul mithril in place of five steel.
+
+Added the optional ingedient Medieval Overhaul linen in place of cloth in all Medicine Recipes.
+
 March 2024:
 
 Hello, I am currently working on testing UNSTABLE 1.5 branch. This is difficult until official 1.5 of Medieval Overhaul is released, but I am making it available in case anyone wants to help test it.
