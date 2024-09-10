@@ -29,6 +29,10 @@
 			 	<filter>
 			    		<thingDefs>
            			   		<li>MedicineHerbal</li>
+							<li>DankPyon_Mindwort</li>
+							<li>DankPyon_Poppy</li>
+							<li>DankPyon_Fleawort</li>
+							<li>DankPyon_FlyAgaric</li>
 					</thingDefs>
 			 	</filter>
 			 	<count>2</count>
@@ -51,6 +55,10 @@
 				<li>MedicineHerbal</li>
         		<li>Cloth</li>
 				<li>DankPyon_Linen</li>
+				<li>DankPyon_Mindwort</li>
+				<li>DankPyon_Poppy</li>
+				<li>DankPyon_Fleawort</li>
+				<li>DankPyon_FlyAgaric</li>				
 			</thingDefs>
 		</fixedIngredientFilter>
     	<researchPrerequisites>
