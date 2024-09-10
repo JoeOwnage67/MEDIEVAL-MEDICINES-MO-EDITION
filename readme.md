@@ -22,6 +22,49 @@ All credit for the original mods and art assets goes to Nuno, credit for rebalan
 A collection of prosthetic limbs that are a fusion of reality and fantasy to give more prosthetic options to medieval runs. I've made prosthetics recipes stuffable where possible so you can choose which materials to use (Metallic, Woody, etc). Recipes use Basic Components from Medieval Overhaul.
 
 1. Basic Prosthetics
+
+This mod adds three levels of prosthetics of increasing complexity and effectiveness - crude, artificial, and mechanical. The highest efficiency possible is 80% for a prosthetic. Noses, eyes and ears are non-functioning cosmetic replacements but the higher tiers add some social impact.
+
+Prosthetics recipes are stuffable where possible so you can choose which materials to use (Metallic, Woody, etc).
+
+Prosthetics will satisfy transhumanist/body modder traits.
+
+Adds research tab and research projects for the three levels of prosthetics. All are possible to research and build at a medieval tech level.
+
+CRUDE LIMBS: Basic, uncomfortable, and ineffective, but better than nothing. Can now craft shoddy limb replacements at a Crafting Spot or Smithy.
+
+iron arm
+prosthetic hook
+wooden foot
+wooden toe
+wooden finger
+wooden nose
+eye patch
+ear patch
+
+ARTIFICIAL LIMBS: Still quite unrefined, but better than the shoddy limbs that came before. Artificial limbs can now be crafted at a Smithy.
+
+artificial hand
+artificial arm
+artificial leg
+artificial foot
+artificial toe
+artificial finger
+artificial nose
+artificial eye
+artificial ear
+
+MECHANICAL LIMBS: Intricately crafted limbs with many pulleys and gears. While these are a great improvement, the mechanics of the human body are tough to reproduce. Mechanical limbs can be crafted at a Smithy.
+
+mechanical hand
+mechanical arm
+mechanical leg
+mechanical foot
+mechanical toe
+mechanical finger
+mechanical nose
+mechanical eye
+mechanical ear
    
 
 **PARESIAN PROSTHETICS**
