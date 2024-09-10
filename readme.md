@@ -1,6 +1,6 @@
 **MEDIEVAL MEDICINES - MEDIEVAL OVERHAUL EDITION**
 
-**Support**
+**SUPPORT**
 
 If you like my stuff, feel free buy me a coffee at ko-fi.com/joeownage 
 
@@ -20,8 +20,10 @@ This was created by combining/adding to/rebalancing several other mods:
    
 All credit for the original mods and art assets goes to Nuno, credit for rebalancing/reworking research projects and work ticks in Chirurgie Patch goes to Awan. Thanks guys.
 
-**DESCRIPTION**
 --------------
+
+**DESCRIPTION**
+
 
 **MEDIEVAL PROSTHETICS:**
 
