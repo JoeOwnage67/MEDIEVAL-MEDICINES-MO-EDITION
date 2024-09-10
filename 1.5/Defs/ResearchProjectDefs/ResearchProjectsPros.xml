@@ -59,8 +59,8 @@
   <!--> Ambroisen Limbs <-->
 <ResearchProjectDef>
   <defName>AmbroisenLimbs</defName>
-  <label>Ambroisen Limbs</label>
-  <description>Incredible engineering and craftmanship utilized in tangent have allowed for elegant limbs that are on par with natural limbs. Quite time and resource expensive. Ambroisen limbs can be crafted at a Fueled Smithy.</description>
+  <label>Paresian Limbs</label>
+  <description>Incredible engineering and craftmanship utilized in tangent have allowed for elegant limbs that are on par with natural limbs. Quite time and resource expensive. Paresian limbs can be crafted at a Fueled Smithy.</description>
   <baseCost>1000</baseCost>
   <techLevel>Medieval</techLevel>
   <prerequisites>
