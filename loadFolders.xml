@@ -12,9 +12,9 @@
 	<v1.5>
 		<li>/</li>
 		<li>1.5</li>
-		<li IfModActive="oskarpotocki.vfe.vikings">Mods/VFE-V</li>
+		<!-- <li IfModActive="oskarpotocki.vfe.vikings">Mods/VFE-V</li>
 		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.MedievalModule">Mods/VFE-M</li>
 		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Mods/VFE-S</li>
-		<li IfModActive="zymex.medicaddons">Mods/MedicAddons</li>
+		<li IfModActive="zymex.medicaddons">Mods/MedicAddons</li> -->
 	</v1.5>
 </loadFolders>
