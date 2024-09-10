@@ -8,26 +8,23 @@ If you like this content, feel free buy me a coffee at ko-fi.com/joeownage
 
 Medieval Medicines - Medieval Overhaul Edition
 
-This is a STANDALONE mod combining/adding to/rebalancing several other mods:
+This is a STANDALONE mod. The only requirement is Medieval Overhaul.
 
-1) Nuno's "Medieval Replacements" (Medieval Medicines, Medieval Prosthetics, and Entosomnia) mods
-   
-2) Awan's "Chirurgie Patch (Discontinued)" for Nuno's mods 
-  
+This was created by combining/adding to/rebalancing several other mods:
+
+1) Nuno's "Medieval Replacements" (Medieval Medicines, Medieval Prosthetics, and Entosomnia) mods   
+2) Awan's "Chirurgie Patch (Discontinued)" for Nuno's mods   
 3) My own patch "Medieval Medicines Recipes Patch for Medieval Overhaul" from 1.3
    
-All credit for the original mods and art assets goes to Nuno. 
+All credit for the original mods and art assets goes to Nuno, credit for rebalancing/reworking research projects and work ticks in Chirurgie Patch goes to Awan.
 
-All credit for rebalancing/reworking research projects and work ticks in Chirurgie Patch goes to Awan.
+**Medieval Prosthetics** 
+A collection of prosthetic limbs that are a fusion of reality and fantasy to give more prosthetic options to medieval runs. I've made prosthetics recipes stuffable where possible so you can choose which materials to use (Metallic, Woody, etc). Recipes use Basic Components from Medieval Overhaul.
 
-- Medieval Prosthetics is a collection of prosthetic limbs that are a fusion of reality and fantasy to give more prosthetic options to medieval runs. I've made prosthetics recipes stuffable where possible so you can choose which materials to use (Metallic, Woody, etc). I've also updated components in Medieval Prosthetics recipes to use Basic Components from MO instead of industrial components.
-
-- Medieval Medicines is new medicines intended to create tiered alternatives to herbal medicine. Effectiveness ranges from slightly better than herbal medicine to slightly better than industrial medicine. 
-
-- Entosomnia: Medieval Cryptosleep also from Nuno. "Craft a sarcophagus filled with insect jelly and lined with intricate arcane conduits allows for indefinite suspension of living beings."
+1. Basic Prosthetics
+   
 
 **PARESIAN PROSTHETICS**
-
 - Named for Ambroise Paré (born 1510, Bourg-Hersent, France—died Dec. 20, 1590, Paris) French physician, one of the most notable surgeons of the European Renaissance, regarded by some medical historians as the father of modern surgery.
 
 - Emerald is now an ingredient in Paresian Prosthetic Limbs. These limbs are imbued with magical energy. The magical properties of the emerald are the ingredient that allows a man-made prosthetic to function equivalent to a natural limb.
