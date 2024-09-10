@@ -41,8 +41,8 @@
 <!-- ambroisen hand -->
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedHand</defName>
-	<label>Ambroisen hand</label>
-	<description>An Ambroisen hand.</description>
+	<label>Paresian hand</label>
+	<description>A Paresian hand.</description>
 	<costList>
 		<DankPyon_ComponentBasic>10</DankPyon_ComponentBasic>	
 		<DankPyon_Emerald>5</DankPyon_Emerald>
@@ -62,8 +62,8 @@
 <!-- ambroisen arm -->
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedArm</defName>
-	<label>Ambroisen arm</label>
-	<description>An Ambroisen arm.</description>
+	<label>Paresian arm</label>
+	<description>A Paresian arm.</description>
 	<costList>
 		<DankPyon_ComponentBasic>15</DankPyon_ComponentBasic>
 		<DankPyon_Emerald>15</DankPyon_Emerald>
@@ -82,8 +82,8 @@
 <!-- ambroisen leg -->
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedLeg</defName>
-	<label>Ambroisen leg</label>
-	<description>An Ambroisen leg.</description>
+	<label>Paresian leg</label>
+	<description>A Paresian leg.</description>
 	<costList>
 		<DankPyon_ComponentBasic>15</DankPyon_ComponentBasic>
 		<DankPyon_Emerald>15</DankPyon_Emerald>
@@ -102,8 +102,8 @@
 <!-- ambroisen foot -->
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedFoot</defName>
-	<label>Ambroisen foot</label>
-	<description>An Ambroisen foot.</description>
+	<label>Paresian foot</label>
+	<description>A Paresian foot.</description>
 	<costList>
 		<DankPyon_ComponentBasic>10</DankPyon_ComponentBasic>	
 		<DankPyon_Emerald>5</DankPyon_Emerald>
@@ -123,8 +123,8 @@
 <!-- ambroisen toe -->
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedToe</defName>
-	<label>Ambroisen toe</label>
-	<description>An Ambroisen toe.</description>
+	<label>Paresian toe</label>
+	<description>A Paresian toe.</description>
 	<costList>
 		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
 		<DankPyon_Emerald>2</DankPyon_Emerald>
@@ -144,8 +144,8 @@
 <!-- ambroisen finger -->
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedFinger</defName>
-	<label>Ambroisen finger</label>
-	<description>An Ambroisen finger.</description>
+	<label>Paresian finger</label>
+	<description>A Paresian finger.</description>
 	<costList>
 		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
 		<DankPyon_Emerald>2</DankPyon_Emerald>
@@ -165,7 +165,7 @@
 <!-- ambroisen nose -->
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedNose</defName>
-	<label>Ambroisen nose</label>
+	<label>Paresian nose</label>
 	<description>An enchanted functional nose replacement. It's magic! You can smell again!</description>
 	<costList>
 		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
@@ -186,7 +186,7 @@
 <!-- ambroisen eye -->
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedEye</defName>
-	<label>Ambroisen eye</label>
+	<label>Paresian eye</label>
 	<description>An enchanted functional eye replacement. It's magic! You can see again!</description>
 	<costList>
 		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
@@ -207,7 +207,7 @@
 <!-- ambroisen ear -->
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedEar</defName>
-	<label>Ambroisen ear</label>
+	<label>Paresian ear</label>
 	<description>An enchanted functional ear replacement. It's magic! You can hear again!</description>
 	<costList>
 		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
