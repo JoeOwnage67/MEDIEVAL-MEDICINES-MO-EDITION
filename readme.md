@@ -107,9 +107,10 @@ LESSER HEALING POTION:
 
 MINOR HEALING POTION:
 - Requires lesser healing potion, herbal extract, and amber, which can be found in dark forest biome from felled trees. Can be crafted at Drug Lab or Alchemy Bench.
+
+**NOTES**
   
-**MOD MEDICINES PATCH**  
-  
+MOD MEDICINES PATCH  
 - If you are finding that the pawns are not making use of the medicines, try adding the Mod Medicines Patch by Aeon:  
 https://steamcommunity.com/sharedfiles/filedetails/?id=1430084631  
   
