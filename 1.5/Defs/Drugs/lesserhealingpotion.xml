@@ -7,9 +7,6 @@
     	<defName>LesserHealingPotion</defName>
     	<label>Lesser Healing Potion</label>
     	<description> Native tribespeople crafted an elixir that greatly enhances the natural healing abilities of those who consume it. However, it seems to bring about a sense of malaise in the bowels, an unsettling unease that weakens the kidneys due to increased blood pressure. </description>
-	    <descriptionHyperlinks>
-	    	<HediffDef>LesserHealingPotionEffect</HediffDef>
-	    </descriptionHyperlinks>
     	<graphicData>
       		<texPath>SmallHealingPotionText</texPath>
       		<graphicClass>Graphic_StackCount</graphicClass>
