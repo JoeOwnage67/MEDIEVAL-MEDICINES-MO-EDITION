@@ -63,7 +63,7 @@
 	    <label>Lesser Healing Potion Effect</label>
 	    <labelNoun>Lesser Healing Potion Effect</labelNoun>
 	    <description> Native tribespeople crafted an elixir that greatly enhances the natural healing abilities of those who consume it. However, it seems to bring about a sense of malaise in the bowels, an unsettling unease that weakens the kidneys due to increased blood pressure. </description>
-	    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+	    <defaultLabelColor>(255,123,0)</defaultLabelColor>
 	    <scenarioCanAdd>true</scenarioCanAdd>
 	    <maxSeverity>1.0</maxSeverity>
 	    <isBad>false</isBad>
