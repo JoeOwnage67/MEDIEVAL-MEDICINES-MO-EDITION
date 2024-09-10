@@ -5,10 +5,7 @@
     	<defName>MinorHealingPotion</defName>
     	<label>Minor Healing Potion</label>
     	<description>Noble house apothecaries, through their refined techniques, have transformed the tribal lesser healing elixir into what is now known as the minor healing potion. By incorporating amber into the recipe, this new concoction boasts enhanced restorative abilities while significantly reducing the adverse effects previously experienced.</description>
-	    <descriptionHyperlinks>
-      		<HediffDef>MinorHealingPotionEffect</HediffDef>
-    	</descriptionHyperlinks>
-	    <graphicData>
+	<graphicData>
     		<texPath>MediumHealingPotionText</texPath>
       		<graphicClass>Graphic_StackCount</graphicClass>
 	    	<drawSize>1</drawSize>
@@ -64,7 +61,7 @@
 	    <label>Minor Healing Potion Effect</label>
 	    <labelNoun>Minor Healing Potion Effect</labelNoun>
 	    <description>Noble house apothecaries, through their refined techniques, have transformed the tribal lesser healing elixir into what is now known as the minor healing potion. By incorporating amber into the recipe, this new concoction boasts enhanced restorative abilities while significantly reducing the adverse effects previously experienced.</description>
-	    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+	    <defaultLabelColor>(255,123,0)</defaultLabelColor>
 	    <scenarioCanAdd>true</scenarioCanAdd>
 	    <maxSeverity>1.0</maxSeverity>
 	    <isBad>false</isBad>
