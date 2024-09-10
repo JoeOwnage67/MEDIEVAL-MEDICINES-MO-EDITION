@@ -37,6 +37,7 @@
          			<filter>
           				<thingDefs>
              					<li>Cloth</li>
+								<li>DankPyon_Linen</li>
            				</thingDefs>
          			</filter>
         			<count>10</count>
@@ -48,7 +49,8 @@
    		<fixedIngredientFilter>			
 			<thingDefs>
 				<li>MedicineHerbal</li>
-        			<li>Cloth</li>
+        		<li>Cloth</li>
+				<li>DankPyon_Linen</li>
 			</thingDefs>
 		</fixedIngredientFilter>
     	<researchPrerequisites>
@@ -81,6 +83,7 @@
          			<filter>
           				<thingDefs>
              					<li>Cloth</li>
+								<li>DankPyon_Linen</li>
            				</thingDefs>
          			</filter>
         			<count>5</count>
@@ -88,6 +91,7 @@
 			 <li>
 			 	<filter>
 			    	<thingDefs>
+						<li>Beer</li>						
            			   	<li>DankPyon_Ale</li>
 						<li>DankPyon_Cider</li>
 						<li>DankPyon_Mead</li>
@@ -96,7 +100,8 @@
 						<li>DankPyon_Wine_Griffon</li>
 						<li>DankPyon_Wine_Griffon</li>
 						<li>DankPyon_Wine_Ice</li>
-						<li>Beer</li>
+						<li MayRequire="dankpyon.medieval.overhaul.house.roxmont">DankPyon_RoxberryStout</li>
+						
 						<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholDagothBrandy</li>
 				        <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholFlin</li>
 				        <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholGreef</li>
@@ -104,6 +109,15 @@
 				        <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholMazte</li>
 				        <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholShein</li>
 				        <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholSujamma</li>
+						
+						<li MayRequire="det.sbdelights">SD_Bullgrog</li>			
+						<li MayRequire="det.sbdelights">SD_ForgeLiquor</li>	
+						<li MayRequire="det.sbdelights">SD_HiveMead</li>	
+						<li MayRequire="det.sbdelights">SD_FermentedShatterbrew</li>	
+						<li MayRequire="det.sbdelights">SD_RawShatterbrew</li>	
+						<li MayRequire="det.sbdelights">SD_ShroomAle</li>
+						<li MayRequire="det.sbdelights">SD_Sweetwine</li>
+							
 						<!-- I will bring this back whenever VFE: Medieval 2 shows up
 						<li MayRequire="OksarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Wine</li>
 						<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Chemshine</li>
@@ -121,7 +135,10 @@
 			<thingDefs>
 				<li>MedicineEarlyMedievalMM</li>
         		<li>Cloth</li>
-				<li>DankPyon_Ale</li>
+				<li>DankPyon_Linen</li>
+				
+				<li>Beer</li>						
+           		<li>DankPyon_Ale</li>
 				<li>DankPyon_Cider</li>
 				<li>DankPyon_Mead</li>
 				<li>DankPyon_Wine</li>
@@ -129,7 +146,8 @@
 				<li>DankPyon_Wine_Griffon</li>
 				<li>DankPyon_Wine_Griffon</li>
 				<li>DankPyon_Wine_Ice</li>
-				<li>Beer</li>
+				<li MayRequire="dankpyon.medieval.overhaul.house.roxmont">DankPyon_RoxberryStout</li>
+						
 				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholDagothBrandy</li>
 				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholFlin</li>
 				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholGreef</li>
@@ -137,6 +155,15 @@
 				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholMazte</li>
 				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholShein</li>
 				<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AlcoholSujamma</li>
+						
+				<li MayRequire="det.sbdelights">SD_Bullgrog</li>			
+				<li MayRequire="det.sbdelights">SD_ForgeLiquor</li>	
+				<li MayRequire="det.sbdelights">SD_HiveMead</li>	
+				<li MayRequire="det.sbdelights">SD_FermentedShatterbrew</li>	
+				<li MayRequire="det.sbdelights">SD_RawShatterbrew</li>	
+				<li MayRequire="det.sbdelights">SD_ShroomAle</li>
+				<li MayRequire="det.sbdelights">SD_Sweetwine</li>
+							
 				<!-- I will bring this back whenever VFE: Medieval 2 shows up
 				<li MayRequire="OksarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Wine</li>
 				<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Chemshine</li>
@@ -170,6 +197,7 @@
          			<filter>
           				<thingDefs>
              					<li>Cloth</li>
+								<li>DankPyon_Linen</li>
            				</thingDefs>
          			</filter>
         			<count>8</count>
@@ -178,6 +206,7 @@
          			<filter>
           				<thingDefs>
              					<li>Neutroamine</li>
+								<li MayRequire="det.sbdelights">SD_Glimmerquartz</li>
            				</thingDefs>
          			</filter>
         			<count>5</count>
@@ -185,10 +214,10 @@
 				       		 <li>
          			<filter>
           				<thingDefs>
-             					<li>Steel</li>
+             					<li>DankPyon_Plasteel</li>								
            				</thingDefs>
          			</filter>
-        			<count>5</count>
+        			<count>1</count>
        			</li>
 		</ingredients>
     		<products>
@@ -197,9 +226,11 @@
    		<fixedIngredientFilter>			
 			<thingDefs>
 				<li>MedicineLateMedievalMM</li>
-        			<li>Cloth</li>
-				<li>Neutroamine</li>
-				<li>Steel</li>
+        		<li>Cloth</li>
+				<li>DankPyon_Linen</li>
+				<li>Neutroamine</li>	
+				<li>DankPyon_Plasteel</li>
+				<li MayRequire="det.sbdelights">SD_Glimmerquartz</li>
 			</thingDefs>
 		</fixedIngredientFilter>
     	<researchPrerequisites>
