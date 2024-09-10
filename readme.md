@@ -96,7 +96,7 @@ LATE MEDIEVAL MEDICINE:
 - Requires some type of Alcohol, Early Medieval Medicine, and Cloth (or linen). Many different alcohols are supported in the recipe in case you have their corresponding mods loaded, including Medieval Overhaul, Mashed's Ashlands, and Stoneborn Delights. Can be crafted at Alchemy Bench.  
   
 PARESIAN MEDICINE:  
-- Requires Neutroamine, Late Medieval Medicine, and Cloth (or linen). I have included Stoneborn Delights Glimmerquartz as an alternative ingredient to Neutroamine. Can be crafted at Alchemy Bench.  
+- Requires Neutroamine, Late Medieval Medicine, Mithril, and Cloth (or linen). I have included Stoneborn Delights Glimmerquartz as an alternative ingredient to Neutroamine. Can be crafted at Alchemy Bench.  
   
 **MOD MEDICINES PATCH**  
   
