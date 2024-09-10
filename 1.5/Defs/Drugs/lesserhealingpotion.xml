@@ -47,7 +47,7 @@
 	      	</skillRequirements>
     	</recipeMaker>
 		<costList>
-      		<DankPyon_HerbalExtract>5</DankPyon_HerbalExtract>
+      		<MedicineHerbal>2</MedicineHerbal>
 	    	<RawBerries>15</RawBerries>
 			<DankPyon_RawHerb>2</DankPyon_RawHerb>
     	</costList>
