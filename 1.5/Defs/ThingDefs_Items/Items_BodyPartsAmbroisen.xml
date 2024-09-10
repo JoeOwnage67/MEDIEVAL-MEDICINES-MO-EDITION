@@ -31,7 +31,7 @@
 		<effectWorking>Smith</effectWorking>
 		<researchPrerequisite>AmbroisenLimbs</researchPrerequisite>
 		<recipeUsers>			
-			<li>DankPyon_Workbench</li>				
+			<li>DankPyon_AlchemyBench</li>				
 		</recipeUsers>
 	</recipeMaker>
 </ThingDef>
