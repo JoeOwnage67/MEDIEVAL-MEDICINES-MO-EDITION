@@ -47,6 +47,7 @@
     	<costList>
 			<LesserHealingPotion>1</LesserHealingPotion>
 			<DankPyon_Amber>2</DankPyon_Amber>
+			<DankPyon_HerbalExtract>5</DankPyon_HerbalExtract>
     	</costList>
 		<comps>
       		<li Class="CompProperties_Drug">
