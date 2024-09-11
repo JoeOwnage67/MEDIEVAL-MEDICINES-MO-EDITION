@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Drug Effect -->
+
+	<HediffDef>
+		<defName>Joe_MinorHealingHediff</defName>
+		<label>Minor Healing Potion Effect</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Noble house apothecaries, through their refined techniques, have transformed the tribal lesser healing elixir into what is now known as the minor healing potion. By incorporating amber into the recipe, this new concoction boasts enhanced restorative abilities while significantly reducing the adverse effects previously experienced.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-4</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<totalBleedFactor>1.10</totalBleedFactor>
+					<naturalHealingFactor>4</naturalHealingFactor>
+					<ImmunityGainSpeedFactor>1.20</ImmunityGainSpeedFactor>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.06</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.20</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>
