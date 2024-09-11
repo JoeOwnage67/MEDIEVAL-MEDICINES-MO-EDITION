@@ -5,7 +5,7 @@
 	<RecipeDef>
 	    <defName>Joe_MinorHealingRecipe</defName>
 	    <label>Make Minor Healing Potion</label>
-	    <description>A vial containing an alchemical minor healing potion that boosts healing and immunity.</description>
+	    <description>A bottle containing an alchemical minor healing potion that boosts healing and immunity.</description>
 	    <jobString>Making Minor Healing Potion.</jobString>
 		<workSkill>Intellectual</workSkill>
 		<skillRequirements>
@@ -67,7 +67,7 @@
 	<RecipeDef>
 	    <defName>Joe_MinorHealingRecipeBulk</defName>
 	    <label>Make Minor Healing Potion x5</label>
-	    <description>A vial containing an alchemical minor healing potion that boosts healing and immunity.</description>
+	    <description>A bottle containing an alchemical minor healing potion that boosts healing and immunity.</description>
 	    <jobString>Making Minor Healing Potion x5.</jobString>
 		<workSkill>Intellectual</workSkill>
 		<skillRequirements>
