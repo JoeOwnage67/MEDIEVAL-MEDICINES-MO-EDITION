@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- mood affects -->
+
+	<ThoughtDef>
+		<defName>Joe_LesserHealingThought</defName>
+		<showBubble>true</showBubble>
+		<durationDays>0.25</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>malaise of the bowel</label>
+				<description>A sense of malaise grips my bowel, an unsettling unease that has left me weakened. It must be due to the lesser healing potion I ingested.</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>
