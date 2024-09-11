@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- mood effects of Minor Healing Potion -->
+	<ThoughtDef>
+		<defName>Joe_MinorHealingThought</defName>
+		<showBubble>true</showBubble>
+		<durationDays>0.25</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>humours out of balance</label>
+				<description>My humours seem to be out of balance, I am angry and irritable, with a bitter taste in my mouth. It must be due to that minor healing postion I ingested.</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- minor healing potion -->
+
+<ThingDef ParentName="DankPyon_DrugBase">
+		<defName>Joe_MinorHealingPotion</defName>
+		<label>Minor Healing Potion</label>
+		<description>Noble house apothecaries, through their refined techniques, have transformed the tribal lesser healing elixir into what is now known as the minor healing potion. By incorporating amber into the recipe, this new concoction boasts enhanced restorative abilities while significantly reducing the adverse effects previously experienced.</description>
+		<graphicData>
+			<texPath>MediumHealingPotionText</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<equippedAngleOffset>-150</equippedAngleOffset>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Mass>0.3</Mass>
+			<Flammability>0.5</Flammability>	
+			<WorkToMake>1000</WorkToMake>
+      		<MarketValue>165</MarketValue>      		
+		</statBases>
+		<ingestible>
+			<foodType>Fluid, Processed</foodType>
+			<nurseable>true</nurseable>
+			<drugCategory>Medical</drugCategory>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<chairSearchRadius>25</chairSearchRadius>
+			<tasteThought>Joe_MinorHealingThought</tasteThought>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Joe_MinorHealingHediff</hediffDef>
+					<severity>0.1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>		
+		<comps>
+      		<li Class="CompProperties_Drug">
+				<chemical>HealingPotion</chemical>
+				<addictiveness>0</addictiveness>	
+				<listOrder>10</listOrder>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>		
+    	</comps>
+		<techLevel>Neolithic</techLevel>
+	</ThingDef>
+</Defs>
+
+
+
+
