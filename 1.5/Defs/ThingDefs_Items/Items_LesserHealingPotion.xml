@@ -58,7 +58,7 @@
 	</ThingDef>
 
 	<ChemicalDef>
-		<defName>Healing Potion</defName>
+		<defName>HealingPotion</defName>
 		<label>healing potion</label>
 		<geneOverdoseChanceFactorResist>0</geneOverdoseChanceFactorResist>
 		<geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>
