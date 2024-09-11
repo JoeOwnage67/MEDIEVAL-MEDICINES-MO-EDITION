@@ -46,7 +46,7 @@
 		</ingestible>		
 		<comps>
       		<li Class="CompProperties_Drug">
-				<chemical>Healing Potion</chemical>
+				<chemical>HealingPotion</chemical>
 				<addictiveness>0</addictiveness>	
 				<listOrder>10</listOrder>
 			</li>
