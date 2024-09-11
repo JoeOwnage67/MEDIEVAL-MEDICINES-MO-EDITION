@@ -43,25 +43,7 @@
 					<severity>0.1</severity>
 				</li>
 			</outcomeDoers>
-		</ingestible>
-		<recipeMaker>
-	      	<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
-      		<workSkill>Intellectual</workSkill>
-      		<researchPrerequisite>DankPyon_Alchemy</researchPrerequisite>
-      		<recipeUsers>
-	        	<li>DrugLab</li>
-				<li>DankPyon_AlchemyBench</li>
-      		</recipeUsers>
-      		<soundWorking>Recipe_Drug</soundWorking>
-      		<skillRequirements>
-        		<Intellectual>6</Intellectual>
-      		</skillRequirements>
-    	</recipeMaker>
-		<costList>
-      		<LesserHealingPotion>1</LesserHealingPotion>
-			<DankPyon_Amber>2</DankPyon_Amber>
-			<DankPyon_HerbalExtract>5</DankPyon_HerbalExtract>
-    	</costList>
+		</ingestible>		
 		<comps>
       		<li Class="CompProperties_Drug">
         		<listOrder>120</listOrder>
@@ -69,72 +51,6 @@
     	</comps>
 		<techLevel>Neolithic</techLevel>
 	</ThingDef>
-	
-	<!-- Drug Effect -->
-
-	<HediffDef>
-		<defName>Joe_MinorHealingHediff</defName>
-		<label>Minor Healing Potion Effect</label>
-		<makesSickThought>false</makesSickThought>
-		<description>Noble house apothecaries, through their refined techniques, have transformed the tribal lesser healing elixir into what is now known as the minor healing potion. By incorporating amber into the recipe, this new concoction boasts enhanced restorative abilities while significantly reducing the adverse effects previously experienced.</description>
-		<tendable>false</tendable>
-		<isBad>false</isBad>
-		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
-		<initialSeverity>1.0</initialSeverity>
-		<maxSeverity>1.0</maxSeverity>
-		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-4</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-		</comps>
-		<stages>
-			<li>
-				<statOffsets>
-					<totalBleedFactor>1.10</totalBleedFactor>
-					<naturalHealingFactor>4</naturalHealingFactor>
-					<ImmunityGainSpeedFactor>1.20</ImmunityGainSpeedFactor>
-				</statOffsets>
-				<capMods>
-					<li>
-						<capacity>BloodFiltration</capacity>
-						<offset>-0.06</offset>
-					</li>
-					<li>
-						<capacity>BloodPumping</capacity>
-						<offset>0.20</offset>
-					</li>
-					<li>
-						<capacity>Metabolism</capacity>
-						<offset>0.25</offset>
-					</li>
-					<li>
-						<capacity>Breathing</capacity>
-						<offset>0.15</offset>
-					</li>
-				</capMods>
-			</li>
-		</stages>
-	</HediffDef>
-	
-
-<!-- mood affects -->
-
-	<ThoughtDef>
-		<defName>Joe_MinorHealingThought</defName>
-		<showBubble>true</showBubble>
-		<durationDays>0.25</durationDays>
-		<stackLimit>1</stackLimit>
-		<stages>
-			<li>
-				<label>humours out of balance</label>
-				<description>My humours seem to be out of balance, I am angry and irritable, with a bitter taste in my mouth. It must be due to that minor healing postion I ingested.</description>
-				<baseMoodEffect>-12</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
-
 </Defs>
 
 
