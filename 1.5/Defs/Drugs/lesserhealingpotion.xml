@@ -57,67 +57,70 @@
   
    <!-- Drug Effect -->
 
-  	<HediffDef>
-    	<defName>LesserHealingPotionEffect</defName>
-	    <hediffClass>Hediff_High</hediffClass>
-	    <label>Lesser Healing Potion Effect</label>
-	    <labelNoun>Lesser Healing Potion Effect</labelNoun>
-	    <description> Native tribespeople crafted an elixir that greatly enhances the natural healing abilities of those who consume it. However, it seems to bring about a sense of malaise in the bowels, an unsettling unease that weakens the kidneys due to increased blood pressure. </description>
-	    <defaultLabelColor>(255,123,0)</defaultLabelColor>
-	    <scenarioCanAdd>true</scenarioCanAdd>
-	    <maxSeverity>1.0</maxSeverity>
-	    <isBad>false</isBad>
-	    <comps>
-      		<li Class="HediffCompProperties_SeverityPerDay">
-        		<severityPerDay>-4</severityPerDay>
-        		<showHoursToRecover>true</showHoursToRecover>
-      		</li>
-    	</comps>
-      	<stages>
+	<HediffDef>
+		<defName>Joe_LesserHealingHediff</defName>
+		<label>Lesser Healing Potion Effect</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Native tribespeople crafted an elixir that greatly enhances the natural healing abilities of those who consume it. However, it seems to bring about a sense of malaise in the bowels, an unsettling unease that weakens the kidneys due to increased blood pressure..</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-4</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
 			<li>
-         		<totalBleedFactor>1.25</totalBleedFactor>
-	        	<naturalHealingFactor>2</naturalHealingFactor>
-          		<painFactor>0.90</painFactor>
-            	<capMods>
-			        <li>
-                		<capacity>BloodFiltration</capacity>
-                		<offset>-0.12</offset>
-              		</li>
-              		<li>
-                		<capacity>BloodPumping</capacity>
-                		<offset>0.12</offset>
-              		</li>
-              		<li>
-                		<capacity>Metabolism</capacity>
-                		<offset>0.15</offset>
-              		</li>
-              		<li>
-                		<capacity>Breathing</capacity>
-                		<offset>0.10</offset>
-              		</li>
+				<statOffsets>
+					<ImmunityGainSpeedFactor>0.10</ImmunityGainSpeedFactor>
+				</statOffsets>
+				<capMods>
 					<li>
-                    <capacity>ImmunityGainSpeed</capacity>
-                    <offset>0.1</offset>
-                </li>
-            	</capMods>
-        	</li>
-      </stages>
-  </HediffDef>
+						<capacity>BloodFiltration</capacity>
+						<offset>-015</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
 
 <!-- mood affects -->
 
-  <ThoughtDef>
-  	<defName>LesserHealingPotionMoodEffect</defName>
-    <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>LesserHealingPotionEffect</hediff>
-    <validWhileDespawned>true</validWhileDespawned>
-    <stages>
-      <li>
-        <label>malaise of the bowel</label>
-        <description>A sense of malaise grips my bowels, an unsettling unease that has left me weakened. It must be due to the lesser healing potion I ingested.</description>
-        <baseMoodEffect>-8</baseMoodEffect>
-      </li>
-    </stages>
-  </ThoughtDef>
+	<ThoughtDef>
+		<defName>Joe_LesserHealingThought</defName>
+		<showBubble>true</showBubble>
+		<durationDays>0.25</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>malaise of the bowel</label>
+				<description>A sense of malaise grips my bowel, an unsettling unease that has left me weakened. It must be due to the lesser healing potion I ingested.</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 
-</Defs>
+
+
+
+
+
+	
