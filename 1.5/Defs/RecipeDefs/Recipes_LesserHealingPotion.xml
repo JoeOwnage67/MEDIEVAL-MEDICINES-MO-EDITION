@@ -54,13 +54,13 @@
     	</products>
    		<fixedIngredientFilter>			
 			<thingDefs>
+				<li>RawBerries</li>
 				<li>MedicineHerbal</li>        		
 				<li>DankPyon_Mindwort</li>
 				<li>DankPyon_Poppy</li>
 				<li>DankPyon_Fleawort</li>
 				<li>DankPyon_FlyAgaric</li>
-				<li MayRequire="pphhyy.GuldenNew">MedicineGuldenHerbal</li>
-				<li>RawBerries</li>
+				<li MayRequire="pphhyy.GuldenNew">MedicineGuldenHerbal</li>				
 				<li MayRequire="pphhyy.GuldenNew">GuldenRawBerries</li>
 			</thingDefs>
 		</fixedIngredientFilter>    	
@@ -72,21 +72,21 @@
 	</RecipeDef>
 
 	<!-- Lesser Healing Potion Bulk -->
-	  <RecipeDef>
-    <defName>Joe_LesserHealingRecipeBulk</defName>
-    <label>Make Lesser Healing Potion x5</label>
-    <description>A vial containing a tribal lesser healing elixir that boosts healing and immunity.</description>
-    <jobString>Making Lesser Healing Potion x5.</jobString>
-	<workSkill>Intellectual</workSkill>
-	<skillRequirements>
-    	<Intellectual>3</Intellectual>
-    </skillRequirements>
-  	<workAmount>3000</workAmount>
-	<soundWorking>Recipe_Brewing</soundWorking>
-	<allowMixingIngredients>true</allowMixingIngredients>
-	<targetCountAdjustment>1</targetCountAdjustment>
-	<workSkillLearnFactor>1</workSkillLearnFactor>  
-	<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>  
+	<RecipeDef>
+	    <defName>Joe_LesserHealingRecipeBulk</defName>
+	    <label>Make Lesser Healing Potion x5</label>
+	    <description>A vial containing a tribal lesser healing elixir that boosts healing and immunity.</description>
+	    <jobString>Making Lesser Healing Potion x5.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<skillRequirements>
+	    	<Intellectual>3</Intellectual>
+	    </skillRequirements>
+	  	<workAmount>3000</workAmount>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<workSkillLearnFactor>1</workSkillLearnFactor>  
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>  
 		<ingredients>
 			 <li>
 			 	<filter>
@@ -99,7 +99,7 @@
 						<li MayRequire="pphhyy.GuldenNew">MedicineGuldenHerbal</li>
 					</thingDefs>
 			 	</filter>
-			 	<count>2</count>
+			 	<count>10</count>
 			 </li>
 	       	 <li>
          		<filter>
@@ -108,7 +108,7 @@
 						<li MayRequire="pphhyy.GuldenNew">GuldenRawBerries</li>
            			</thingDefs>
          		</filter>
-        		<count>15</count>
+        		<count>75</count>
        		</li>
 			<li>
          		<filter>
@@ -116,7 +116,7 @@
              			<li>DankPyon_RawHerb</li>
            			</thingDefs>
          		</filter>
-        		<count>2</count>
+        		<count>10</count>
        		</li>
 		</ingredients>
     	<products>
@@ -124,13 +124,13 @@
     	</products>
    		<fixedIngredientFilter>			
 			<thingDefs>
+				<li>RawBerries</li>
 				<li>MedicineHerbal</li>        		
 				<li>DankPyon_Mindwort</li>
 				<li>DankPyon_Poppy</li>
 				<li>DankPyon_Fleawort</li>
 				<li>DankPyon_FlyAgaric</li>
-				<li MayRequire="pphhyy.GuldenNew">MedicineGuldenHerbal</li>
-				<li>RawBerries</li>
+				<li MayRequire="pphhyy.GuldenNew">MedicineGuldenHerbal</li>				
 				<li MayRequire="pphhyy.GuldenNew">GuldenRawBerries</li>
 			</thingDefs>
 		</fixedIngredientFilter>    	
