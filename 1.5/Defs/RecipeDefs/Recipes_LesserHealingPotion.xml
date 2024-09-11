@@ -1,4 +1,73 @@
-<recipeMaker>
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+  <!--Lesser Healing Potion -->
+  
+  <RecipeDef ParentName="Joe_MedBase">
+    <defName>Joe_LesserHealingRecipe</defName>
+    <label>Make Lesser Healing Potion</label>
+    <description>A vial containing a tribal lesser healing elixir that boosts healing and immunity.</description>
+    <jobString>Making Lesser Healing Potion.</jobString>
+  	<workAmount>700</workAmount>
+		<ingredients>
+			 <li>
+			 	<filter>
+			    	<thingDefs>
+           				<li>MedicineHerbal</li>
+						<li>DankPyon_Mindwort</li>
+						<li>DankPyon_Poppy</li>
+						<li>DankPyon_Fleawort</li>
+						<li>DankPyon_FlyAgaric</li>
+						<li MayRequire="pphhyy.GuldenNew">MedicineGuldenHerbal</li>
+					</thingDefs>
+			 	</filter>
+			 	<count>2</count>
+			 </li>
+	       	 <li>
+         		<filter>
+          			<thingDefs>
+             			<li>RawBerries</li>
+						<li MayRequire="pphhyy.GuldenNew">GuldenRawBerries</li>
+           			</thingDefs>
+         		</filter>
+        		<count>15</count>
+       		</li>
+			<li>
+         		<filter>
+          			<thingDefs>
+             			<li>DankPyon_RawHerb</li>
+           			</thingDefs>
+         		</filter>
+        		<count>2</count>
+       		</li>
+		</ingredients>
+    	<products>
+      		<Joe_LesserHealingPotion>1</Joe_LesserHealingPotion>
+    	</products>
+   		<fixedIngredientFilter>			
+			<thingDefs>
+				<li>MedicineHerbal</li>        		
+				<li>DankPyon_Mindwort</li>
+				<li>DankPyon_Poppy</li>
+				<li>DankPyon_Fleawort</li>
+				<li>DankPyon_FlyAgaric</li>
+				<li MayRequire="pphhyy.GuldenNew">MedicineGuldenHerbal</li>
+				<li>RawBerries</li>
+				<li MayRequire="pphhyy.GuldenNew">GuldenRawBerries</li>
+			</thingDefs>
+		</fixedIngredientFilter>    	
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>DrugLab</li>
+			<li>DankPyon_AlchemyBench</li>
+		</recipeUsers>	
+</RecipeDef>
+  
+
+
+
+
+<!-- <recipeMaker>
 	      	<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
 	      	<workSkill>Intellectual</workSkill>
 	      	<recipeUsers>
@@ -15,4 +84,4 @@
       		<MedicineHerbal>2</MedicineHerbal>
 	    	<RawBerries>15</RawBerries>
 			<DankPyon_RawHerb>2</DankPyon_RawHerb>
-    	</costList>
+    	</costList> -->
