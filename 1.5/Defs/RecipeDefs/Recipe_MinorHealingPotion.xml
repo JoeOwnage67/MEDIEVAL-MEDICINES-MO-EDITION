@@ -1,0 +1,18 @@
+<recipeMaker>
+	      	<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+      		<workSkill>Intellectual</workSkill>
+      		<researchPrerequisite>DankPyon_Alchemy</researchPrerequisite>
+      		<recipeUsers>
+	        	<li>DrugLab</li>
+				<li>DankPyon_AlchemyBench</li>
+      		</recipeUsers>
+      		<soundWorking>Recipe_Drug</soundWorking>
+      		<skillRequirements>
+        		<Intellectual>6</Intellectual>
+      		</skillRequirements>
+    	</recipeMaker>
+		<costList>
+      		<LesserHealingPotion>1</LesserHealingPotion>
+			<DankPyon_Amber>2</DankPyon_Amber>
+			<DankPyon_HerbalExtract>5</DankPyon_HerbalExtract>
+    	</costList>
