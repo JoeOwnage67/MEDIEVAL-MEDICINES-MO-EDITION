@@ -92,12 +92,14 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<ImmunityGainSpeedFactor>0.10</ImmunityGainSpeedFactor>
+					<totalBleedFactor>1.25</totalBleedFactor>
+					<naturalHealingFactor>2</naturalHealingFactor>					
+					<ImmunityGainSpeedFactor>1.10</ImmunityGainSpeedFactor>
 				</statOffsets>
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
-						<offset>-015</offset>
+						<offset>-0.15</offset>
 					</li>
 					<li>
 						<capacity>BloodPumping</capacity>
