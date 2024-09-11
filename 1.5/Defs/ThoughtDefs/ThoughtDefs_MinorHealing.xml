@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-<!-- mood affects -->
-
+	<!-- mood effects of Minor Healing Potion -->
 	<ThoughtDef>
 		<defName>Joe_MinorHealingThought</defName>
 		<showBubble>true</showBubble>
