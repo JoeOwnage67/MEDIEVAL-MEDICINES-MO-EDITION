@@ -43,25 +43,7 @@
 					<severity>0.1</severity>
 				</li>
 			</outcomeDoers>
-		</ingestible>
-		<recipeMaker>
-	      	<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
-	      	<workSkill>Intellectual</workSkill>
-	      	<recipeUsers>
-			        <li>CraftingSpot</li>
-			        <li>DrugLab</li>
-			        <li>DankPyon_AlchemyBench</li>
-	      	</recipeUsers>
-	      	<soundWorking>Recipe_Drug</soundWorking>
-	      	<skillRequirements>
-	        	<Intellectual>3</Intellectual>
-	      	</skillRequirements>
-    	</recipeMaker>
-		<costList>
-      		<MedicineHerbal>2</MedicineHerbal>
-	    	<RawBerries>15</RawBerries>
-			<DankPyon_RawHerb>2</DankPyon_RawHerb>
-    	</costList>
+		</ingestible>		
 		<comps>
       		<li Class="CompProperties_Drug">
         		<listOrder>120</listOrder>
