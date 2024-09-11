@@ -46,8 +46,13 @@
 		</ingestible>		
 		<comps>
       		<li Class="CompProperties_Drug">
-        		<listOrder>120</listOrder>
-      		</li>
+				<chemical>Healing Potion</chemical>
+				<addictiveness>0</addictiveness>	
+				<listOrder>10</listOrder>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>		
     	</comps>
 		<techLevel>Neolithic</techLevel>
 	</ThingDef>
