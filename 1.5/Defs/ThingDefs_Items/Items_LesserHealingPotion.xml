@@ -44,13 +44,26 @@
 				</li>
 			</outcomeDoers>
 		</ingestible>		
-		<comps>
-      		<li Class="CompProperties_Drug">
-        		<listOrder>120</listOrder>
-      		</li>
+		<comps>      		
+			<li Class="CompProperties_Drug">
+				<chemical>Healing Potion</chemical>
+				<addictiveness>0</addictiveness>	
+				<listOrder>10</listOrder>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>		
     	</comps>
 		<techLevel>Neolithic</techLevel>
 	</ThingDef>
+
+	<ChemicalDef>
+		<defName>Healing Potion</defName>
+		<label>healing potion</label>
+		<geneOverdoseChanceFactorResist>0</geneOverdoseChanceFactorResist>
+		<geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>
+	</ChemicalDef>
+	
 </Defs>
 
 
