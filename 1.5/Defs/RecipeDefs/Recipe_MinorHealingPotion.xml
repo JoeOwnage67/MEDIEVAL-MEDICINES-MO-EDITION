@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     
-  <!--Lesser Healing Potion -->  
+  	<!--Minor Healing Potion -->  
 	<RecipeDef>
 	    <defName>Joe_MinorHealingRecipe</defName>
 	    <label>Make Minor Healing Potion</label>
@@ -63,7 +63,7 @@
 		</researchPrerequisites>
 	</RecipeDef>
 
-	<!-- Lesser Healing Potion Bulk -->
+	<!-- Minor Healing Potion Bulk -->
 	<RecipeDef>
 	    <defName>Joe_MinorHealingRecipeBulk</defName>
 	    <label>Make Minor Healing Potion x5</label>
