@@ -2,7 +2,7 @@
 <Defs>
 
 	<!-- mood effects of Lesser Mana Potion -->
-	<ThoughtDef>
+	<ThoughtDef MayRequire="Ludeon.RimWorld.Royalty">
 		<defName>Joe_LesserManaThought</defName>
 		<showBubble>true</showBubble>
 		<durationDays>0.25</durationDays>
@@ -17,7 +17,7 @@
 	</ThoughtDef>
 
   	<!-- mood effects of Minor Mana Potion -->
-	<ThoughtDef>
+	<ThoughtDef MayRequire="Ludeon.RimWorld.Royalty">
 		<defName>Joe_LesserManaThought</defName>
 		<showBubble>true</showBubble>
 		<durationDays>0.25</durationDays>
