@@ -2,7 +2,7 @@
 <Defs>
 
 <!-- lesser mana potion -->
-	<ThingDef ParentName="DankPyon_DrugBase">
+	<ThingDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="DankPyon_DrugBase">
 		<defName>Joe_LesserManaPotion</defName>
 		<label>Lesser Mana Potion</label>
 		<description>Ancient tribesfolk concocted an elixir that replenishes a modest amount of mana and significantly amplifies the arcane load dispersal for those who imbibe it. However, there is a slight risk that individuals may fall under its addictive spell.</description>
@@ -56,7 +56,7 @@
 	</ThingDef>	
 
 	<!-- minor mana potion -->
-	<ThingDef ParentName="DankPyon_DrugBase">
+	<ThingDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="DankPyon_DrugBase">
 		<defName>Joe_MinorManaPotion</defName>
 		<label>Minor Mana Potion</label>
 		<description>Esteemed alchemists of the noble houses have concocted a potion that replenishes a moderate amount of mana and significantly amplifies the arcane load dispersal for those who partake. However, there is a slight risk that individuals may become ensnared by its addictive properties.</description>
@@ -109,17 +109,5 @@
 		<techLevel>Neolithic</techLevel>
 	</ThingDef>	
 
-
-
-
-
-
-  <!-- 
-  Joe_LesserManaRestore
-  Joe_LesserArcaneLoad
-
-  Joe_MinorManaRestore
-  Joe_MinorArcaneLoad
-  -->
 
 </Defs>
