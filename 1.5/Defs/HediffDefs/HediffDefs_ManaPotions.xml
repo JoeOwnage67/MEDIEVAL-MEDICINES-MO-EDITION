@@ -49,7 +49,31 @@
 	
 
 	
-
+<HediffDef>
+<!--  Regain Psyfocus and Sensitivity  -->
+<defName>GreaterPsyresEffect</defName>
+<hediffClass>Hediff_High</hediffClass>
+<label>Greater effect psyrestore</label>
+<labelNoun>Greater effect psyrestoring</labelNoun>
+<description>Partially restore the character's psyfocus reserves and granting Greater Psycasts sensitivity</description>
+<defaultLabelColor>(0.725,0.83,0.823)</defaultLabelColor>
+<scenarioCanAdd>true</scenarioCanAdd>
+<maxSeverity>1.0</maxSeverity>
+<isBad>false</isBad>
+<comps>
+<li Class="HediffCompProperties_SeverityPerDay">
+<severityPerDay>-5.5</severityPerDay>
+<showHoursToRecover>true</showHoursToRecover>
+</li>
+</comps>
+<stages>
+<li>
+<statFactors>
+<PsychicSensitivity>1.20</PsychicSensitivity>
+</statFactors>
+</li>
+</stages>
+</HediffDef>
 
 
 </Defs>
