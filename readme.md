@@ -90,7 +90,8 @@ paresian nose
 paresian eye  
 paresian ear  
   
-**MEDIEVAL MEDICINES**  
+**MEDIEVAL MEDICINES** 
+----
   
 - Adds three tiers of medicines intended to create tiered alternatives to herbal medicine. Effectiveness ranges from slightly better than herbal medicine to slightly better than industrial medicine.  
   
@@ -103,7 +104,8 @@ LATE MEDIEVAL MEDICINE:
 PARESIAN MEDICINE:  
 - Requires Neutroamine, Late Medieval Medicine, Mithril, and Cloth (or linen). I have included Stoneborn Delights Glimmerquartz as an alternative ingredient to Neutroamine. Can be crafted at Alchemy Bench.
 
-**PLANTS**  
+**PLANTS** 
+----
 - Adds Aether Bloom, which can be harvested as Raw Aether, and refined into Aether Extract. Used in the production of Mana Potions. Grows wild or can be cultivated.  
   
 **DRUGS**  
@@ -119,7 +121,7 @@ MINOR HEALING POTION:
 - Adds two tiers of mana potions that can be ingested to instantly regain some Psyfocus (mana) and increase Neural Heat Dissipation rate (Arcane Load Dispersal rate). Slight chance of addiction.  
   
 LESSER MANA POTION:  
-- Requires raw aether bloom, raw berries, raw herbs. Can be crafted at Crafting Spot, Drug Lab, or Alchemy Bench.  
+- Requires raw aether, raw berries, raw herbs. Can be crafted at Crafting Spot, Drug Lab, or Alchemy Bench.  
   
 MINOR MANA POTION:  
 - Requires lesser mana potion, aether extract, and amber. Can be crafted at Drug Lab or Alchemy Bench.  
