@@ -10,7 +10,7 @@
 		<stages>
 			<li>
 				<label>malaise of the bowel</label>
-				<description>A sense of malaise grips my bowel, an unsettling unease that has left me weakened. It must be due to the lesser healing potion I ingested.</description>
+				<description>A sense of malaise grips my bowels, an unsettling unease that has left me weakened. It must be due to the lesser healing potion I consumed.</description>
 				<baseMoodEffect>-8</baseMoodEffect>
 			</li>
 		</stages>
