@@ -2,7 +2,7 @@
 
 <Defs>
 	
-	<ChemicalDef>
+	<ChemicalDef MayRequire="Ludeon.RimWorld.Royalty">
 		<defName>ManaPotion</defName>
 		<label>mana potion</label>
 		<geneOverdoseChanceFactorResist>0</geneOverdoseChanceFactorResist>
@@ -11,7 +11,7 @@
 		<toleranceHediff>ManaPotionTolerance</toleranceHediff>
 	</ChemicalDef>
 
-	<HediffDef ParentName="AddictionBase">
+	<HediffDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="AddictionBase">
 		<defName>ManaPotionAddiction</defName>
 		<label>mana potion addiction</label>
 		<description>A chemical addiction to mana potion. Long-term presence of mana potion has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
@@ -52,7 +52,7 @@
 		</stages>
 	</HediffDef>
   
-    <NeedDef ParentName="DrugAddictionNeedBase">
+    <NeedDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="DrugAddictionNeedBase">
 		<defName>Chemical_ManaPotion</defName>
 		<needClass>Need_Chemical</needClass>
 		<label>mana potion</label>
@@ -60,7 +60,7 @@
 		<listPriority>35</listPriority>
 	</NeedDef>
   
-	<HediffDef ParentName="DrugToleranceBase">
+	<HediffDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="DrugToleranceBase">
 		<defName>ManaPotionTolerance</defName>
 		<label>mana potion tolerance</label>
 		<description>A built-up tolerance to mana potion. The more severe this tolerance is, the more mana potion it takes to get the same effect.</description>
