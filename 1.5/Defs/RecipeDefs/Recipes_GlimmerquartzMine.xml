@@ -4,10 +4,10 @@
 	<!-- add glimmerquartz to mine -->
 	<RecipeDef MayRequire="det.sbdelights" ParentName="DankPyon_MineShaftBase">
 		<defName>DankPyon_MakeOre_Glimmerquartz</defName>
-		<description>Mine deep down underground to obtain a glimmerquartz chunk.</description>
+		<description>Mine deep down underground to obtain raw glimmerquartz.</description>
 		<workAmount>1000</workAmount>
-		<label>mine 1 glimmerquartz chunk</label>
-		<jobString>Mining 1 glimmerquartz chunk.</jobString>
+		<label>mine raw glimmerquartz</label>
+		<jobString>Mining raw glimmerquartz.</jobString>
 		<products>
 			<ChunkGlimmer>1</ChunkGlimmer>
 		</products>
