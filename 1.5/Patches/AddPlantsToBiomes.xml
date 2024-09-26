@@ -18,21 +18,21 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="BorealForest"]/wildPlants</xpath>
 		<value>
-			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+			<DankPyon_Plant_AetherWild>0.03</DankPyon_Plant_AetherWild>
         </value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="Tundra"]/wildPlants</xpath>
 		<value>
-			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
         </value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="ColdBog"]/wildPlants</xpath>
 		<value>
-			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+			<DankPyon_Plant_AetherWild>0.03</DankPyon_Plant_AetherWild>
         </value>
 	</Operation>
 
