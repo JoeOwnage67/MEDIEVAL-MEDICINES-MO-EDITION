@@ -10,7 +10,7 @@
 		<stages>
 			<li>
 				<label>humours out of balance</label>
-				<description>My humours seem to be out of balance, I am angry and irritable, with a bitter taste in my mouth. It must be due to that minor healing postion I ingested.</description>
+				<description>My humours seem to be out of balance. I am angry and irritable, with a bitter taste in my mouth. It must be due to that minor healing potion I consumed.</description>
 				<baseMoodEffect>-12</baseMoodEffect>
 			</li>
 		</stages>
