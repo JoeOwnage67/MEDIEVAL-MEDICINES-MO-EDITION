@@ -71,7 +71,7 @@
   		</stages>
   	</HediffDef>
 
-	<HediffDef>
+	<HediffDef MayRequire="Ludeon.RimWorld.Royalty">
   		<defName>Joe_MinorArcaneLoad</defName>
   		<hediffClass>Hediff_High</hediffClass>
   		<label>Improved Arcane Load Dispersal</label>
