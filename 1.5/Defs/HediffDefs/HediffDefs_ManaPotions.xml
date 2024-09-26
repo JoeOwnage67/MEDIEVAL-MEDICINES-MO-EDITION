@@ -24,7 +24,7 @@
 	  	</comps>
   	</HediffDef>
 
-	<HediffDef>
+	<HediffDef MayRequire="Ludeon.RimWorld.Royalty">
     	<defName>Joe_MinorManaRestore</defName>
     	<label>Minor Mana Potion Mana Restoration</label>  
     	<description>Mana restoration from inbibing a Minor Mana Potion</description>
