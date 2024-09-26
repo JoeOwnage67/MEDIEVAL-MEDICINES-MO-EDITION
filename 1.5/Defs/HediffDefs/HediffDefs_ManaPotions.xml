@@ -2,7 +2,7 @@
 
 <Defs>
    
-	<HediffDef>
+	<HediffDef MayRequire="Ludeon.RimWorld.Royalty">
     	<defName>Joe_LesserManaRestore</defName>
     	<label>Lesser Mana Potion Mana Restoration</label>  
     	<description>Mana restoration from inbibing a Lesser Mana Potion</description>
@@ -46,7 +46,7 @@
 	  	</comps>
   	</HediffDef>
 
-	<HediffDef>
+	<HediffDef MayRequire="Ludeon.RimWorld.Royalty">
   		<defName>Joe_LesserArcaneLoad</defName>
   		<hediffClass>Hediff_High</hediffClass>
   		<label>Improved Arcane Load Dispersal</label>
