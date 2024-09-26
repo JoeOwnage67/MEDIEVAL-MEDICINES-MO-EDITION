@@ -53,8 +53,7 @@
 				<li>DankPyon_HerbalExtract</li>
 			</thingDefs>
 		</fixedIngredientFilter>    	
-		<recipeUsers>
-			<li>CraftingSpot</li>
+		<recipeUsers>			
 			<li>DrugLab</li>
 			<li>DankPyon_AlchemyBench</li>
 		</recipeUsers>	
@@ -116,7 +115,6 @@
 			</thingDefs>
 		</fixedIngredientFilter>    	
 		<recipeUsers>
-			<li>CraftingSpot</li>
 			<li>DrugLab</li>
 			<li>DankPyon_AlchemyBench</li>
 		</recipeUsers>	
