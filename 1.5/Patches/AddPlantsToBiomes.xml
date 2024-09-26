@@ -42,6 +42,266 @@
 			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
         </value>
 	</Operation>
+
+	<Operation MayRequire="sarg.alphabiomes" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AB_FeraliskInfestedJungle"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>		
+	</Operation>
+	
+	<Operation MayRequire="sarg.alphabiomes" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AB_GallatrossGraveyard"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="sarg.alphabiomes" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AB_GelatinousSuperorganism"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="sarg.alphabiomes" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AB_IdyllicMeadows"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="sarg.alphabiomes" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AB_MechanoidIntrusion"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="sarg.alphabiomes" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AB_MiasmicMangrove"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="sarg.alphabiomes" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AB_MycoticJungle"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="sarg.alphabiomes" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AB_OcularForest"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="sarg.alphabiomes" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AB_PropaneLakes"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.02</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="sarg.alphabiomes" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AB_PyroclasticConflagration"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="sarg.alphabiomes" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AB_RockyCrags"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.02</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="sarg.alphabiomes" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="AB_TarPits"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.02</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesCaverns" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="BMT_CrystalCaverns"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.02</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesCaverns" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="BMT_EarthenDepths"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.02</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesCaverns" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="BMT_FungalForest"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.02</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="BiomesIslands_Atoll"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="BiomesIslands_BorealIsland"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="BMT_CoastalShallows"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+	
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="BiomesIslands_DesertIslandBase"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="BiomesIslands_TemperateIslandBase"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="BiomesIslands_TropicalIslandBase"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="BiomesIslands_TundraIslandBase"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.Oasis" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="BMT_ChromaticOasis"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="ReGrowth.BOTR.Core" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="RG_TemperateGrassland"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_BlightedAshlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_BlightedBogAshlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_Ashlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.02</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_DustplainAshlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.02</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_GrazelandAshlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.03</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_HighlandAshlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.03</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_SwampAshlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_ForestAshlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_MarshAshlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_MeadowAshlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_VolcanicAshlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+	
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_VolcanicBadlandAshlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="SirMashedPotato.Ashlands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef [defName="Mashed_Ashlands_VolcanicSulphurPitsAshlands"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.02</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+	
 	
 
 </Patch>
