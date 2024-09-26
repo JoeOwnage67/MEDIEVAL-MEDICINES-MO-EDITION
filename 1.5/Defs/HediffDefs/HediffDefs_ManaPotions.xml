@@ -48,7 +48,30 @@
 
 	
 
-	
+	<HediffDef>
+<defName>Psycooleffect</defName>
+<hediffClass>Hediff_High</hediffClass>
+<label>Psycool</label>
+<labelNoun>Psycooling</labelNoun>
+<description>Cool down Psycaster heat.</description>
+<defaultLabelColor>(0.725,0.83,0.823)</defaultLabelColor>
+<scenarioCanAdd>true</scenarioCanAdd>
+<maxSeverity>1.0</maxSeverity>
+<isBad>false</isBad>
+<comps>
+<li Class="HediffCompProperties_SeverityPerDay">
+<severityPerDay>-4.5</severityPerDay>
+<showHoursToRecover>true</showHoursToRecover>
+</li>
+</comps>
+<stages>
+<li>
+<statFactors>
+<PsychicEntropyRecoveryRate>3</PsychicEntropyRecoveryRate>
+</statFactors>
+</li>
+</stages>
+</HediffDef>
 
 
 
