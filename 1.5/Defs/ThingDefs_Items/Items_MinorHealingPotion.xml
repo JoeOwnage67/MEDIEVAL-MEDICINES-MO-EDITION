@@ -6,7 +6,7 @@
 <ThingDef ParentName="DankPyon_DrugBase">
 		<defName>Joe_MinorHealingPotion</defName>
 		<label>Minor Healing Potion</label>
-		<description>Through their refined techniques, the apothecaries of the noble house have transformed the tribal lesser healing elixir into the renowned Minor Healing Potion. By incorporating amber into the recipe, this new concoction boasts enhanced restorative abilities while significantly reducing the adverse effects previously experienced.</description>
+		<description>Through their refined techniques, the apothecaries of the noble houses have transformed the tribal lesser healing elixir into the renowned Minor Healing Potion. By incorporating amber into the recipe, this new concoction boasts enhanced restorative abilities while significantly reducing the adverse effects previously experienced.</description>
 		<graphicData>
 			<texPath>MediumHealingPotionText</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
