@@ -129,7 +129,7 @@
 	<RecipeDef MayRequire="Ludeon.RimWorld.Royalty">
 	    <defName>Joe_MinorManaRecipe</defName>
 	    <label>Make Minor Mana Potion</label>
-	    <description>A vial containing an alchemical Minor Mana Potion that restores as modest amount of mana, and triples the speed of arcane load dispersal. Infused with the essence of the Aether Bloom, it has a vibrant blue hue.</description>
+	    <description>A bottle containing an alchemical Minor Mana Potion that restores as modest amount of mana, and triples the speed of arcane load dispersal. Infused with the essence of the Aether Bloom, it has a vibrant blue hue.</description>
 	    <jobString>Making Minor Mana Potion.</jobString>
 		<workSkill>Intellectual</workSkill>
 		<skillRequirements>
@@ -190,7 +190,7 @@
 	<RecipeDef MayRequire="Ludeon.RimWorld.Royalty">
 	    <defName>Joe_MinorManaRecipeBulk</defName>
 	    <label>Make Minor Mana Potion x5</label>
-	    <description>A vial containing an alchemical Minor Mana Potion that restores as modest amount of mana, and triples the speed of arcane load dispersal. Infused with the essence of the Aether Bloom, it has a vibrant blue hue.</description>
+	    <description>A bottle containing an alchemical Minor Mana Potion that restores as modest amount of mana, and triples the speed of arcane load dispersal. Infused with the essence of the Aether Bloom, it has a vibrant blue hue.</description>
 	    <jobString>Making Minor Mana Potion x5.</jobString>
 		<workSkill>Intellectual</workSkill>
 		<skillRequirements>
