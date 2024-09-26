@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!--========== LuminaraBloom ==========-->
-	<ThingDef ParentName="HealrootBase" Name="DankPyon_LuminaraBase">
-		<defName>DankPyon_Plant_Luminara</defName>
-		<label>luminara bloom</label>
+	<!--========== Aether Bloom ==========-->
+	<ThingDef ParentName="HealrootBase" Name="DankPyon_AetherBase">
+		<defName>DankPyon_Plant_Aether</defName>
+		<label>aether bloom</label>
 		<graphicData>
-			<texPath>Plants/LuminaraBloom</texPath>
+			<texPath>Plants/AetherBloom</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<description>The Luminara Bloom is a mesmerizing and radiant flower, celebrated for its luminous beauty and potent magical essence. This extraordinary plant features large, luminescent petals that emit a gentle, azure glow, reminiscent of the vibrant blue hue of a mana potion. The petals are a striking blue, with intricate patterns that seem to pulse with magical energy.</description>
+		<description>The Aether Bloom is a mesmerizing and radiant flower, celebrated for its luminous beauty and potent magical essence. This extraordinary plant features large, luminescent petals that emit a gentle, azure glow, reminiscent of the vibrant blue hue of a mana potion. The petals are a striking blue, with intricate patterns that seem to pulse with magical energy.</description>
 		<plant>
-			<immatureGraphicPath>Plants/MindwortPlant</immatureGraphicPath>
+			<immatureGraphicPath>Plants/AetherBloom</immatureGraphicPath>
 			<growDays>7</growDays>
 			<sowWork>800</sowWork>
 			<sowMinSkill>8</sowMinSkill>
@@ -19,7 +19,7 @@
 				<li>Ground</li>
 				<li>Hydroponic</li>
 			</sowTags>
-			<harvestedThingDef>DankPyon_RawLuminara</harvestedThingDef>
+			<harvestedThingDef>DankPyon_RawAether</harvestedThingDef>
 			<purpose>Health</purpose>
 		</plant>
 		<comps>
@@ -31,10 +31,10 @@
   		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="DankPyon_LuminaraBase">
-		<defName>DankPyon_Plant_LuminaraWild</defName>
-		<label>wild luminara bloom</label>
-		<description>The Luminara Bloom is a mesmerizing and radiant flower, celebrated for its luminous beauty and potent magical essence. This extraordinary plant features large, luminescent petals that emit a gentle, azure glow, reminiscent of the vibrant blue hue of a mana potion. The petals are a striking blue, with intricate patterns that seem to pulse with magical energy.</description>
+	<ThingDef ParentName="DankPyon_AetherBase">
+		<defName>DankPyon_Plant_AetherWild</defName>
+		<label>wild aether bloom</label>
+		<description>The Aether Bloom is a mesmerizing and radiant flower, celebrated for its luminous beauty and potent magical essence. This extraordinary plant features large, luminescent petals that emit a gentle, azure glow, reminiscent of the vibrant blue hue of a mana potion. The petals are a striking blue, with intricate patterns that seem to pulse with magical energy.</description>
 		<neverMultiSelect>false</neverMultiSelect>
 		<plant>
 			<wildClusterRadius>4</wildClusterRadius>
@@ -49,11 +49,11 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ResourceBase">
-		<defName>DankPyon_RawLuminara</defName>
-		<label>raw luminara</label>
-		<description>raw luminara</description>
+		<defName>DankPyon_RawAether</defName>
+		<label>raw aether</label>
+		<description>raw aether</description>
 		<graphicData>
-			<texPath>Plants/RawLuminara</texPath>
+			<texPath>Plants/RawAether</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<thingCategories>
@@ -67,12 +67,12 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ResourceBase">
-		<defName>DankPyon_LuminaraExtract</defName>
-		<label>luminara extract</label>
-		<description>A concentrated mixture of luminara essence extracted by grinding raw luminara bloom. Used in the creation of mana potions.</description>
+		<defName>DankPyon_AetherExtract</defName>
+		<label>aether extract</label>
+		<description>A concentrated mixture of aether essence extracted by grinding raw aether bloom. Used in the creation of mana potions.</description>
 		<possessionCount>3</possessionCount>
 		<graphicData>
-			<texPath>Resources/LuminaraExtract</texPath>
+			<texPath>Resources/AetherExtract</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
@@ -93,7 +93,7 @@
 		</comps>
 
 		<costList>
-			<DankPyon_RawLuminara>3</DankPyon_RawLuminara>
+			<DankPyon_RawAether>3</DankPyon_RawAether>
 		</costList>
 
 		<recipeMaker>
@@ -112,16 +112,16 @@
 
 
 	<RecipeDef ParentName="DankPyon_Make_DrugAlchemy">
-		<defName>DankPyon_Make_LuminaraExtract</defName>
-		<label>make luminara extract</label>
-		<description>Make luminara extract.</description>
-		<jobString>Making luminara extract.</jobString>
+		<defName>DankPyon_Make_AetherExtract</defName>
+		<label>make aether extract</label>
+		<description>Make aether extract.</description>
+		<jobString>Making aether extract.</jobString>
 		<workAmount>600</workAmount>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>DankPyon_RawLuminara</li>						
+						<li>DankPyon_RawAether</li>						
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -129,33 +129,33 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>DankPyon_RawLuminara</li>
+				<li>DankPyon_RawAether</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
-				<li>DankPyon_RawLuminara</li>
+				<li>DankPyon_RawAether</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<recipeUsers>
 			<li>DankPyon_HerbTable</li>
 		</recipeUsers>
 		<products>
-			<DankPyon_LuminaraExtract>1</DankPyon_LuminaraExtract>
+			<DankPyon_AetherExtract>1</DankPyon_AetherExtract>
 		</products>
 	</RecipeDef>
 
 		<RecipeDef ParentName="DankPyon_Make_DrugAlchemy">
-		<defName>DankPyon_Make_LuminaraExtractBulk</defName>
-		<label>make luminara extract x5</label>
-		<description>Make luminara extract x5.</description>
-		<jobString>Making luminara extract x5.</jobString>
+		<defName>DankPyon_Make_AetherExtractBulk</defName>
+		<label>make aether extract x5</label>
+		<description>Make aether extract x5.</description>
+		<jobString>Making aether extract x5.</jobString>
 		<workAmount>3000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>DankPyon_RawLuminara</li>
+						<li>DankPyon_RawAether</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -163,33 +163,33 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>DankPyon_RawLuminara</li>
+				<li>DankPyon_RawAether</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
-				<li>DankPyon_RawLuminara</li>
+				<li>DankPyon_RawAether</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<recipeUsers>
 			<li>DankPyon_HerbTable</li>
 		</recipeUsers>
 		<products>
-			<DankPyon_LuminaraExtract>5</DankPyon_HerbalExtract>
+			<DankPyon_AetherExtract>5</DankPyon_AetherExtract>
 		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="DankPyon_Make_DrugAlchemy">
-		<defName>DankPyon_Make_LuminaraExtractBulkExtra</defName>
-		<label>make luminara extract x10</label>
-		<description>Make luminara extract x10.</description>
-		<jobString>Making luminara extract x10.</jobString>
+		<defName>DankPyon_Make_AetherExtractBulkExtra</defName>
+		<label>make aether extract x10</label>
+		<description>Make aether extract x10.</description>
+		<jobString>Making aether extract x10.</jobString>
 		<workAmount>6000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>DankPyon_RawLuminara</li>
+						<li>DankPyon_RawAether</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -197,19 +197,19 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>DankPyon_RawLuminara</li>
+				<li>DankPyon_RawAether</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
-				<li>DankPyon_RawLuminara</li>
+				<li>DankPyon_RawAether</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<recipeUsers>
 			<li>DankPyon_HerbTable</li>
 		</recipeUsers>
 		<products>
-			<DankPyon_LuminaraExtract>10</DankPyon_HerbalExtract>
+			<DankPyon_AetherExtract>10</DankPyon_AetherExtract>
 		</products>
 	</RecipeDef>
 
