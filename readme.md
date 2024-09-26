@@ -155,6 +155,8 @@ Renamed Ambroisen Prosthetics to Paresian Prosthetics. Paresian Prosthetics are 
 Added ability to mine Stoneborn Delights Glimmerquartz at Medieval Overhaul mineshaft if mod is loaded.  
   
 Added two types of healing potions using **Medicines Expanded: Medieval Potions** as inspiration. **Thank you to Capataina and Frettzo for their mod!**    
+
+Added two types of mana potions.  
   
 Updated Mod Description.  
 
