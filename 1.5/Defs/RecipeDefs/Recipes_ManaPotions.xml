@@ -62,7 +62,7 @@
 		</recipeUsers>	
 	</RecipeDef>
 
-	<!-- Lesser Healing Potion Bulk -->
+	<!-- Lesser Mana Potion Bulk -->
 	<RecipeDef>
 	    <defName>Joe_LesserManaRecipeBulk</defName>
 	    <label>Make Lesser Mana Potion x5</label>
@@ -187,7 +187,7 @@
 		</researchPrerequisites>
 	</RecipeDef>
 
-	<!-- Minor Healing Potion Bulk -->
+	<!-- Minor Mana Potion Bulk -->
 	<RecipeDef>
 	    <defName>Joe_MinorManaRecipeBulk</defName>
 	    <label>Make Minor Mana Potion x5</label>
