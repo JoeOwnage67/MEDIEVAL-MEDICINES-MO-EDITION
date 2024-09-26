@@ -10,7 +10,7 @@
 		<graphicData>
 			<texPath>SmallHealingPotionText</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<drawSize>1</drawSize>
+			<drawSize>0.75</drawSize>
 		</graphicData>
 		<equippedAngleOffset>-150</equippedAngleOffset>
 		<rotatable>false</rotatable>
