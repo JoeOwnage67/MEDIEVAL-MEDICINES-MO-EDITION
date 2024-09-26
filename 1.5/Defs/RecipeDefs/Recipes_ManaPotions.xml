@@ -2,7 +2,7 @@
 <Defs>
     
 	  <!--Lesser Mana Potion -->  
-  <RecipeDef>
+  <RecipeDef MayRequire="Ludeon.RimWorld.Royalty">
     <defName>Joe_LesserManaRecipe</defName>
     <label>Make Lesser Mana Potion</label>
     <description>A vial containing a Tribal Lesser Mana Elixir that restores a small amount of mana, and doubles the speed of arcane load dispersal. Infused with the essence of the Aether Bloom, it has a vibrant blue hue.</description>
@@ -63,7 +63,7 @@
 	</RecipeDef>
 
 	<!-- Lesser Mana Potion Bulk -->
-	<RecipeDef>
+	<RecipeDef MayRequire="Ludeon.RimWorld.Royalty">
 	    <defName>Joe_LesserManaRecipeBulk</defName>
 	    <label>Make Lesser Mana Potion x5</label>
 	    <description>A vial containing a Tribal Lesser Mana Elixir that restores a small amount of mana, and doubles the speed of arcane load dispersal. Infused with the essence of the Aether Bloom, it has a vibrant blue hue.</description>
@@ -126,7 +126,7 @@
 
 
   	<!--Minor Mana Potion -->  
-	<RecipeDef>
+	<RecipeDef MayRequire="Ludeon.RimWorld.Royalty">
 	    <defName>Joe_MinorManaRecipe</defName>
 	    <label>Make Minor Mana Potion</label>
 	    <description>A vial containing an alchemical Minor Mana Potion that restores as modest amount of mana, and triples the speed of arcane load dispersal. Infused with the essence of the Aether Bloom, it has a vibrant blue hue.</description>
@@ -188,7 +188,7 @@
 	</RecipeDef>
 
 	<!-- Minor Mana Potion Bulk -->
-	<RecipeDef>
+	<RecipeDef MayRequire="Ludeon.RimWorld.Royalty">
 	    <defName>Joe_MinorManaRecipeBulk</defName>
 	    <label>Make Minor Mana Potion x5</label>
 	    <description>A vial containing an alchemical Minor Mana Potion that restores as modest amount of mana, and triples the speed of arcane load dispersal. Infused with the essence of the Aether Bloom, it has a vibrant blue hue.</description>
