@@ -2,7 +2,7 @@
 <Defs>
 
 	<!--========== Aether Bloom ==========-->
-	<ThingDef ParentName="HealrootBase" Name="DankPyon_AetherBase">
+	<ThingDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="HealrootBase" Name="DankPyon_AetherBase">
 		<defName>DankPyon_Plant_Aether</defName>
 		<label>aether bloom</label>
 		<graphicData>
@@ -31,7 +31,7 @@
   		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="DankPyon_AetherBase">
+	<ThingDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="DankPyon_AetherBase">
 		<defName>DankPyon_Plant_AetherWild</defName>
 		<label>wild aether bloom</label>
 		<description>The Aether Bloom is a mesmerizing and radiant flower, celebrated for its luminous beauty and potent magical essence. This extraordinary plant features large, luminescent petals that emit a gentle, azure glow, reminiscent of the vibrant blue hue of a mana potion. The petals are a striking blue, with intricate patterns that seem to pulse with magical energy.</description>
@@ -48,7 +48,7 @@
 		</plant>
 	</ThingDef>
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="ResourceBase">
 		<defName>DankPyon_RawAether</defName>
 		<label>raw aether</label>
 		<description>raw aether</description>
@@ -66,7 +66,7 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="ResourceBase">
 		<defName>DankPyon_AetherExtract</defName>
 		<label>aether extract</label>
 		<description>A concentrated mixture of aether essence extracted by grinding raw aether bloom. Used in the creation of mana potions.</description>
@@ -111,7 +111,7 @@
 
 
 
-	<RecipeDef ParentName="DankPyon_Make_DrugAlchemy">
+	<RecipeDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="DankPyon_Make_DrugAlchemy">
 		<defName>DankPyon_Make_AetherExtract</defName>
 		<label>make aether extract</label>
 		<description>Make aether extract.</description>
@@ -145,7 +145,7 @@
 		</products>
 	</RecipeDef>
 
-		<RecipeDef ParentName="DankPyon_Make_DrugAlchemy">
+		<RecipeDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="DankPyon_Make_DrugAlchemy">
 		<defName>DankPyon_Make_AetherExtractBulk</defName>
 		<label>make aether extract x5</label>
 		<description>Make aether extract x5.</description>
@@ -179,7 +179,7 @@
 		</products>
 	</RecipeDef>
 
-	<RecipeDef ParentName="DankPyon_Make_DrugAlchemy">
+	<RecipeDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="DankPyon_Make_DrugAlchemy">
 		<defName>DankPyon_Make_AetherExtractBulkExtra</defName>
 		<label>make aether extract x10</label>
 		<description>Make aether extract x10.</description>
