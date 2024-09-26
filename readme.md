@@ -103,18 +103,29 @@ LATE MEDIEVAL MEDICINE:
 PARESIAN MEDICINE:  
 - Requires Neutroamine, Late Medieval Medicine, Mithril, and Cloth (or linen). I have included Stoneborn Delights Glimmerquartz as an alternative ingredient to Neutroamine. Can be crafted at Alchemy Bench.
 
-**DRUGS**
-
-- Adds two tiers of healing potions that can be ingested to speed healing and immunity gain, but they do have some drawbacks.
-
-LESSER HEALING POTION:
-- Requires herbal medicine, raw berries, and raw herbs. Can be crafted at Crafting Spot, Drug Lab, or Alchemy Bench.
-
-MINOR HEALING POTION:
-- Requires lesser healing potion, herbal extract, and amber, which can be found in dark forest biome from felled trees. Can be crafted at Drug Lab or Alchemy Bench.
-
------------
-
+**PLANTS**  
+- Adds Aether Bloom, which can be harvested as Raw Aether, and refined into Aether Extract. Used in the production of Mana Potions. Grows wild or can be cultivated.  
+  
+**DRUGS**  
+----  
+- Adds two tiers of healing potions that can be ingested to speed healing and immunity gain, but they do have some drawbacks.  
+  
+LESSER HEALING POTION:  
+- Requires herbal medicine, raw berries, and raw herbs. Can be crafted at Crafting Spot, Drug Lab, or Alchemy Bench.  
+  
+MINOR HEALING POTION:  
+- Requires lesser healing potion, herbal extract, and amber, which can be found in dark forest biome from felled trees. Can be crafted at Drug Lab or Alchemy Bench.  
+----  
+- Adds two tiers of mana potions that can be ingested to instantly regain some Psyfocus (mana) and increase Neural Heat Dissipation rate (Arcane Load Dispersal rate). Slight chance of addiction.  
+  
+LESSER MANA POTION:  
+- Requires raw aether bloom, raw berries, raw herbs. Can be crafted at Crafting Spot, Drug Lab, or Alchemy Bench.  
+  
+MINOR MANA POTION:  
+- Requires lesser mana potion, aether extract, and amber. Can be crafted at Drug Lab or Alchemy Bench.  
+  
+----------  
+  
 **NOTES**
   
 MOD MEDICINES PATCH  
