@@ -118,7 +118,7 @@ LESSER HEALING POTION:
 MINOR HEALING POTION:  
 - Requires lesser healing potion, herbal extract, and amber, which can be found in dark forest biome from felled trees. Can be crafted at Drug Lab or Alchemy Bench.  
 ----  
-- Adds two tiers of mana potions that can be ingested to instantly regain some Psyfocus (mana) and increase Neural Heat Dissipation rate (Arcane Load Dispersal rate). Slight chance of addiction.  
+- Adds two tiers of mana potions that can be ingested to instantly regain some Psyfocus (mana) and increase Neural Heat Dissipation rate (Arcane Load Dispersal rate). Slight chance of addiction. If you don't have **Royalty** installed, you shouldn't see mana potions. 
   
 LESSER MANA POTION:  
 - Requires raw aether, raw berries, raw herbs. Can be crafted at Crafting Spot, Drug Lab, or Alchemy Bench.  
