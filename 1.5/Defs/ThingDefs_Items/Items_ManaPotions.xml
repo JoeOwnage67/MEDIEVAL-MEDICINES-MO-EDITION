@@ -5,7 +5,7 @@
 	<ThingDef ParentName="DankPyon_DrugBase">
 		<defName>Joe_LesserManaPotion</defName>
 		<label>Lesser Mana Potion</label>
-		<description>Native tribespeople crafted an elixir that restores a small amount of mana and greatly enhances the arcane load dispersal of those who consume it. There is a small chance of pawns developing an addiction, however.</description>
+		<description>Ancient tribesfolk concocted an elixir that replenishes a modest amount of mana and significantly amplifies the arcane load dispersal for those who imbibe it. However, there is a slight risk that individuals may fall under its addictive spell.</description>
 		<graphicData>
 			<texPath>SmallManaPotionText</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -59,7 +59,7 @@
 	<ThingDef ParentName="DankPyon_DrugBase">
 		<defName>Joe_MinorManaPotion</defName>
 		<label>Minor Mana Potion</label>
-		<description>Noble house alchemists have crafted an alchemical potion that restores a moderate amount of mana and greatly enhances the arcane load dispersal of those who consume it. There is a small chance of pawns developing an addiction, however.</description>
+		<description>Esteemed alchemists of the noble houses have concocted a potion that replenishes a moderate amount of mana and significantly amplifies the arcane load dispersal for those who partake. However, there is a slight risk that individuals may become ensnared by its addictive properties.</description>
 		<graphicData>
 			<texPath>BigManaPotionText</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
