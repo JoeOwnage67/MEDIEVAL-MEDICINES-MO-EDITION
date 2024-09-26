@@ -1,1 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<Defs>
+   
+	<HediffDef>
+    	<defName>Joe_LesserManaRestore</defName>
+    	<label>Lesser Mana Potion Mana Restoration</label>  
+    	<description>Mana restoration from inbibing a Lesser Mana Potion</description>
+  		<hediffClass>HediffWithComps</hediffClass>
+    	<tendable>false</tendable>
+  		<isBad>false</isBad>
+  		<defaultLabelColor>(0.5, 0.5, 1.0, 1.0)</defaultLabelColor>
+  		<initialSeverity>1.0</initialSeverity>
+  		<maxSeverity>1.0</maxSeverity>
+		<comps>
+	    	<!-- Restore 25% psyfocus -->
+	    	<li Class="HediffCompProperties_PsyfocusOffset">
+	      		<offset>0.25</offset> <!-- Amount of psyfocus restored -->
+	    	</li>
+	    	<!-- Make the hediff disappear instantly -->
+	    	<li Class="HediffCompProperties_Disappears">
+	      		<disappearsAfterTicks>1</disappearsAfterTicks> <!-- Disappear after 1 tick -->
+	    	</li>
+	  	</comps>
+  	</HediffDef>
+
+	<HediffDef>
+    	<defName>Joe_MinorManaRestore</defName>
+    	<label>Minor Mana Potion Mana Restoration</label>  
+    	<description>Mana restoration from inbibing a Minor Mana Potion</description>
+  		<hediffClass>HediffWithComps</hediffClass>
+    	<tendable>false</tendable>
+  		<isBad>false</isBad>
+  		<defaultLabelColor>(0.5, 0.5, 1.0, 1.0)</defaultLabelColor>
+  		<initialSeverity>1.0</initialSeverity>
+  		<maxSeverity>1.0</maxSeverity>
+		<comps>
+	    	<!-- Restore 50% psyfocus -->
+	    	<li Class="HediffCompProperties_PsyfocusOffset">
+	      		<offset>0.5</offset> <!-- Amount of psyfocus restored -->
+	    	</li>
+	    	<!-- Make the hediff disappear instantly -->
+	    	<li Class="HediffCompProperties_Disappears">
+	      		<disappearsAfterTicks>1</disappearsAfterTicks> <!-- Disappear after 1 tick -->
+	    	</li>
+	  	</comps>
+  	</HediffDef>
+
+	
+
+	
+
+
+
+</Defs>
