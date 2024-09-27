@@ -104,8 +104,7 @@
 						<li>DankPyon_Cider</li>
 						<li>DankPyon_Mead</li>
 						<li>DankPyon_Wine</li>
-						<li>DankPyon_Wine_Mulberry</li>
-						<li>DankPyon_Wine_Griffon</li>
+						<li>DankPyon_Wine_Mulberry</li>						
 						<li>DankPyon_Wine_Griffon</li>
 						<li>DankPyon_Wine_Ice</li>
 						<li MayRequire="dankpyon.medieval.overhaul.house.roxmont">DankPyon_RoxberryStout</li>
@@ -151,8 +150,7 @@
 				<li>DankPyon_Mead</li>
 				<li>DankPyon_Wine</li>
 				<li>DankPyon_Wine_Mulberry</li>
-				<li>DankPyon_Wine_Griffon</li>
-				<li>DankPyon_Wine_Griffon</li>
+				<li>DankPyon_Wine_Griffon</li>				
 				<li>DankPyon_Wine_Ice</li>
 				<li MayRequire="dankpyon.medieval.overhaul.house.roxmont">DankPyon_RoxberryStout</li>
 						
