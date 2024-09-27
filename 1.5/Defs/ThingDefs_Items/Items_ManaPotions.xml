@@ -36,8 +36,11 @@
 			<chairSearchRadius>25</chairSearchRadius>
 			<tasteThought>Joe_LesserManaThought</tasteThought>
 			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+					<offet>0.25</offset>
+				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>Joe_LesserManaRestore</hediffDef>
+					<!--<hediffDef>Joe_LesserManaRestore</hediffDef>-->
 					<hediffDef>Joe_LesserArcaneLoad</hediffDef>
 				</li>
 			</outcomeDoers>
@@ -90,8 +93,11 @@
 			<chairSearchRadius>25</chairSearchRadius>
 			<tasteThought>Joe_MinorManaThought</tasteThought>
 			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+					<offet>0.5</offset>
+				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>Joe_MinorManaRestore</hediffDef>
+					<!-- <hediffDef>Joe_MinorManaRestore</hediffDef> -->
 					<hediffDef>Joe_MinorArcaneLoad</hediffDef>
 				</li>
 			</outcomeDoers>
