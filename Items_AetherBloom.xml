@@ -34,7 +34,7 @@
 	<ThingDef ParentName="DankPyon_AetherBase">
 		<defName>DankPyon_Plant_AetherWild</defName>
 		<label>wild aether bloom</label>
-		<description>The Aether Bloom is a mesmerizing and radiant flower, celebrated for its luminous beauty and potent magical essence. This extraordinary plant features large, luminescent petals that emit a gentle, azure glow, reminiscent of the vibrant blue hue of a mana potion. The petals are a striking blue, with intricate patterns that seem to pulse with magical energy.</description>
+		<description>The wild Aether Bloom is a mesmerizing and radiant flower, celebrated for its luminous beauty and potent magical essence. This extraordinary plant features large, luminescent petals that emit a gentle, azure glow, reminiscent of the vibrant blue hue of a mana potion. The petals are a striking blue, with intricate patterns that seem to pulse with magical energy.</description>
 		<neverMultiSelect>false</neverMultiSelect>
 		<plant>
 			<wildClusterRadius>4</wildClusterRadius>
