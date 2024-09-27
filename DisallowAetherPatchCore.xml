@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		 <xpath>Defs/RecipeDef[defname="CookMealBase" or defname="Make_Kibble" or defname="Make_Pemmican" or defname="Make_PemmicanBulk"]/defaultIngredientFilter/disallowedThingDefs</xpath>
+		 <value>
+		 	<li>DankPyon_RawAether</li>
+		 </value>
+	</Operation>
+</Patch>
+
+
+
