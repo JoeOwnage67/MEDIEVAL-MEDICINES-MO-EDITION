@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Defs>
-   
-	<HediffDef MayRequire="Ludeon.RimWorld.Royalty">
+<Defs>   
+	<!--<HediffDef MayRequire="Ludeon.RimWorld.Royalty">
     	<defName>Joe_LesserManaRestore</defName>
     	<label>Lesser Mana Potion Mana Restoration</label>  
     	<description>Mana restoration from inbibing a Lesser Mana Potion</description>
@@ -13,18 +12,16 @@
   		<initialSeverity>1.0</initialSeverity>
   		<maxSeverity>1.0</maxSeverity>
 		<comps>
-	    	<!-- Restore 25% psyfocus -->
 	    	<li Class="HediffCompProperties_PsyfocusOffset">
-	      		<offset>0.25</offset> <!-- Amount of psyfocus restored -->
-	    	</li>
-	    	<!-- Make the hediff disappear instantly -->
+	      		<offset>0.25</offset>
+	    	</li>	    
 	    	<li Class="HediffCompProperties_Disappears">
-	      		<disappearsAfterTicks>1</disappearsAfterTicks> <!-- Disappear after 1 tick -->
+	      		<disappearsAfterTicks>1</disappearsAfterTicks>
 	    	</li>
 	  	</comps>
-  	</HediffDef>
+  	</HediffDef>-->
 
-	<HediffDef MayRequire="Ludeon.RimWorld.Royalty">
+	<!-- <HediffDef MayRequire="Ludeon.RimWorld.Royalty">
     	<defName>Joe_MinorManaRestore</defName>
     	<label>Minor Mana Potion Mana Restoration</label>  
     	<description>Mana restoration from inbibing a Minor Mana Potion</description>
@@ -35,16 +32,15 @@
   		<initialSeverity>1.0</initialSeverity>
   		<maxSeverity>1.0</maxSeverity>
 		<comps>
-	    	<!-- Restore 50% psyfocus -->
+	    	
 	    	<li Class="HediffCompProperties_PsyfocusOffset">
-	      		<offset>0.5</offset> <!-- Amount of psyfocus restored -->
+	      		<offset>0.5</offset>
 	    	</li>
-	    	<!-- Make the hediff disappear instantly -->
 	    	<li Class="HediffCompProperties_Disappears">
-	      		<disappearsAfterTicks>1</disappearsAfterTicks> <!-- Disappear after 1 tick -->
+	      		<disappearsAfterTicks>1</disappearsAfterTicks>
 	    	</li>
 	  	</comps>
-  	</HediffDef>
+  	</HediffDef> -->
 
 	<HediffDef MayRequire="Ludeon.RimWorld.Royalty">
   		<defName>Joe_LesserArcaneLoad</defName>
@@ -95,37 +91,4 @@
   			</li>
   		</stages>
   </HediffDef>
-
-	<HediffDef>
-<!--  Regain Psyfocus and Sensitivity  -->
-<defName>GreaterPsyresEffect</defName>
-<hediffClass>Hediff_High</hediffClass>
-<label>Greater effect psyrestore</label>
-<labelNoun>Greater effect psyrestoring</labelNoun>
-<description>Partially restore the character's psyfocus reserves and granting Greater Psycasts sensitivity</description>
-<defaultLabelColor>(0.725,0.83,0.823)</defaultLabelColor>
-<scenarioCanAdd>true</scenarioCanAdd>
-<maxSeverity>1.0</maxSeverity>
-<isBad>false</isBad>
-<comps>
-<li Class="HediffCompProperties_SeverityPerDay">
-<severityPerDay>-5.5</severityPerDay>
-<showHoursToRecover>true</showHoursToRecover>
-</li>
-</comps>
-<stages>
-<li>
-<statFactors>
-<PsychicSensitivity>1.20</PsychicSensitivity>
-</statFactors>
-</li>
-</stages>
-</HediffDef>
-	
-
-	
-
-
-
-
 </Defs>
