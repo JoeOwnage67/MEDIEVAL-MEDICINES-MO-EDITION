@@ -11,12 +11,12 @@
 		</value>
 	</Operation>
 
-	<li Class="PatchOperationReplace">
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName ="MechSerumHealer"]/description</xpath>
 		<value>
 			<description>A highly potent healing potion.\n\nConsuming the potion will heal the single worst health condition affecting someone at any given time.\n\nWorks even on health conditions that would otherwise be incurable. The healing effect can even regenerate missing limbs or organs.</description>
 		</value>
-	</li>
+	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/RecipeDef[defName ="AdministerMechSerumHealer"]/label</xpath>
