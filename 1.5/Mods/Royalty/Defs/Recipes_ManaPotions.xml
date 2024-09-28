@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+	  <!--Lesser Mana Potion -->  
+  <RecipeDef>
+    <defName>Joe_LesserManaRecipe</defName>
+    <label>Make Lesser Mana Potion</label>
+    <description>A vial containing a Tribal Lesser Mana Elixir that restores a small amount of mana, and doubles the speed of arcane load dispersal. Infused with the essence of the Aether Bloom, it has a vibrant blue hue.</description>
+    <jobString>Making Lesser Mana Potion.</jobString>
+	<workSkill>Intellectual</workSkill>
+	<skillRequirements>
+    	<Intellectual>3</Intellectual>
+    </skillRequirements>
+  	<workAmount>700</workAmount>
+	<soundWorking>Recipe_Brewing</soundWorking>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<targetCountAdjustment>1</targetCountAdjustment>
+	<workSkillLearnFactor>1</workSkillLearnFactor>  
+	<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>  
+		<ingredients>
+			 <li>
+			 	<filter>
+			    	<thingDefs>
+           				<li>DankPyon_RawAether</li>
+					</thingDefs>
+			 	</filter>
+			 	<count>2</count>
+			 </li>
+	       	 <li>
+         		<filter>
+          			<thingDefs>
+             			<li>RawBerries</li>
+						<li MayRequire="pphhyy.GuldenNew">GuldenRawBerries</li>
+           			</thingDefs>
+         		</filter>
+        		<count>10</count>
+       		</li>
+			<li>
+         		<filter>
+          			<thingDefs>
+             			<li>DankPyon_RawHerb</li>
+           			</thingDefs>
+         		</filter>
+        		<count>2</count>
+       		</li>
+		</ingredients>
+    	<products>
+      		<Joe_LesserManaPotion>1</Joe_LesserManaPotion>
+    	</products>
+   		<fixedIngredientFilter>			
+			<thingDefs>
+				<li>RawBerries</li>
+				<li>DankPyon_RawHerb</li>	
+				<li>DankPyon_RawAether</li>											
+				<li MayRequire="pphhyy.GuldenNew">GuldenRawBerries</li>
+			</thingDefs>
+		</fixedIngredientFilter>    	
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>DrugLab</li>
+			<li>DankPyon_AlchemyBench</li>
+		</recipeUsers>	
+	</RecipeDef>
+
+	<!-- Lesser Mana Potion Bulk -->
+	<RecipeDef>
+	    <defName>Joe_LesserManaRecipeBulk</defName>
+	    <label>Make Lesser Mana Potion x5</label>
+	    <description>A vial containing a Tribal Lesser Mana Elixir that restores a small amount of mana, and doubles the speed of arcane load dispersal. Infused with the essence of the Aether Bloom, it has a vibrant blue hue.</description>
+	    <jobString>Making Lesser Mana Potion x5.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<skillRequirements>
+	    	<Intellectual>3</Intellectual>
+	    </skillRequirements>
+	  	<workAmount>3000</workAmount>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<workSkillLearnFactor>1</workSkillLearnFactor>  
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>  
+		<ingredients>
+			 <li>
+			 	<filter>
+			    	<thingDefs>
+           				<li>DankPyon_RawAether</li>
+					</thingDefs>
+			 	</filter>
+			 	<count>10</count>
+			 </li>
+	       	 <li>
+         		<filter>
+          			<thingDefs>
+             			<li>RawBerries</li>
+						<li MayRequire="pphhyy.GuldenNew">GuldenRawBerries</li>
+           			</thingDefs>
+         		</filter>
+        		<count>50</count>
+       		</li>
+			<li>
+         		<filter>
+          			<thingDefs>
+             			<li>DankPyon_RawHerb</li>
+           			</thingDefs>
+         		</filter>
+        		<count>10</count>
+       		</li>
+		</ingredients>
+    	<products>
+      		<Joe_LesserManaPotion>5</Joe_LesserManaPotion>
+    	</products>
+   		<fixedIngredientFilter>			
+			<thingDefs>
+				<li>RawBerries</li>
+				<li>DankPyon_RawHerb</li>	
+				<li>DankPyon_RawAether</li>											
+				<li MayRequire="pphhyy.GuldenNew">GuldenRawBerries</li>
+			</thingDefs>
+		</fixedIngredientFilter>    	
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>DrugLab</li>
+			<li>DankPyon_AlchemyBench</li>
+		</recipeUsers>	
+	</RecipeDef>  
+
+
+
+  	<!--Minor Mana Potion -->  
+	<RecipeDef>
+	    <defName>Joe_MinorManaRecipe</defName>
+	    <label>Make Minor Mana Potion</label>
+	    <description>A bottle containing an alchemical Minor Mana Potion that restores as modest amount of mana, and triples the speed of arcane load dispersal. Infused with the essence of the Aether Bloom, it has a vibrant blue hue.</description>
+	    <jobString>Making Minor Mana Potion.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<skillRequirements>
+	    	<Intellectual>6</Intellectual>
+	    </skillRequirements>
+	  	<workAmount>1200</workAmount>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<workSkillLearnFactor>1</workSkillLearnFactor>  
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>  
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+	           			<li>Joe_LesserManaPotion</li>
+					</thingDefs>
+				 </filter>
+				 <count>1</count>
+			</li>
+		    <li>
+	         	<filter>
+	          		<thingDefs>
+	             		<li>DankPyon_Amber</li>
+	           		</thingDefs>
+	         	</filter>
+	        	<count>2</count>
+	       	</li>
+			<li>
+	         	<filter>
+	          		<thingDefs>
+	             		<li>DankPyon_AetherExtract</li>
+	           		</thingDefs>
+	         	</filter>
+	        	<count>5</count>
+	       	</li>
+		</ingredients>
+	    <products>
+	    	<Joe_MinorManaPotion>1</Joe_MinorManaPotion>
+	    </products>
+	   	<fixedIngredientFilter>			
+			<thingDefs>
+				<li>Joe_LesserManaPotion</li>
+				<li>DankPyon_Amber</li>
+				<li>DankPyon_AetherExtract</li>
+			</thingDefs>
+		</fixedIngredientFilter>    	
+		<recipeUsers>
+			<li>DrugLab</li>
+			<li>DankPyon_AlchemyBench</li>
+		</recipeUsers>	
+		<researchPrerequisites>
+			<li>DankPyon_Alchemy</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<!-- Minor Mana Potion Bulk -->
+	<RecipeDef>
+	    <defName>Joe_MinorManaRecipeBulk</defName>
+	    <label>Make Minor Mana Potion x5</label>
+	    <description>A bottle containing an alchemical Minor Mana Potion that restores as modest amount of mana, and triples the speed of arcane load dispersal. Infused with the essence of the Aether Bloom, it has a vibrant blue hue.</description>
+	    <jobString>Making Minor Mana Potion x5.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<skillRequirements>
+	    	<Intellectual>6</Intellectual>
+	    </skillRequirements>
+	  	<workAmount>4500</workAmount>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<workSkillLearnFactor>1</workSkillLearnFactor>  
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>  
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+	           			<li>Joe_LesserManaPotion</li>
+					</thingDefs>
+				 </filter>
+				 <count>5</count>
+			</li>
+		    <li>
+	         	<filter>
+	          		<thingDefs>
+	             		<li>DankPyon_Amber</li>
+	           		</thingDefs>
+	         	</filter>
+	        	<count>10</count>
+	       	</li>
+			<li>
+	         	<filter>
+	          		<thingDefs>
+	             		<li>DankPyon_AetherExtract</li>
+	           		</thingDefs>
+	         	</filter>
+	        	<count>25</count>
+	       	</li>
+		</ingredients>
+	    <products>
+	    	<Joe_MinorManaPotion>5</Joe_MinorManaPotion>
+	    </products>
+	   	<fixedIngredientFilter>			
+			<thingDefs>
+				<li>Joe_LesserManaPotion</li>
+				<li>DankPyon_Amber</li>
+				<li>DankPyon_AetherExtract</li>
+			</thingDefs>
+		</fixedIngredientFilter>    	
+		<recipeUsers>			
+			<li>DrugLab</li>
+			<li>DankPyon_AlchemyBench</li>
+		</recipeUsers>	
+		<researchPrerequisites>
+			<li>DankPyon_Alchemy</li>
+		</researchPrerequisites>
+	</RecipeDef>
+</Defs>

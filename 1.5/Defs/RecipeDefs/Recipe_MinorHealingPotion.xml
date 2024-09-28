@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+  	<!--Minor Healing Potion -->  
+	<RecipeDef>
+	    <defName>Joe_MinorHealingRecipe</defName>
+	    <label>Make Minor Healing Potion</label>
+	    <description>A bottle containing an alchemical minor healing potion that boosts healing and immunity.</description>
+	    <jobString>Making Minor Healing Potion.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<skillRequirements>
+	    	<Intellectual>6</Intellectual>
+	    </skillRequirements>
+	  	<workAmount>1200</workAmount>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<workSkillLearnFactor>1</workSkillLearnFactor>  
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>  
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+	           			<li>Joe_LesserHealingPotion</li>
+					</thingDefs>
+				 </filter>
+				 <count>1</count>
+			</li>
+		    <li>
+	         	<filter>
+	          		<thingDefs>
+	             		<li>DankPyon_Amber</li>
+	           		</thingDefs>
+	         	</filter>
+	        	<count>2</count>
+	       	</li>
+			<li>
+	         	<filter>
+	          		<thingDefs>
+	             		<li>DankPyon_HerbalExtract</li>
+	           		</thingDefs>
+	         	</filter>
+	        	<count>5</count>
+	       	</li>
+		</ingredients>
+	    <products>
+	    	<Joe_MinorHealingPotion>1</Joe_MinorHealingPotion>
+	    </products>
+	   	<fixedIngredientFilter>			
+			<thingDefs>
+				<li>Joe_LesserHealingPotion</li>
+				<li>DankPyon_Amber</li>
+				<li>DankPyon_HerbalExtract</li>
+			</thingDefs>
+		</fixedIngredientFilter>    	
+		<recipeUsers>			
+			<li>DrugLab</li>
+			<li>DankPyon_AlchemyBench</li>
+		</recipeUsers>	
+		<researchPrerequisites>
+			<li>DankPyon_Alchemy</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<!-- Minor Healing Potion Bulk -->
+	<RecipeDef>
+	    <defName>Joe_MinorHealingRecipeBulk</defName>
+	    <label>Make Minor Healing Potion x5</label>
+	    <description>A bottle containing an alchemical minor healing potion that boosts healing and immunity.</description>
+	    <jobString>Making Minor Healing Potion x5.</jobString>
+		<workSkill>Intellectual</workSkill>
+		<skillRequirements>
+	    	<Intellectual>6</Intellectual>
+	    </skillRequirements>
+	  	<workAmount>4500</workAmount>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<workSkillLearnFactor>1</workSkillLearnFactor>  
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>  
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+	           			<li>Joe_LesserHealingPotion</li>
+					</thingDefs>
+				 </filter>
+				 <count>5</count>
+			</li>
+		    <li>
+	         	<filter>
+	          		<thingDefs>
+	             		<li>DankPyon_Amber</li>
+	           		</thingDefs>
+	         	</filter>
+	        	<count>10</count>
+	       	</li>
+			<li>
+	         	<filter>
+	          		<thingDefs>
+	             		<li>DankPyon_HerbalExtract</li>
+	           		</thingDefs>
+	         	</filter>
+	        	<count>25</count>
+	       	</li>
+		</ingredients>
+	    <products>
+	    	<Joe_MinorHealingPotion>5</Joe_MinorHealingPotion>
+	    </products>
+	   	<fixedIngredientFilter>			
+			<thingDefs>
+				<li>Joe_LesserHealingPotion</li>
+				<li>DankPyon_Amber</li>
+				<li>DankPyon_HerbalExtract</li>
+			</thingDefs>
+		</fixedIngredientFilter>    	
+		<recipeUsers>
+			<li>DrugLab</li>
+			<li>DankPyon_AlchemyBench</li>
+		</recipeUsers>	
+		<researchPrerequisites>
+			<li>DankPyon_Alchemy</li>
+		</researchPrerequisites>
+	</RecipeDef>
+</Defs>
+	
+	

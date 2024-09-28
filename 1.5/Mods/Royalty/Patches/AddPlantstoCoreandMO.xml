@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
+	<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.03</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.03</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="DankPyon_DarkForest"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+	
+</Patch>

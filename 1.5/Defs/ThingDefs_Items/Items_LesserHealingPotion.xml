@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- lesser healing potion -->
+
+	<ThingDef ParentName="DankPyon_DrugBase">
+		<defName>Joe_LesserHealingPotion</defName>
+		<label>Lesser Healing Potion</label>
+		<description>Ancient tribesfolk brewed an elixir that significantly enhances the natural healing abilities of those who consume it. However, it induces a troubling malaise in the bowels, an unsettling unease that weakens the kidneys due to heightened blood pressure.</description>
+		<graphicData>
+			<texPath>SmallHealingPotionText</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<equippedAngleOffset>-150</equippedAngleOffset>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Mass>0.3</Mass>
+			<Flammability>0.5</Flammability>	
+			<WorkToMake>600</WorkToMake>
+      		<MarketValue>65</MarketValue>      		
+		</statBases>
+		<ingestible>
+			<foodType>Fluid, Processed</foodType>
+			<nurseable>true</nurseable>
+			<drugCategory>Medical</drugCategory>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<chairSearchRadius>25</chairSearchRadius>
+			<tasteThought>Joe_LesserHealingThought</tasteThought>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Joe_LesserHealingHediff</hediffDef>
+					<severity>0.1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>		
+		<comps>      		
+			<li Class="CompProperties_Drug">
+				<chemical>HealingPotion</chemical>
+				<addictiveness>0</addictiveness>	
+				<listOrder>10</listOrder>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>		
+    	</comps>
+		<techLevel>Neolithic</techLevel>
+	</ThingDef>	
+</Defs>
+
+
+
+
+
+
+
+	

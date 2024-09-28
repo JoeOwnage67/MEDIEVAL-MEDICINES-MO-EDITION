@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BiomesIslands_Atoll"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BiomesIslands_BorealIsland"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BMT_CoastalShallows"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+	
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BiomesIslands_DesertIslandBase"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BiomesIslands_TemperateIslandBase"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BiomesIslands_TropicalIslandBase"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+
+	<Operation MayRequire="BiomesTeam.BiomesIslands" Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BiomesIslands_TundraIslandBase"]/wildPlants</xpath>
+		<value>
+			<DankPyon_Plant_AetherWild>0.01</DankPyon_Plant_AetherWild>
+        </value>
+	</Operation>
+</Patch>
