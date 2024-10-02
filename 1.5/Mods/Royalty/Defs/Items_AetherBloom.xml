@@ -25,8 +25,7 @@
 		<comps>
 			<li Class="CompProperties_Glower">
 				<glowColor>(0.5, 0.5, 1.0, 1.0)</glowColor> <!-- Light blue color -->
-				<glowRadius>1</glowRadius> <!-- Radius of the glow -->
-				<overlightRadius>0</overlightRadius> <!-- Radius of overlight (optional) -->
+				<glowRadius>3.75</glowRadius> <!-- Radius of the glow -->
 			</li>
   		</comps>
 	</ThingDef>
