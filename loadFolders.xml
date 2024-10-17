@@ -13,5 +13,6 @@
 		<li>/</li>
 		<li>1.5</li>
 		<li IfModActive="Ludeon.Rimworld.Royalty">1.5/Mods/Royalty</li>
+		<li IfModActive="Ludeon.Rimworld.Royalty">1.5/Mods/MedQuestRewards</li>
 	</v1.5>
 </loadFolders>
