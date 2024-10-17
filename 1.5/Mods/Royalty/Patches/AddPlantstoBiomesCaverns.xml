@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	<Operation MayRequire="BiomesTeam.BiomesCaverns" Class="PatchOperationAdd">
+	<Operation MayRequire="BiomesTeam.BiomesCaverns, Ludeon.RimWorld.Royalty" Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="BMT_CrystalCaverns"]/wildPlants</xpath>
 		<value>
 			<DankPyon_Plant_AetherWild>0.02</DankPyon_Plant_AetherWild>
         </value>
 	</Operation>
 
-	<Operation MayRequire="BiomesTeam.BiomesCaverns" Class="PatchOperationAdd">
+	<Operation MayRequire="BiomesTeam.BiomesCaverns, Ludeon.RimWorld.Royalty" Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="BMT_EarthenDepths"]/wildPlants</xpath>
 		<value>
 			<DankPyon_Plant_AetherWild>0.02</DankPyon_Plant_AetherWild>
         </value>
 	</Operation>
 
-	<Operation MayRequire="BiomesTeam.BiomesCaverns" Class="PatchOperationAdd">
+	<Operation MayRequire="BiomesTeam.BiomesCaverns, Ludeon.RimWorld.Royalty" Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="BMT_FungalForest"]/wildPlants</xpath>
 		<value>
 			<DankPyon_Plant_AetherWild>0.02</DankPyon_Plant_AetherWild>
