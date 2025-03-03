@@ -12,7 +12,7 @@
 		<description>The Aether Bloom is a mesmerizing and radiant flower, celebrated for its luminous beauty and potent magical essence. This extraordinary plant features large, luminescent petals that emit a gentle, azure glow, reminiscent of the vibrant blue hue of a mana potion. The petals are a striking blue, with intricate patterns that seem to pulse with magical energy.</description>
 		<plant>
 			<immatureGraphicPath>Plants/AetherBloom</immatureGraphicPath>
-			<growDays>7</growDays>
+			<growDays>5</growDays>
 			<sowWork>800</sowWork>
 			<sowMinSkill>8</sowMinSkill>
 			<sowTags>
@@ -25,7 +25,7 @@
 		<comps>
 			<li Class="CompProperties_Glower">
 				<glowColor>(64, 224, 208, 0)</glowColor> 
-				<glowRadius>2.5</glowRadius>
+				<glowRadius>2.5</glowRadius>			
 			</li>
   		</comps>
 	</ThingDef>
@@ -38,7 +38,7 @@
 		<plant>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>80</wildClusterWeight>
-			<growDays>10</growDays>
+			<growDays>7</growDays>
 
 			<sowWork Inherit="False"/>
 			<sowMinSkill Inherit="False"/>
@@ -61,7 +61,7 @@
 	    	<Nutrition>0.03</Nutrition>
 	    </statBases>
 	    <thingCategories Inherit="false">
-	    	<li>ResourcesRaw</li>
+	    	<li>PlantMatter</li>
 	    </thingCategories>
 	    <ingestible>
 	    	<preferability>DesperateOnlyForHumanlikes</preferability>
@@ -94,6 +94,9 @@
 			<WorkToMake>400</WorkToMake>	
 			<MarketValue>50</MarketValue>	
 		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
 		<tickerType>Rare</tickerType>		
 		<comps>		
 			<li Class="CompProperties_Rottable">	
