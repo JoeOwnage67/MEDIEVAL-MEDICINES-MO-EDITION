@@ -141,22 +141,6 @@
 	</value>
 	</Operation>
 
-     <!-- EyePatch -->
-	<Operation Class="PatchOperationAdd">
-	<xpath>/Defs/ThingDef[defName="EyePatch"]</xpath>
-	<value>
-		<graphicData Inherit="False">
-			<texPath>Things/Organs/eye</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<color>(100,70,30)</color>
-            <colorTwo>(0,102,0)</colorTwo>
-			<ignoreThingDrawColor>true</ignoreThingDrawColor>
-			<drawSize>0.90</drawSize>
-		</graphicData>
-	</value>
-	</Operation>
-
     <!-- EarPatch -->
 	<Operation Class="PatchOperationAdd">
 	<xpath>/Defs/ThingDef[defName="EarPatch"]</xpath>
@@ -637,4 +621,30 @@
 		</graphicData>
 	</value>
 	</Operation>
+
+	<!-- EyePatch -->
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Joe.RPGAdventureFlavour.Fork</li>
+        </mods>
+        <nomatch Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName="EyePatch"]</xpath>	     
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="EyePatch"]</xpath>
+				<value>
+					<graphicData Inherit="False">
+						<texPath>Things/Organs/eye</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(100,70,30)</color>
+						<colorTwo>(0,102,0)</colorTwo>
+						<ignoreThingDrawColor>true</ignoreThingDrawColor>
+						<drawSize>0.90</drawSize>
+					</graphicData>
+				</value>
+			</match>
+		</nomatch>	
+	</Operation>
+
+
 </Patch>
