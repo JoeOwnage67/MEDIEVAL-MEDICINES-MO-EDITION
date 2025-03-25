@@ -6,7 +6,7 @@
 	<HediffDef Name="addedPartBasic" Abstract="True">
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<isBad>false</isBad>
-		<defaultLabelColor>(148,117,14)</defaultLabelColor>
+		<defaultLabelColor>(133,97,67)</defaultLabelColor>
 		<countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
 	</HediffDef>
 	
@@ -14,9 +14,9 @@
 <!-- Iron Arm -->
 <HediffDef ParentName="addedPartBasic">
 	<defName>IronArm</defName>
-	<label>iron arm</label>
-	<labelNoun>an iron arm</labelNoun>
-	<description>An installed iron arm.</description>
+	<label>metallic arm</label>
+	<labelNoun>a metallic arm</labelNoun>
+	<description>An installed metallic arm.</description>
 	<descriptionHyperlinks>
 		<ThingDef>IronArm</ThingDef>
 	</descriptionHyperlinks>

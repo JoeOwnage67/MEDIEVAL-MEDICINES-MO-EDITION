@@ -6,7 +6,7 @@
 	<HediffDef Name="addedPartMedAmbroisen" Abstract="True">
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<isBad>false</isBad>
-		<defaultLabelColor>(212,78,242)</defaultLabelColor>
+		<defaultLabelColor>(161,16,194)</defaultLabelColor>
 		<countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
 	</HediffDef>
    

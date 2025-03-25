@@ -11,10 +11,10 @@
 </RecipeDef>
 <RecipeDef ParentName="SurgeryBasic">
 <defName>InstallIronArm</defName>
-<label>install iron arm</label>
-<description>Installs iron arm.</description>
+<label>install metallic arm</label>
+<description>Installs metallic arm.</description>
 <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-<jobString>Installing iron arm.</jobString>
+<jobString>Installing metallic arm.</jobString>
 <workAmount>350</workAmount>
 <ingredients>
 <li>

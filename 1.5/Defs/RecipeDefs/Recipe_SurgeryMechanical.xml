@@ -315,10 +315,10 @@
 </RecipeDef>
 <RecipeDef ParentName="SurgeryMedMechanical">
 <defName>InstallMechanicalMedEar</defName>
-<label>install mechanical ear</label>
-<description>Installs mechanical ear.</description>
+<label>install ear trumpet</label>
+<description>Installs ear trumpet.</description>
 <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-<jobString>Installing mechanical ear.</jobString>
+<jobString>Installing ear trumpet.</jobString>
 <workAmount>350</workAmount>
 <ingredients>
 <li>

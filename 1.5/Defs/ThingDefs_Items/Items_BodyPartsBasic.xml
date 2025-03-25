@@ -41,7 +41,7 @@
 <!--  Iron Arm  -->
 <ThingDef ParentName="Basic">
 	<defName>IronArm</defName>
-	<label>iron arm</label>
+	<label>metallic arm</label>
 	<description>A highly ineffective replacement for a missing arm.</description>
 	<stuffCategories>
 		<li>Metallic</li>
@@ -56,7 +56,7 @@
 <ThingDef ParentName="Basic">
 	<defName>ProstheticHook</defName>
 	<label>prosthetic hook</label>
-	<description>A simple hook to replace a missing hand. Very limited functionality.</description>
+	<description>A simple metal hook to replace a missing hand. Very limited functionality.</description>
 	<stuffCategories>
 		<li>Metallic</li>
 	</stuffCategories>

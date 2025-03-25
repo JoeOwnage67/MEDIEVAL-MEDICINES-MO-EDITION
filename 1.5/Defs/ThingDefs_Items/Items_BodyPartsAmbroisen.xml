@@ -166,7 +166,7 @@
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedNose</defName>
 	<label>Paresian nose</label>
-	<description>An enchanted functional nose replacement. It's magic! You can smell again!</description>
+	<description>An enchanted functional nose replacement. It's magic! Restores taste and smell almost like a regular nose.</description>
 	<costList>
 		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
 		<DankPyon_Emerald>2</DankPyon_Emerald>
@@ -187,7 +187,7 @@
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedEye</defName>
 	<label>Paresian eye</label>
-	<description>An enchanted functional eye replacement. It's magic! You can see again!</description>
+	<description>An enchanted functional eye replacement. It's magic! Restores sight almost like a natural eye.</description>
 	<costList>
 		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
 		<DankPyon_Emerald>2</DankPyon_Emerald>
@@ -208,7 +208,7 @@
 <ThingDef ParentName="AmbroisenMed">
 	<defName>AmbroisenMedEar</defName>
 	<label>Paresian ear</label>
-	<description>An enchanted functional ear replacement. It's magic! You can hear again!</description>
+	<description>An enchanted functional ear replacement. It's magic! Restores hearing almost like a natural ear.</description>
 	<costList>
 		<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
 		<DankPyon_Emerald>2</DankPyon_Emerald>

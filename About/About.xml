@@ -17,6 +17,8 @@
 		<li>BotchJob.medievalfantasyquestrewards</li>
 		<li>det.stoneborn</li>
 		<li>det.sbdelights</li>
+		<li>automatic.bionicicons</li>
+		<li>Bionicicons.hd</li>
 	</loadAfter>
 
 	<modDependencies>

@@ -177,10 +177,11 @@
 <!--  mechanical ear -->
 <ThingDef ParentName="MechanicalMed">
 	<defName>MechanicalMedEar</defName>
-	<label>Mechanical Ear</label>
-	<description>A fairly convincing non-functional facsimile of an ear.</description>
+	<label>Ear Trumpet</label>
+	<description>A curious contraption crafted to amplify sound for those hard of hearing. This tubular device, shaped like a funnel, channels the whispers of the world directly to the ear. Whether forged from sheet metal, carved from wood, or fashioned from snail shells or horns, it grants the wearer sharper hearing — a rare boon in these trying times. A marvel of ingenuity in an era of simplicity.</description>
 	<stuffCategories>
 		<li>Metallic</li>
+		<li>Woody</li>
 	</stuffCategories>
 	<costStuffCount>10</costStuffCount>
 	<statBases>

@@ -186,16 +186,16 @@
 <!--  Mechanical Ear -->
 <HediffDef ParentName="addedPartMedMechanical">
 	<defName>MechanicalMedEar</defName>
-	<label>mechanical ear</label>
-	<labelNoun>a mechanical ear</labelNoun>
-	<description>An installed mechanical ear.</description>
+	<label>ear trumpet</label>
+	<labelNoun>an ear trumpet</labelNoun>
+	<description>An installed ear trumpet.</description>
 	<descriptionHyperlinks>
 		<ThingDef>MechanicalMedEar</ThingDef>
 	</descriptionHyperlinks>
 	<spawnThingOnRemoved>MechanicalMedEar</spawnThingOnRemoved>
 	<addedPartProps>
 		<solid>true</solid>
-		<partEfficiency>0</partEfficiency>
+		<partEfficiency>0.20</partEfficiency>
 	</addedPartProps>
 	<stages>
 		<li>

@@ -20,5 +20,7 @@
 		<li IfModActive="ReGrowth.BOTR.Core">1.5/Mods/Regrowth</li>
 		<li IfModActive="SirMashedPotato.Ashlands">1.5/Mods/MashedLands</li>
 		<li IfModActive="BotchJob.medievalfantasyquestrewards">1.5/Mods/MedQuestRewards</li>
+		<li IfModActive="automatic.bionicicons">1.5/Mods/BionicIcons</li>
+		<li IfModActive="Hawkwood.OrgansAreLabelled">1.5/Mods/OrgansAreLabelled</li>
 	</v1.5>
 </loadFolders>
