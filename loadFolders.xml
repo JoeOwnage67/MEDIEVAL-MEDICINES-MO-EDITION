@@ -12,13 +12,7 @@
 	<v1.5>
 		<li>/</li>
 		<li>1.5</li>
-		<li IfModActive="Ludeon.Rimworld.Royalty">1.5/Mods/Royalty</li>
-		<li IfModActive="sarg.alphabiomess">1.5/Mods/AlphaBiomes</li>
-		<li IfModActive="BiomesTeam.BiomesCaverns">1.5/Mods/BiomesCaverns</li>
-		<li IfModActive="BiomesTeam.BiomesIslands">1.5/Mods/BiomesIslands</li>
-		<li IfModActive="BiomesTeam.Oasis">1.5/Mods/BiomesOasis</li>
-		<li IfModActive="ReGrowth.BOTR.Core">1.5/Mods/Regrowth</li>
-		<li IfModActive="SirMashedPotato.Ashlands">1.5/Mods/MashedLands</li>
+		<li IfModActive="Ludeon.Rimworld.Royalty">1.5/Mods/Royalty</li>		
 		<li IfModActive="BotchJob.medievalfantasyquestrewards">1.5/Mods/MedQuestRewards</li>
 		<li IfModActive="automatic.bionicicons">1.5/Mods/BionicIcons</li>
 		<li IfModActive="Hawkwood.OrgansAreLabelled">1.5/Mods/OrgansAreLabelled</li>
