@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Patch>
-	<Operation MayRequire="ReGrowth.BOTR.Core" Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="RG_TemperateGrassland"]/wildPlants</xpath>
-		<value>
-			<DankPyon_Plant_AetherWild>0.05</DankPyon_Plant_AetherWild>
-        </value>
-	</Operation>
-</Patch>

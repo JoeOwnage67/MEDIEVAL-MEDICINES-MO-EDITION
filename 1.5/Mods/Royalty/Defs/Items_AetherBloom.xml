@@ -2,8 +2,8 @@
 <Defs>
 
 	<!--========== Aether Bloom ==========-->
-	<ThingDef ParentName="HealrootBase" Name="DankPyon_AetherBase">
-		<defName>DankPyon_Plant_Aether</defName>
+	<ThingDef ParentName="HealrootBase" Name="Joe_AetherBase">
+		<defName>Joe_Plant_Aether</defName>
 		<label>aether bloom</label>
 		<graphicData>
 			<texPath>Plants/AetherBloom</texPath>
@@ -19,7 +19,7 @@
 				<li>Ground</li>
 				<li>Hydroponic</li>
 			</sowTags>
-			<harvestedThingDef>DankPyon_RawAether</harvestedThingDef>
+			<harvestedThingDef>Joe_RawAether</harvestedThingDef>
 			<purpose>Health</purpose>
 		</plant>
 		<comps>
@@ -30,8 +30,8 @@
   		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="DankPyon_AetherBase">
-		<defName>DankPyon_Plant_AetherWild</defName>
+	<ThingDef ParentName="Joe_AetherBase">
+		<defName>Joe_Plant_AetherWild</defName>
 		<label>wild aether bloom</label>
 		<description>The wild Aether Bloom is a mesmerizing and radiant flower, celebrated for its luminous beauty and potent magical essence. This extraordinary plant features large, luminescent petals that emit a gentle, azure glow, reminiscent of the vibrant blue hue of a mana potion. The petals are a striking blue, with intricate patterns that seem to pulse with magical energy.</description>
 		<neverMultiSelect>false</neverMultiSelect>
@@ -48,7 +48,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="PlantFoodRawBase">
-    	<defName>DankPyon_RawAether</defName>
+    	<defName>Joe_RawAether</defName>
 	    <label>raw aether</label>
 	    <description>Unprocessed petals of the Aether Bloom plant.</description>
 	    <graphicData>
@@ -78,7 +78,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ResourceBase">				
-		<defName>DankPyon_AetherExtract</defName>		
+		<defName>Joe_AetherExtract</defName>		
 		<label>aether extract</label>		
 		<description>A concentrated mixture of aether essence extracted by grinding raw aether bloom. Used in the creation of mana potions.</description>		
 		<graphicData>		
@@ -105,7 +105,7 @@
 			</li>	
 		</comps>		
 		<costList>		
-			<DankPyon_RawAether>3</DankPyon_RawAether>	
+			<Joe_RawAether>3</Joe_RawAether>	
 		</costList>		
 		<recipeMaker>		
 			<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>	
@@ -120,7 +120,7 @@
 	</ThingDef>			
 	
 	<RecipeDef ParentName="DankPyon_Make_DrugAlchemy">
-		<defName>DankPyon_Make_AetherExtract</defName>
+		<defName>Joe_Make_AetherExtract</defName>
 		<label>make aether extract</label>
 		<description>Make aether extract.</description>
 		<jobString>Making aether extract.</jobString>
@@ -129,7 +129,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>DankPyon_RawAether</li>						
+						<li>Joe_RawAether</li>						
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -137,24 +137,24 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>DankPyon_RawAether</li>
+				<li>Joe_RawAether</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
-				<li>DankPyon_RawAether</li>
+				<li>Joe_RawAether</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<recipeUsers>
 			<li>DankPyon_HerbTable</li>
 		</recipeUsers>
 		<products>
-			<DankPyon_AetherExtract>1</DankPyon_AetherExtract>
+			<Joe_AetherExtract>1</Joe_AetherExtract>
 		</products>
 	</RecipeDef>
 
 		<RecipeDef ParentName="DankPyon_Make_DrugAlchemy">
-		<defName>DankPyon_Make_AetherExtractBulk</defName>
+		<defName>Joe_Make_AetherExtractBulk</defName>
 		<label>make aether extract x5</label>
 		<description>Make aether extract x5.</description>
 		<jobString>Making aether extract x5.</jobString>
@@ -163,7 +163,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>DankPyon_RawAether</li>
+						<li>Joe_RawAether</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -171,24 +171,24 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>DankPyon_RawAether</li>
+				<li>Joe_RawAether</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
-				<li>DankPyon_RawAether</li>
+				<li>Joe_RawAether</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<recipeUsers>
 			<li>DankPyon_HerbTable</li>
 		</recipeUsers>
 		<products>
-			<DankPyon_AetherExtract>5</DankPyon_AetherExtract>
+			<Joe_AetherExtract>5</Joe_AetherExtract>
 		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="DankPyon_Make_DrugAlchemy">
-		<defName>DankPyon_Make_AetherExtractBulkExtra</defName>
+		<defName>Joe_Make_AetherExtractBulkExtra</defName>
 		<label>make aether extract x10</label>
 		<description>Make aether extract x10.</description>
 		<jobString>Making aether extract x10.</jobString>
@@ -197,7 +197,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>DankPyon_RawAether</li>
+						<li>Joe_RawAether</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -205,19 +205,19 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>DankPyon_RawAether</li>
+				<li>Joe_RawAether</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
-				<li>DankPyon_RawAether</li>
+				<li>Joe_RawAether</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<recipeUsers>
 			<li>DankPyon_HerbTable</li>
 		</recipeUsers>
 		<products>
-			<DankPyon_AetherExtract>10</DankPyon_AetherExtract>
+			<Joe_AetherExtract>10</Joe_AetherExtract>
 		</products>
 	</RecipeDef>
 
