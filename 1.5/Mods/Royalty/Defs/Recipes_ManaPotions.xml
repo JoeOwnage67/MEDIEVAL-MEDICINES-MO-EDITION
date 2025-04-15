@@ -21,7 +21,7 @@
 			 <li>
 			 	<filter>
 			    	<thingDefs>
-           				<li>DankPyon_RawAether</li>
+           				<li>Joe_RawAether</li>
 					</thingDefs>
 			 	</filter>
 			 	<count>2</count>
@@ -51,7 +51,7 @@
 			<thingDefs>
 				<li>RawBerries</li>
 				<li>DankPyon_RawHerb</li>	
-				<li>DankPyon_RawAether</li>											
+				<li>Joe_RawAether</li>											
 				<li MayRequire="pphhyy.GuldenNew">GuldenRawBerries</li>
 			</thingDefs>
 		</fixedIngredientFilter>    	
@@ -82,7 +82,7 @@
 			 <li>
 			 	<filter>
 			    	<thingDefs>
-           				<li>DankPyon_RawAether</li>
+           				<li>Joe_RawAether</li>
 					</thingDefs>
 			 	</filter>
 			 	<count>10</count>
@@ -112,7 +112,7 @@
 			<thingDefs>
 				<li>RawBerries</li>
 				<li>DankPyon_RawHerb</li>	
-				<li>DankPyon_RawAether</li>											
+				<li>Joe_RawAether</li>											
 				<li MayRequire="pphhyy.GuldenNew">GuldenRawBerries</li>
 			</thingDefs>
 		</fixedIngredientFilter>    	
@@ -161,7 +161,7 @@
 			<li>
 	         	<filter>
 	          		<thingDefs>
-	             		<li>DankPyon_AetherExtract</li>
+	             		<li>Joe_AetherExtract</li>
 	           		</thingDefs>
 	         	</filter>
 	        	<count>5</count>
@@ -174,7 +174,7 @@
 			<thingDefs>
 				<li>Joe_LesserManaPotion</li>
 				<li>DankPyon_Amber</li>
-				<li>DankPyon_AetherExtract</li>
+				<li>Joe_AetherExtract</li>
 			</thingDefs>
 		</fixedIngredientFilter>    	
 		<recipeUsers>
@@ -222,7 +222,7 @@
 			<li>
 	         	<filter>
 	          		<thingDefs>
-	             		<li>DankPyon_AetherExtract</li>
+	             		<li>Joe_AetherExtract</li>
 	           		</thingDefs>
 	         	</filter>
 	        	<count>25</count>
@@ -235,7 +235,7 @@
 			<thingDefs>
 				<li>Joe_LesserManaPotion</li>
 				<li>DankPyon_Amber</li>
-				<li>DankPyon_AetherExtract</li>
+				<li>Joe_AetherExtract</li>
 			</thingDefs>
 		</fixedIngredientFilter>    	
 		<recipeUsers>			

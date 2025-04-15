@@ -3,10 +3,7 @@
 	<Operation Class="PatchOperationAdd">
 		 <xpath>Defs/RecipeDef[@Name="CookMealBase" or defName="Make_Kibble" or defName="Make_Pemmican" or defName="Make_PemmicanBulk"]/defaultIngredientFilter/disallowedThingDefs</xpath>
 		 <value>
-		 	<li>DankPyon_RawAether</li>
+		 	<li>Joe_RawAether</li>
 		 </value>
 	</Operation>
 </Patch>
-
-
-
