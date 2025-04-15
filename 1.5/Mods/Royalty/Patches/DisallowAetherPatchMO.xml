@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		 <xpath>Defs/RecipeDef[defName="DankPyon_CookMealVegetablePot" or defName="DankPyon_CookMealVegetablePotBulk" or defName="DankPyon_CookMealBreadSoup" or defName="DankPyon_CookMealBreadSoupBulk"]/defaultIngredientFilter</xpath>
+		 <value>
+		 	<disallowedThingDefs>
+				<li>Joe_RawAether</li>
+			</disallowedThingDefs>
+		 </value>
+	</Operation>
+</Patch>

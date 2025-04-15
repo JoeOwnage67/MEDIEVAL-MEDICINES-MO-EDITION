@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- mood effects of Lesser Mana Potion -->
+	<ThoughtDef>
+		<defName>Joe_LesserManaThought</defName>
+		<showBubble>true</showBubble>
+		<durationDays>0.25</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>mana potion</label>
+				<description>Quaffing that Minor Mana Elixir filled me with such euphoria, I already crave another. I pray I don’t succumb to its enchanting allure.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+  	<!-- mood effects of Minor Mana Potion -->
+	<ThoughtDef>
+		<defName>Joe_MinorManaThought</defName>
+		<showBubble>true</showBubble>
+		<durationDays>0.25</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>mana potion</label>
+				<description>Quaffing that Minor Mana Elixir filled me with such euphoria, I already crave another. I pray I don’t succumb to its enchanting allure.</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+  
+</Defs>
