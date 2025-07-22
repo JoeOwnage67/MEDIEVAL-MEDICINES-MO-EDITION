@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	
+	<ChemicalDef>
+		<defName>HealingPotion</defName>
+		<label>healing potion</label>
+		<geneOverdoseChanceFactorResist>0</geneOverdoseChanceFactorResist>
+		<geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>
+		<addictionHediff>HealingPotionAddiction</addictionHediff>
+		<toleranceHediff>HealingPotionTolerance</toleranceHediff>
+	</ChemicalDef>
+
+	<HediffDef ParentName="AddictionBase">
+		<defName>HealingPotionAddiction</defName>
+		<label>healing potion addiction</label>
+		<description>A chemical addiction to healing potion. Long-term presence of healing potion has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+		\nWithout regular doses of healing potion, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+		<hediffClass>Hediff_Addiction</hediffClass>
+		<chemicalNeed>Chemical_HealingPotion</chemicalNeed>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.0333</severityPerDay>
+				<showDaysToRecover>true</showDaysToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>withdrawal</label>
+				<socialFightChanceFactor>2.0</socialFightChanceFactor>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.20</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.30</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.5</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>Binging_DrugMajor</mentalState>
+						<mtbDays>40</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+		</stages>
+	</HediffDef>
+  
+    <NeedDef ParentName="DrugAddictionNeedBase">
+		<defName>Chemical_HealingPotion</defName>
+		<needClass>Need_Chemical</needClass>
+		<label>healing potion</label>
+		<description>Because of a healing potion addiction, this person needs to regularly consume healing potion to avoid withdrawal symptoms.</description>
+		<listPriority>35</listPriority>
+	</NeedDef>
+  
+	<HediffDef ParentName="DrugToleranceBase">
+		<defName>HealingPotionTolerance</defName>
+		<label>healing potion tolerance</label>
+		<description>A built-up tolerance to healing potion. The more severe this tolerance is, the more healing potion it takes to get the same effect.</description>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.016</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_DrugEffectFactor">
+				<chemical>HealingPotion</chemical>
+			</li>
+		</comps>
+		<hediffGivers>
+			<li Class="HediffGiver_RandomDrugEffect">
+				<hediff>Cirrhosis</hediff>
+				<severityToMtbDaysCurve>
+					<points>
+						<li>(0.45, 99999)</li>
+						<li>(0.5, 60)</li>
+						<li>(1, 45)</li>
+					</points>
+				</severityToMtbDaysCurve>
+				<partsToAffect>
+					<li>Liver</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffGiver_RandomDrugEffect">
+			<hediff>Carcinoma</hediff>
+				<severityToMtbDaysCurve>
+					<points>
+						<li>(0.45, 99999)</li>
+						<li>(0.5, 180)</li>
+						<li>(1, 150)</li>
+					</points>
+				</severityToMtbDaysCurve>
+				<partsToAffect>
+					<li>Liver</li>
+				</partsToAffect>
+			</li>
+		</hediffGivers>
+  </HediffDef>
+  
+ </Defs>

@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!--
+						Natural:
+						<color>(190,190,190)</color>
+						<colorTwo>(145,170,170)</colorTwo>
+						
+						Medieval Basic:
+						<color>(181,98,31)</color>
+                        <colorTwo>(133,97,67)</colorTwo>
+
+                        Medieval Artificial:
+                        <color>(181,98,31)</color>
+                        <colorTwo>(120,105,92)</colorTwo>
+
+                        Medieval Mechanical:
+                        <color>(181,98,31)</color>
+                        <colorTwo>(156,132,39)</colorTwo>
+
+                        Medieval Paresian:
+                        <color>(181,98,31)</color>
+            			<colorTwo>(161,16,194)</colorTwo>
+						
+						Simple:
+						<color>(154,124,104)</color>
+						
+						Bionic:
+						<color>(145,170,170)</color>
+						<colorTwo>(255,255,255)</colorTwo>
+
+ 						Archotech:
+						<color>(125,130,100)</color>
+						<colorTwo>(230,230,110)</colorTwo>
+                        
+                         -->
+
+    <!-- Medieval Basic -->
+
+    <!-- remove graphicdata from parent -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Basic"]/graphicData</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Basic"]/graphicData</xpath>
+		</match>
+	</Operation>
+
+    <!-- add graphic data to each body part def -->
+    <!-- IronArm -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="IronArm"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/arm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(0,102,0)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- ProstheticHook -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="ProstheticHook"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/hook</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(0,102,0)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+	<!-- WoodenFoot -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="WoodenFoot"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/foot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(0,102,0)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- WoodenToe-->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="WoodenToe"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/toe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(0,102,0)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- WoodenFinger -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="WoodenFinger"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/finger</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(0,102,0)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+	
+    <!-- WoodenNose -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="WoodenNose"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/nose</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(0,102,0)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- EarPatch -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="EarPatch"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/ear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(0,102,0)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- Medieval Artificial -->
+
+    <!-- remove graphicdata from parent -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="ArtificialMed"]/graphicData</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="ArtificialMed"]/graphicData</xpath>
+		</match>
+	</Operation>
+
+    <!-- add graphic data to each body part def -->
+    <!-- ArtificialMedHand -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="ArtificialMedHand"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/hand</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(180,173,150)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- ArtificialMedArm -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="ArtificialMedArm"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/arm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(180,173,150)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- ArtificialMedLeg -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="ArtificialMedLeg"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/leg</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(180,173,150)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- ArtificialMedFoot -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="ArtificialMedFoot"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/foot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(180,173,150)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- ArtificialMedToe -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="ArtificialMedToe"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/toe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(180,173,150)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- ArtificialMedFinger -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="ArtificialMedFinger"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/finger</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(180,173,150)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- ArtificialMedNose -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="ArtificialMedNose"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/nose</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(180,173,150)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- ArtificialMedEye -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="ArtificialMedEye"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/eye</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(180,173,150)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- ArtificialMedEar -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="ArtificialMedEar"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/ear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(180,173,150)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- Medieval Mechanical -->
+
+    <!-- remove graphicdata from parent -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="MechanicalMed"]/graphicData</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="MechanicalMed"]/graphicData</xpath>
+		</match>
+	</Operation>
+
+    <!-- add graphic data to each body part def -->
+    <!-- MechanicalMedHand -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="MechanicalMedHand"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/hand</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(255,235,122)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- MechanicalMedArm -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="MechanicalMedArm"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/arm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(255,235,122)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- MechanicalMedLeg -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="MechanicalMedLeg"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/leg</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(255,235,122)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- MechanicalMedFoot -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="MechanicalMedFoot"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/foot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(255,235,122)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- MechanicalMedToe -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="MechanicalMedToe"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/toe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(255,235,122)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- MechanicalMedFinger -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="MechanicalMedFinger"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/finger</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(255,235,122)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- MechanicalMedNose -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="MechanicalMedNose"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/nose</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(255,235,122)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- MechanicalMedEye -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="MechanicalMedEye"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/eye</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(255,235,122)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- MechanicalMedEar -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="MechanicalMedEar"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/ear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(255,235,122)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- Medieval Ambroisen -->
+
+    <!-- remove graphicdata from parent -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="AmbroisenMed"]/graphicData</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="AmbroisenMed"]/graphicData</xpath>
+		</match>
+	</Operation>
+
+    <!-- add graphic data to each body part def -->
+    <!-- AmbroisenMedHand -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="AmbroisenMedHand"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/hand</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color> <!--120,90,50-->
+            <colorTwo>(161,16,194)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- AmbroisenMedArm -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="AmbroisenMedArm"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/arm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color> 
+            <colorTwo>(161,16,194)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- AmbroisenMedLeg -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="AmbroisenMedLeg"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/leg</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color> 
+            <colorTwo>(161,16,194)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- AmbroisenMedFoot -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="AmbroisenMedFoot"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/foot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color> 
+            <colorTwo>(161,16,194)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- AmbroisenMedToe -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="AmbroisenMedToe"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/toe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(161,16,194)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- AmbroisenMedFinger -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="AmbroisenMedFinger"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/finger</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(161,16,194)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- AmbroisenMedNose -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="AmbroisenMedNose"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/nose</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(161,16,194)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- AmbroisenMedEye -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="AmbroisenMedEye"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/eye</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color> 
+            <colorTwo>(161,16,194)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+    <!-- AmbroisenMedEar -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="AmbroisenMedEar"]</xpath>
+	<value>
+		<graphicData Inherit="False">
+			<texPath>Things/Organs/ear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(100,70,30)</color>
+            <colorTwo>(161,16,194)</colorTwo>
+			<ignoreThingDrawColor>true</ignoreThingDrawColor>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+	</value>
+	</Operation>
+
+	<!-- EyePatch -->
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Joe.RPGAdventureFlavour.Fork</li>
+        </mods>
+        <nomatch Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName="EyePatch"]</xpath>	     
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="EyePatch"]</xpath>
+				<value>
+					<graphicData Inherit="False">
+						<texPath>Things/Organs/eye</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(100,70,30)</color>
+						<colorTwo>(0,102,0)</colorTwo>
+						<ignoreThingDrawColor>true</ignoreThingDrawColor>
+						<drawSize>0.90</drawSize>
+					</graphicData>
+				</value>
+			</match>
+		</nomatch>	
+	</Operation>
+
+
+</Patch>
