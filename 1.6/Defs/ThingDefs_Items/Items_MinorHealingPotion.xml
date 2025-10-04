@@ -49,14 +49,7 @@
 				<addictiveness>0</addictiveness>	
 				<listOrder>10</listOrder>
 			</li>
-			<li>
-				<compClass>CompEquippable</compClass>
-			</li>		
     	</comps>
 		<techLevel>Neolithic</techLevel>
 	</ThingDef>
 </Defs>
-
-
-
-

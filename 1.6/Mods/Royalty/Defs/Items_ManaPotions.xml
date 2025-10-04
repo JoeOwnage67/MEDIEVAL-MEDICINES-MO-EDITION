@@ -51,9 +51,6 @@
 				<addictiveness>0.02</addictiveness>	
 				<listOrder>10</listOrder>
 			</li>
-			<li>
-				<compClass>CompEquippable</compClass>
-			</li>		
     	</comps>
 		<techLevel>Neolithic</techLevel>
 	</ThingDef>	
@@ -108,9 +105,6 @@
 				<addictiveness>0.04</addictiveness>	
 				<listOrder>10</listOrder>
 			</li>
-			<li>
-				<compClass>CompEquippable</compClass>
-			</li>		
     	</comps>
 		<techLevel>Neolithic</techLevel>
 	</ThingDef>	

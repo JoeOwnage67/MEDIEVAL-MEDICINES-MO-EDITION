@@ -25,7 +25,7 @@
 				<totalBleedFactor>1.10</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
 				<statOffsets>
-					<ImmunityGainSpeedFactor>0.50</ImmunityGainSpeedFactor>
+					<ImmunityGainSpeed>0.50</ImmunityGainSpeed>
 				</statOffsets>
 				<capMods>
 					<li>
